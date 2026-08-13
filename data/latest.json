@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-08-13T16:40:05.531630+00:00",
+  "network": {
+    "epoch": 1016,
+    "absolute_slot": 439054371,
+    "block_height": 417105950,
+    "epoch_progress_pct": 32.96,
+    "slots_remaining": 289629,
+    "tps": 4488.5,
+    "avg_slot_time_s": 0.413,
+    "health": "ok"
+  },
+  "validators": {
+    "active": 688,
+    "delinquent": 9,
+    "delinquency_pct": 1.29,
+    "total_active_stake_sol": 434609827.0,
+    "nakamoto_coefficient": 18,
+    "top10_stake_share_pct": 24.44,
+    "top_validators": [
+      {
+        "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
+        "stake_sol": 17055967.0,
+        "commission": 7
+      },
+      {
+        "vote_pubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
+        "stake_sol": 15972699.0,
+        "commission": 0
+      },
+      {
+        "vote_pubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
+        "stake_sol": 12477808.0,
+        "commission": 5
+      },
+      {
+        "vote_pubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
+        "stake_sol": 12363210.0,
+        "commission": 0
+      },
+      {
+        "vote_pubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
+        "stake_sol": 9161872.0,
+        "commission": 7
+      },
+      {
+        "vote_pubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
+        "stake_sol": 8981437.0,
+        "commission": 10
+      },
+      {
+        "vote_pubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
+        "stake_sol": 8300271.0,
+        "commission": 0
+      },
+      {
+        "vote_pubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
+        "stake_sol": 7966398.0,
+        "commission": 7
+      },
+      {
+        "vote_pubkey": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
+        "stake_sol": 7372731.0,
+        "commission": 5
+      },
+      {
+        "vote_pubkey": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
+        "stake_sol": 6581887.0,
+        "commission": 0
+      }
+    ]
+  },
+  "economics": {
+    "sol_price_usd": 75.61,
+    "sol_price_24h_change_pct": -0.04,
+    "sol_market_cap_usd": 44051880237,
+    "sol_volume_24h_usd": 1075146039,
+    "ath_usd": 293.31,
+    "total_supply_sol": 632135728.0,
+    "circulating_supply_sol": 582614107.0,
+    "staking_ratio_pct": 74.6
+  },
+  "ecosystem": {
+    "tvl_usd": 4833503461.0,
+    "top_protocols": [
+      {
+        "name": "Maple",
+        "category": "Lending",
+        "tvl_usd": 2393846900.0,
+        "change_1d_pct": 0.27
+      },
+      {
+        "name": "Sanctum Validator LSTs",
+        "category": "Liquid Staking",
+        "tvl_usd": 1141056665.0,
+        "change_1d_pct": 2.59
+      },
+      {
+        "name": "Kamino Lend",
+        "category": "Lending",
+        "tvl_usd": 1043752810.0,
+        "change_1d_pct": -0.59
+      },
+      {
+        "name": "Jupiter Lend",
+        "category": "Lending",
+        "tvl_usd": 940150092.0,
+        "change_1d_pct": 0.14
+      },
+      {
+        "name": "Raydium AMM",
+        "category": "Dexs",
+        "tvl_usd": 852012130.0,
+        "change_1d_pct": -0.11
+      },
+      {
+        "name": "Binance Staked SOL",
+        "category": "Liquid Staking",
+        "tvl_usd": 785084907.0,
+        "change_1d_pct": 1.19
+      },
+      {
+        "name": "Jito Liquid Staking",
+        "category": "Liquid Staking",
+        "tvl_usd": 763850835.0,
+        "change_1d_pct": 1.29
+      },
+      {
+        "name": "BlackRock BUIDL",
+        "category": "RWA",
+        "tvl_usd": 740686170.0,
+        "change_1d_pct": 0.36
+      },
+      {
+        "name": "Jupiter Perpetual Exchange",
+        "category": "Derivatives",
+        "tvl_usd": 694284379.0,
+        "change_1d_pct": 0.57
+      },
+      {
+        "name": "Solstice",
+        "category": "Basis Trading",
+        "tvl_usd": 505892108.0,
+        "change_1d_pct": -0.01
+      }
+    ],
+    "stablecoin_mcap_usd": 15444401116.0,
+    "dex_volume_24h_usd": 1725631801.0
+  },
+  "upcoming": [
+    {
+      "name": "Alpenglow",
+      "what": "New consensus (Votor + Rotor) replacing TowerBFT/PoH voting; ~150ms finality target.",
+      "status": "SIMD approved; phased rollout"
+    },
+    {
+      "name": "SIMD-0326 / SIMD-525",
+      "what": "Fee-market and networking upgrades under discussion for throughput and MEV.",
+      "status": "governance / dev"
+    },
+    {
+      "name": "Firedancer / Frankendancer",
+      "what": "Jump's independent validator client; increases client diversity and throughput headroom.",
+      "status": "mainnet rollout ongoing"
+    }
+  ],
+  "anomalies": []
+}

@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SolPulse — Solana Ecosystem Dashboard</title>
+<style>
+  :root{
+    --bg:#0b0e14; --panel:#141925; --panel2:#1b2230; --line:#26304a;
+    --tx:#e6ecf5; --mut:#8a97b0; --acc:#14f195; --acc2:#9945ff; --warn:#ffb454; --bad:#ff5c7c;
+    --radius:14px;
+  }
+  @media (prefers-color-scheme:light){
+    :root{ --bg:#f5f7fb; --panel:#ffffff; --panel2:#f0f3f9; --line:#e2e8f2; --tx:#131a2a; --mut:#5b6982; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  a{color:var(--acc)}
+  .wrap{max-width:1180px;margin:0 auto;padding:24px 18px 60px}
+  header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:8px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .logo{width:40px;height:40px;border-radius:11px;background:linear-gradient(135deg,var(--acc2),var(--acc));display:flex;align-items:center;justify-content:center;font-size:22px}
+  h1{font-size:22px;margin:0;letter-spacing:-.3px}
+  .sub{color:var(--mut);font-size:13px;margin-top:2px}
+  .badge{padding:4px 10px;border-radius:999px;font-size:12px;font-weight:600;border:1px solid var(--line)}
+  .ok{color:var(--acc);border-color:color-mix(in srgb,var(--acc) 40%,transparent)}
+  .stale{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 40%,transparent)}
+  .grid{display:grid;gap:14px}
+  .kpis{grid-template-columns:repeat(auto-fit,minmax(180px,1fr));margin:18px 0}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+  .kpi .label{color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+  .kpi .val{font-size:26px;font-weight:700;margin-top:6px;letter-spacing:-.5px}
+  .kpi .delta{font-size:13px;margin-top:2px}
+  .up{color:var(--acc)} .down{color:var(--bad)}
+  .spark{margin-top:8px}
+  section{margin-top:26px}
+  h2{font-size:15px;text-transform:uppercase;letter-spacing:.08em;color:var(--mut);margin:0 0 12px}
+  .cols{grid-template-columns:1fr 1fr}
+  @media(max-width:760px){.cols{grid-template-columns:1fr}}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line)}
+  th{color:var(--mut);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.05em}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+  .mono{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:var(--mut)}
+  .anoms{display:flex;flex-direction:column;gap:8px;margin:16px 0}
+  .anom{padding:11px 14px;border-radius:10px;border:1px solid;display:flex;gap:10px;align-items:center}
+  .anom.high{border-color:color-mix(in srgb,var(--bad) 55%,transparent);background:color-mix(in srgb,var(--bad) 10%,transparent)}
+  .anom.medium{border-color:color-mix(in srgb,var(--warn) 55%,transparent);background:color-mix(in srgb,var(--warn) 10%,transparent)}
+  .pill{font-size:11px;font-weight:700;text-transform:uppercase;padding:2px 8px;border-radius:6px}
+  .pill.high{background:var(--bad);color:#160a0f} .pill.medium{background:var(--warn);color:#1c1305}
+  .up-item{display:flex;justify-content:space-between;gap:14px;padding:10px 0;border-bottom:1px solid var(--line)}
+  .up-item:last-child{border-bottom:0}
+  .up-item .st{color:var(--mut);font-size:12px;white-space:nowrap}
+  .bar{height:8px;border-radius:6px;background:var(--panel2);overflow:hidden}
+  .bar>i{display:block;height:100%;background:linear-gradient(90deg,var(--acc2),var(--acc))}
+  footer{margin-top:34px;color:var(--mut);font-size:12px;border-top:1px solid var(--line);padding-top:16px}
+  .muted{color:var(--mut)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="logo">◎</div>
+      <div>
+        <h1>SolPulse</h1>
+        <div class="sub">Auto-updating Solana ecosystem dashboard · built for Superteam Canada</div>
+      </div>
+    </div>
+    <div style="text-align:right">
+      <div id="health" class="badge ok">● live</div>
+      <div class="sub" id="updated">loading…</div>
+    </div>
+  </header>
+
+  <div id="anoms" class="anoms"></div>
+  <div class="grid kpis" id="kpis"></div>
+
+  <div class="grid cols">
+    <section class="card">
+      <h2>Network performance</h2>
+      <table id="network"></table>
+    </section>
+    <section class="card">
+      <h2>Economic indicators</h2>
+      <table id="econ"></table>
+    </section>
+  </div>
+
+  <div class="grid cols" style="margin-top:14px">
+    <section class="card">
+      <h2>Validators &amp; decentralization</h2>
+      <table id="valmeta"></table>
+      <h2 style="margin-top:16px">Top validators by stake</h2>
+      <table id="validators"></table>
+    </section>
+    <section class="card">
+      <h2>Top Solana DeFi protocols (TVL)</h2>
+      <table id="protocols"></table>
+    </section>
+  </div>
+
+  <section class="card" style="margin-top:14px">
+    <h2>Upcoming upgrades &amp; developments</h2>
+    <div id="upcoming"></div>
+  </section>
+
+  <footer>
+    <b>SolPulse</b> refreshes automatically via a scheduled GitHub Action (no manual upkeep).
+    Sources: Solana JSON-RPC (<span class="mono">getEpochInfo, getRecentPerformanceSamples, getVoteAccounts, getSupply, getHealth</span>),
+    DeFiLlama (TVL / DEX volume / stablecoins), CoinGecko (SOL price &amp; market data). Data is a point-in-time snapshot; verify on-chain before acting.
+    <div class="muted" style="margin-top:6px">Anomaly detection compares each refresh to the previous snapshot. Open <span class="mono">data/latest.json</span> for the raw machine-readable report.</div>
+  </footer>
+</div>
+
+<script>
+const $=(id)=>document.getElementById(id);
+const usd=(n,d=0)=>n==null?"—":"$"+Number(n).toLocaleString("en-US",{maximumFractionDigits:d});
+const bn=(n)=>n==null?"—":"$"+(n/1e9).toFixed(2)+"B";
+const mn=(n)=>n==null?"—":(n/1e6).toFixed(1)+"M";
+const num=(n,d=0)=>n==null?"—":Number(n).toLocaleString("en-US",{maximumFractionDigits:d});
+const pct=(n)=>n==null?"—":n.toFixed(2)+"%";
+
+function sparkline(vals,w=120,h=30){
+  const v=vals.filter(x=>x!=null); if(v.length<2) return "";
+  const mn=Math.min(...v),mx=Math.max(...v),rng=(mx-mn)||1;
+  const pts=v.map((x,i)=>[i/(v.length-1)*w,h-((x-mn)/rng)*(h-4)-2]);
+  const d=pts.map((p,i)=>(i?"L":"M")+p[0].toFixed(1)+" "+p[1].toFixed(1)).join(" ");
+  const up=v[v.length-1]>=v[0];
+  return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><path d="${d}" fill="none" stroke="${up?'var(--acc)':'var(--bad)'}" stroke-width="2"/></svg>`;
+}
+function rows(el,pairs){ $(el).innerHTML=pairs.map(([k,v])=>`<tr><td>${k}</td><td class="num">${v}</td></tr>`).join(""); }
+
+async function load(){
+  let d,hist=[];
+  try{ d=await (await fetch("./data/latest.json?"+Date.now())).json(); }
+  catch(e){ $("updated").textContent="could not load data/latest.json — run collect.py"; return; }
+  try{ hist=(await (await fetch("./data/history.jsonl?"+Date.now())).text()).trim().split("\n").map(l=>JSON.parse(l)); }catch(e){}
+
+  const n=d.network,v=d.validators,e=d.economics,c=d.ecosystem;
+  const t=new Date(d.generated_at);
+  const ageMin=(Date.now()-t)/6e4;
+  $("updated").textContent="updated "+t.toUTCString().replace("GMT","UTC");
+  const hb=$("health"); if(n.health==="ok"&&ageMin<180){hb.className="badge ok";hb.textContent="● "+(ageMin<60?"live":"recent");}
+  else{hb.className="badge stale";hb.textContent="● stale";}
+
+  // anomalies
+  $("anoms").innerHTML=(d.anomalies||[]).map(a=>
+    `<div class="anom ${a.severity}"><span class="pill ${a.severity}">${a.severity}</span><b>${a.metric}</b> — ${a.message}</div>`).join("");
+
+  // sparkline series from history
+  const S=(k)=>hist.slice(-40).map(h=>h[k]);
+  const kpi=(label,val,delta,spark)=>`<div class="card kpi"><div class="label">${label}</div><div class="val">${val}</div>${delta||""}${spark||""}</div>`;
+  const chg=(p)=>p==null?"":`<div class="delta ${p>=0?'up':'down'}">${p>=0?'▲':'▼'} ${Math.abs(p).toFixed(2)}% 24h</div>`;
+  $("kpis").innerHTML=[
+    kpi("SOL price",usd(e.sol_price_usd,2),chg(e.sol_price_24h_change_pct),sparkline(S("sol_price"))),
+    kpi("TPS",num(n.tps),`<div class="delta muted">${n.avg_slot_time_s??'—'}s/slot</div>`,sparkline(S("tps"))),
+    kpi("Total value locked",bn(c.tvl_usd),"",sparkline(S("tvl"))),
+    kpi("DEX volume 24h",bn(c.dex_volume_24h_usd),"",sparkline(S("dex_vol"))),
+    kpi("Market cap",bn(e.sol_market_cap_usd),"",""),
+    kpi("Stablecoins on Solana",bn(c.stablecoin_mcap_usd),"",""),
+    kpi("Staking ratio",pct(e.staking_ratio_pct),`<div class="delta muted">${num(v.active)} validators</div>`,""),
+    kpi("Epoch "+n.epoch,pct(n.epoch_progress_pct),`<div class="delta muted">${num(n.slots_remaining)} slots left</div>`,`<div class="bar" style="margin-top:8px"><i style="width:${n.epoch_progress_pct}%"></i></div>`),
+  ].join("");
+
+  rows("network",[
+    ["Health",n.health==="ok"?'<span class="up">healthy</span>':'<span class="down">'+n.health+'</span>'],
+    ["Current epoch",num(n.epoch)],["Epoch progress",pct(n.epoch_progress_pct)],
+    ["Absolute slot",num(n.absolute_slot)],["Block height",num(n.block_height)],
+    ["TPS (recent avg)",num(n.tps)],["Avg slot time",(n.avg_slot_time_s??'—')+" s"],
+  ]);
+  rows("econ",[
+    ["SOL price",usd(e.sol_price_usd,2)],["24h change",chg(e.sol_price_24h_change_pct)||"—"],
+    ["Market cap",bn(e.sol_market_cap_usd)],["24h volume",bn(e.sol_volume_24h_usd)],
+    ["All-time high",usd(e.ath_usd,2)],["Circulating supply",mn(e.circulating_supply_sol)+" SOL"],
+    ["Total supply",mn(e.total_supply_sol)+" SOL"],["Staking ratio",pct(e.staking_ratio_pct)],
+  ]);
+  rows("valmeta",[
+    ["Active validators",num(v.active)],["Delinquent",`${num(v.delinquent)} (${pct(v.delinquency_pct)})`],
+    ["Nakamoto coefficient",num(v.nakamoto_coefficient)],["Top-10 stake share",pct(v.top10_stake_share_pct)],
+    ["Total active stake",mn(v.total_active_stake_sol)+" SOL"],
+  ]);
+  $("validators").innerHTML="<tr><th>Vote account</th><th class='num'>Stake (SOL)</th><th class='num'>Comm.</th></tr>"+
+    (v.top_validators||[]).map(x=>`<tr><td class="mono">${(x.vote_pubkey||'').slice(0,8)}…${(x.vote_pubkey||'').slice(-4)}</td><td class="num">${num(x.stake_sol)}</td><td class="num">${x.commission}%</td></tr>`).join("");
+  $("protocols").innerHTML="<tr><th>Protocol</th><th>Category</th><th class='num'>TVL</th><th class='num'>1d</th></tr>"+
+    (c.top_protocols||[]).map(p=>`<tr><td>${p.name}</td><td class="muted">${p.category||''}</td><td class="num">${bn(p.tvl_usd)}</td><td class="num ${p.change_1d_pct>=0?'up':'down'}">${p.change_1d_pct==null?'—':(p.change_1d_pct>=0?'+':'')+p.change_1d_pct+'%'}</td></tr>`).join("");
+  $("upcoming").innerHTML=(d.upcoming||[]).map(u=>`<div class="up-item"><div><b>${u.name}</b><div class="muted">${u.what}</div></div><div class="st">${u.status}</div></div>`).join("");
+}
+load();
+</script>
+</body>
+</html>

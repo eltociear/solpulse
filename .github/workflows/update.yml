@@ -1,0 +1,39 @@
+name: SolPulse refresh
+
+# Auto-updating: regenerates the snapshot on a schedule and commits it. GitHub Pages then
+# serves the refreshed dashboard with zero manual upkeep. Also runnable on demand.
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 minutes
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: solpulse-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect Solana snapshot
+        run: python collect.py
+      - name: Commit refreshed data
+        run: |
+          git config user.name "solpulse-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git add data/
+            git commit -m "data: refresh $(date -u +%FT%TZ)"
+            git push
+          else
+            echo "no change"
+          fi
