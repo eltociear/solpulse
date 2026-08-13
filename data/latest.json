@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-13T16:49:16.390019+00:00",
+  "generated_at": "2026-08-13T16:49:52.544492+00:00",
   "network": {
     "epoch": 1016,
-    "absolute_slot": 439055687,
-    "block_height": 417107266,
-    "epoch_progress_pct": 33.26,
-    "slots_remaining": 288313,
-    "tps": 4274.5,
-    "avg_slot_time_s": 0.419,
+    "absolute_slot": 439055768,
+    "block_height": 417107347,
+    "epoch_progress_pct": 33.28,
+    "slots_remaining": 288232,
+    "tps": 4235.2,
+    "avg_slot_time_s": 0.417,
     "health": "ok"
   },
   "validators": {
@@ -81,7 +81,7 @@
     "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 4833503461.0,
+    "tvl_usd": 4833450924.0,
     "top_protocols": [
       {
         "name": "Maple",
