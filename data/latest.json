@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-13T16:40:05.531630+00:00",
+  "generated_at": "2026-08-13T16:47:01.093629+00:00",
   "network": {
     "epoch": 1016,
-    "absolute_slot": 439054371,
-    "block_height": 417105950,
-    "epoch_progress_pct": 32.96,
-    "slots_remaining": 289629,
-    "tps": 4488.5,
-    "avg_slot_time_s": 0.413,
+    "absolute_slot": 439055360,
+    "block_height": 417106939,
+    "epoch_progress_pct": 33.19,
+    "slots_remaining": 288640,
+    "tps": 4345.0,
+    "avg_slot_time_s": 0.419,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.61,
-    "sol_price_24h_change_pct": -0.04,
-    "sol_market_cap_usd": 44051880237,
-    "sol_volume_24h_usd": 1075146039,
+    "sol_price_usd": 75.13,
+    "sol_price_24h_change_pct": -0.56,
+    "sol_market_cap_usd": 43774325282,
+    "sol_volume_24h_usd": 1092297869,
     "ath_usd": 293.31,
-    "total_supply_sol": 632135728.0,
-    "circulating_supply_sol": 582614107.0,
+    "total_supply_sol": 632135724.0,
+    "circulating_supply_sol": 582614103.0,
     "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 4833503461.0,
+    "tvl_usd": 4833450924.0,
     "top_protocols": [
       {
         "name": "Maple",
