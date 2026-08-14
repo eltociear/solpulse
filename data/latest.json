@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-14T14:30:18.920648+00:00",
+  "generated_at": "2026-08-14T15:51:02.543872+00:00",
   "network": {
     "epoch": 1016,
-    "absolute_slot": 439243444,
-    "block_height": 417294778,
-    "epoch_progress_pct": 76.72,
-    "slots_remaining": 100556,
-    "tps": 4805.2,
-    "avg_slot_time_s": 0.412,
+    "absolute_slot": 439255078,
+    "block_height": 417306398,
+    "epoch_progress_pct": 79.42,
+    "slots_remaining": 88922,
+    "tps": 3896.6,
+    "avg_slot_time_s": 0.42,
     "health": "ok"
   },
   "validators": {
@@ -71,23 +71,23 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.15,
-    "sol_price_24h_change_pct": -1.38,
-    "sol_market_cap_usd": 43790000830,
-    "sol_volume_24h_usd": 1103401985,
+    "sol_price_usd": 75.62,
+    "sol_price_24h_change_pct": -0.38,
+    "sol_market_cap_usd": 44063549866,
+    "sol_volume_24h_usd": 1119747698,
     "ath_usd": 293.31,
-    "total_supply_sol": 632134994.0,
-    "circulating_supply_sol": 582613373.0,
+    "total_supply_sol": 632134939.0,
+    "circulating_supply_sol": 582613319.0,
     "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 4823717703.0,
+    "tvl_usd": 4810365955.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2427252806.0,
-        "change_1d_pct": 1.4
+        "tvl_usd": 2415557727.0,
+        "change_1d_pct": 0.91
       },
       {
         "name": "Sanctum Validator LSTs",
@@ -98,8 +98,8 @@
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1039685466.0,
-        "change_1d_pct": -0.49
+        "tvl_usd": 1038182590.0,
+        "change_1d_pct": -0.64
       },
       {
         "name": "Jupiter Lend",
@@ -134,17 +134,17 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 681794953.0,
-        "change_1d_pct": -1.43
+        "tvl_usd": 681331944.0,
+        "change_1d_pct": -1.49
       },
       {
         "name": "Solstice",
         "category": "Basis Trading",
-        "tvl_usd": 505969555.0,
+        "tvl_usd": 505954010.0,
         "change_1d_pct": 0.01
       }
     ],
-    "stablecoin_mcap_usd": 15405015989.0,
+    "stablecoin_mcap_usd": 15393955026.0,
     "dex_volume_24h_usd": 1942768291.0
   },
   "upcoming": [
@@ -164,11 +164,5 @@
       "status": "mainnet rollout ongoing"
     }
   ],
-  "anomalies": [
-    {
-      "metric": "TPS",
-      "severity": "high",
-      "message": "TPS spiked +43% (3370 -> 4805)"
-    }
-  ]
+  "anomalies": []
 }
