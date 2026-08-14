@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-14T22:49:31.713684+00:00",
+  "generated_at": "2026-08-14T23:20:48.776912+00:00",
   "network": {
     "epoch": 1016,
-    "absolute_slot": 439315455,
-    "block_height": 417366753,
-    "epoch_progress_pct": 93.39,
-    "slots_remaining": 28545,
-    "tps": 3434.6,
-    "avg_slot_time_s": 0.414,
+    "absolute_slot": 439319998,
+    "block_height": 417371291,
+    "epoch_progress_pct": 94.44,
+    "slots_remaining": 24002,
+    "tps": 3676.4,
+    "avg_slot_time_s": 0.41,
     "health": "ok"
   },
   "validators": {
@@ -71,23 +71,23 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.11,
-    "sol_price_24h_change_pct": -1.56,
-    "sol_market_cap_usd": 43767761180,
-    "sol_volume_24h_usd": 1075508631,
+    "sol_price_usd": 75.19,
+    "sol_price_24h_change_pct": -1.19,
+    "sol_market_cap_usd": 43811498995,
+    "sol_volume_24h_usd": 1067182887,
     "ath_usd": 293.31,
-    "total_supply_sol": 632134682.0,
-    "circulating_supply_sol": 582613062.0,
+    "total_supply_sol": 632134663.0,
+    "circulating_supply_sol": 582613042.0,
     "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 4799786580.0,
+    "tvl_usd": 4799959418.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2416938968.0,
-        "change_1d_pct": 1.13
+        "tvl_usd": 2427358716.0,
+        "change_1d_pct": 1.58
       },
       {
         "name": "Sanctum Validator LSTs",
@@ -104,8 +104,8 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 921627952.0,
-        "change_1d_pct": -1.55
+        "tvl_usd": 918504497.0,
+        "change_1d_pct": -1.89
       },
       {
         "name": "Raydium AMM",
@@ -116,14 +116,14 @@
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 770003618.0,
-        "change_1d_pct": -1.51
+        "tvl_usd": 768797720.0,
+        "change_1d_pct": -1.66
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 750773402.0,
-        "change_1d_pct": -1.32
+        "tvl_usd": 749949449.0,
+        "change_1d_pct": -1.43
       },
       {
         "name": "BlackRock BUIDL",
