@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-14T23:20:48.776912+00:00",
+  "generated_at": "2026-08-14T23:47:38.383252+00:00",
   "network": {
     "epoch": 1016,
-    "absolute_slot": 439319998,
-    "block_height": 417371291,
-    "epoch_progress_pct": 94.44,
-    "slots_remaining": 24002,
-    "tps": 3676.4,
-    "avg_slot_time_s": 0.41,
+    "absolute_slot": 439323838,
+    "block_height": 417375131,
+    "epoch_progress_pct": 95.33,
+    "slots_remaining": 20162,
+    "tps": 3384.1,
+    "avg_slot_time_s": 0.418,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.19,
+    "sol_price_usd": 75.31,
     "sol_price_24h_change_pct": -1.19,
-    "sol_market_cap_usd": 43811498995,
-    "sol_volume_24h_usd": 1067182887,
+    "sol_market_cap_usd": 43876657870,
+    "sol_volume_24h_usd": 1075927880,
     "ath_usd": 293.31,
-    "total_supply_sol": 632134663.0,
-    "circulating_supply_sol": 582613042.0,
+    "total_supply_sol": 632134649.0,
+    "circulating_supply_sol": 582613028.0,
     "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 4799959418.0,
+    "tvl_usd": 4799464497.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -92,14 +92,14 @@
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1120508367.0,
-        "change_1d_pct": -1.25
+        "tvl_usd": 1120751476.0,
+        "change_1d_pct": -1.6
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1041138451.0,
-        "change_1d_pct": -0.4
+        "tvl_usd": 1045064715.0,
+        "change_1d_pct": -0.38
       },
       {
         "name": "Jupiter Lend",
@@ -134,17 +134,17 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 681298138.0,
-        "change_1d_pct": -1.21
+        "tvl_usd": 680426653.0,
+        "change_1d_pct": -1.51
       },
       {
         "name": "Solstice",
         "category": "Basis Trading",
-        "tvl_usd": 506009829.0,
-        "change_1d_pct": -0.0
+        "tvl_usd": 505940599.0,
+        "change_1d_pct": -0.03
       }
     ],
-    "stablecoin_mcap_usd": 15347775997.0,
+    "stablecoin_mcap_usd": 15358092612.0,
     "dex_volume_24h_usd": 1942768291.0
   },
   "upcoming": [
