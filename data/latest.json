@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-15T22:19:59.133451+00:00",
+  "generated_at": "2026-08-15T22:47:39.258326+00:00",
   "network": {
     "epoch": 1017,
-    "absolute_slot": 439518999,
-    "block_height": 417569623,
-    "epoch_progress_pct": 40.51,
-    "slots_remaining": 257001,
-    "tps": 3189.6,
-    "avg_slot_time_s": 0.412,
+    "absolute_slot": 439522979,
+    "block_height": 417573603,
+    "epoch_progress_pct": 41.43,
+    "slots_remaining": 253021,
+    "tps": 3430.9,
+    "avg_slot_time_s": 0.42,
     "health": "ok"
   },
   "validators": {
@@ -72,12 +72,12 @@
   },
   "economics": {
     "sol_price_usd": 75.55,
-    "sol_price_24h_change_pct": 0.69,
-    "sol_market_cap_usd": 44025068998,
-    "sol_volume_24h_usd": 660006960,
+    "sol_price_24h_change_pct": 0.6,
+    "sol_market_cap_usd": 44023927123,
+    "sol_volume_24h_usd": 654760889,
     "ath_usd": 293.31,
-    "total_supply_sol": 632261848.0,
-    "circulating_supply_sol": 582727863.0,
+    "total_supply_sol": 632261833.0,
+    "circulating_supply_sol": 582727848.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
@@ -98,8 +98,8 @@
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1045064471.0,
-        "change_1d_pct": 0.54
+        "tvl_usd": 1044906804.0,
+        "change_1d_pct": 0.36
       },
       {
         "name": "Jupiter Lend",
@@ -122,8 +122,8 @@
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 754988513.0,
-        "change_1d_pct": 1.0
+        "tvl_usd": 756346526.0,
+        "change_1d_pct": 0.74
       },
       {
         "name": "BlackRock BUIDL",
