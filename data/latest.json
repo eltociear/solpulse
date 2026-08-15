@@ -1,87 +1,87 @@
 {
-  "generated_at": "2026-08-15T01:10:28.611985+00:00",
+  "generated_at": "2026-08-15T02:32:33.553881+00:00",
   "network": {
-    "epoch": 1016,
-    "absolute_slot": 439335816,
-    "block_height": 417387101,
-    "epoch_progress_pct": 98.11,
-    "slots_remaining": 8184,
-    "tps": 3264.6,
-    "avg_slot_time_s": 0.413,
+    "epoch": 1017,
+    "absolute_slot": 439347675,
+    "block_height": 417398948,
+    "epoch_progress_pct": 0.85,
+    "slots_remaining": 428325,
+    "tps": 3439.0,
+    "avg_slot_time_s": 0.417,
     "health": "ok"
   },
   "validators": {
     "active": 688,
-    "delinquent": 10,
-    "delinquency_pct": 1.43,
-    "total_active_stake_sol": 434577593.0,
+    "delinquent": 9,
+    "delinquency_pct": 1.29,
+    "total_active_stake_sol": 435419200.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.45,
+    "top10_stake_share_pct": 24.4,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-        "stake_sol": 17055967.0,
+        "stake_sol": 17161316.0,
         "commission": 7
       },
       {
         "vote_pubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-        "stake_sol": 15972699.0,
+        "stake_sol": 15969044.0,
         "commission": 0
       },
       {
         "vote_pubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-        "stake_sol": 12477808.0,
+        "stake_sol": 12492108.0,
         "commission": 5
       },
       {
         "vote_pubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-        "stake_sol": 12363210.0,
+        "stake_sol": 12274846.0,
         "commission": 0
       },
       {
         "vote_pubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-        "stake_sol": 9161872.0,
+        "stake_sol": 9181197.0,
         "commission": 7
       },
       {
         "vote_pubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-        "stake_sol": 8981437.0,
+        "stake_sol": 8981926.0,
         "commission": 10
       },
       {
         "vote_pubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-        "stake_sol": 8300271.0,
+        "stake_sol": 8303340.0,
         "commission": 0
       },
       {
         "vote_pubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-        "stake_sol": 7966398.0,
+        "stake_sol": 7969078.0,
         "commission": 7
       },
       {
         "vote_pubkey": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-        "stake_sol": 7372731.0,
+        "stake_sol": 7340396.0,
         "commission": 5
       },
       {
         "vote_pubkey": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-        "stake_sol": 6581887.0,
+        "stake_sol": 6586185.0,
         "commission": 0
       }
     ]
   },
   "economics": {
-    "sol_price_usd": 75.24,
-    "sol_price_24h_change_pct": -0.95,
-    "sol_market_cap_usd": 43837577210,
-    "sol_volume_24h_usd": 1044450162,
+    "sol_price_usd": 75.52,
+    "sol_price_24h_change_pct": -0.63,
+    "sol_market_cap_usd": 43998680633,
+    "sol_volume_24h_usd": 1047084541,
     "ath_usd": 293.31,
-    "total_supply_sol": 632134606.0,
-    "circulating_supply_sol": 582612985.0,
-    "staking_ratio_pct": 74.6
+    "total_supply_sol": 632262463.0,
+    "circulating_supply_sol": 582728754.0,
+    "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 4800181437.0,
+    "tvl_usd": 4811341346.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -116,14 +116,14 @@
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 771295848.0,
-        "change_1d_pct": -1.58
+        "tvl_usd": 766879967.0,
+        "change_1d_pct": -1.84
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 753143282.0,
-        "change_1d_pct": -1.22
+        "tvl_usd": 753456903.0,
+        "change_1d_pct": -0.99
       },
       {
         "name": "BlackRock BUIDL",
@@ -134,8 +134,8 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 682911891.0,
-        "change_1d_pct": -1.15
+        "tvl_usd": 682832407.0,
+        "change_1d_pct": -1.0
       },
       {
         "name": "Solstice",
@@ -144,8 +144,8 @@
         "change_1d_pct": 0.01
       }
     ],
-    "stablecoin_mcap_usd": 15358182918.0,
-    "dex_volume_24h_usd": 1642348325.0
+    "stablecoin_mcap_usd": 15353035079.0,
+    "dex_volume_24h_usd": 1642310188.0
   },
   "upcoming": [
     {
