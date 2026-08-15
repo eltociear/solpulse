@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-15T16:22:30.509109+00:00",
+  "generated_at": "2026-08-15T16:50:03.704336+00:00",
   "network": {
     "epoch": 1017,
-    "absolute_slot": 439467488,
-    "block_height": 417518152,
-    "epoch_progress_pct": 28.59,
-    "slots_remaining": 308512,
-    "tps": 3597.5,
-    "avg_slot_time_s": 0.413,
+    "absolute_slot": 439471443,
+    "block_height": 417522107,
+    "epoch_progress_pct": 29.5,
+    "slots_remaining": 304557,
+    "tps": 3807.0,
+    "avg_slot_time_s": 0.42,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.37,
-    "sol_price_24h_change_pct": -0.2,
-    "sol_market_cap_usd": 43924537651,
-    "sol_volume_24h_usd": 835605795,
+    "sol_price_usd": 75.41,
+    "sol_price_24h_change_pct": -0.05,
+    "sol_market_cap_usd": 43944931589,
+    "sol_volume_24h_usd": 825546775,
     "ath_usd": 293.31,
-    "total_supply_sol": 632262054.0,
-    "circulating_supply_sol": 582728069.0,
+    "total_supply_sol": 632262038.0,
+    "circulating_supply_sol": 582728053.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 4813318917.0,
+    "tvl_usd": 4812833609.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -92,8 +92,8 @@
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1128573082.0,
-        "change_1d_pct": 0.39
+        "tvl_usd": 1128632034.0,
+        "change_1d_pct": 0.54
       },
       {
         "name": "Kamino Lend",
@@ -122,8 +122,8 @@
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 754365188.0,
-        "change_1d_pct": 0.22
+        "tvl_usd": 754146304.0,
+        "change_1d_pct": 0.32
       },
       {
         "name": "BlackRock BUIDL",
