@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-16T14:48:44.089954+00:00",
+  "generated_at": "2026-08-16T15:20:25.412749+00:00",
   "network": {
     "epoch": 1017,
-    "absolute_slot": 439661645,
-    "block_height": 417712238,
-    "epoch_progress_pct": 73.53,
-    "slots_remaining": 114355,
-    "tps": 3408.7,
-    "avg_slot_time_s": 0.414,
+    "absolute_slot": 439666226,
+    "block_height": 417716819,
+    "epoch_progress_pct": 74.59,
+    "slots_remaining": 109774,
+    "tps": 3875.8,
+    "avg_slot_time_s": 0.417,
     "health": "ok"
   },
   "validators": {
@@ -71,13 +71,13 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.31,
-    "sol_price_24h_change_pct": -0.17,
-    "sol_market_cap_usd": 43890847656,
-    "sol_volume_24h_usd": 536749657,
+    "sol_price_usd": 75.4,
+    "sol_price_24h_change_pct": -0.04,
+    "sol_market_cap_usd": 43935259973,
+    "sol_volume_24h_usd": 522125712,
     "ath_usd": 293.31,
-    "total_supply_sol": 632261387.0,
-    "circulating_supply_sol": 582784476.0,
+    "total_supply_sol": 632261369.0,
+    "circulating_supply_sol": 582784459.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
@@ -86,8 +86,8 @@
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2436862637.0,
-        "change_1d_pct": 0.48
+        "tvl_usd": 2436354099.0,
+        "change_1d_pct": 0.46
       },
       {
         "name": "Sanctum Validator LSTs",
@@ -116,14 +116,14 @@
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 766176928.0,
-        "change_1d_pct": -0.3
+        "tvl_usd": 765297551.0,
+        "change_1d_pct": -0.35
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 752036549.0,
-        "change_1d_pct": -0.04
+        "tvl_usd": 753460690.0,
+        "change_1d_pct": -0.2
       },
       {
         "name": "BlackRock BUIDL",
@@ -134,8 +134,8 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 681080722.0,
-        "change_1d_pct": -0.07
+        "tvl_usd": 680285307.0,
+        "change_1d_pct": -0.46
       },
       {
         "name": "Solstice",
@@ -144,7 +144,7 @@
         "change_1d_pct": 0.01
       }
     ],
-    "stablecoin_mcap_usd": 15336236525.0,
+    "stablecoin_mcap_usd": 15335402316.0,
     "dex_volume_24h_usd": 1169008711.0
   },
   "upcoming": [
