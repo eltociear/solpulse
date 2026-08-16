@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-16T07:30:08.774152+00:00",
+  "generated_at": "2026-08-16T07:56:32.357678+00:00",
   "network": {
     "epoch": 1017,
-    "absolute_slot": 439598365,
-    "block_height": 417648970,
-    "epoch_progress_pct": 58.88,
-    "slots_remaining": 177635,
-    "tps": 2809.3,
-    "avg_slot_time_s": 0.413,
+    "absolute_slot": 439602195,
+    "block_height": 417652788,
+    "epoch_progress_pct": 59.77,
+    "slots_remaining": 173805,
+    "tps": 2758.9,
+    "avg_slot_time_s": 0.417,
     "health": "ok"
   },
   "validators": {
-    "active": 687,
-    "delinquent": 10,
-    "delinquency_pct": 1.43,
-    "total_active_stake_sol": 434650519.0,
+    "active": 688,
+    "delinquent": 9,
+    "delinquency_pct": 1.29,
+    "total_active_stake_sol": 435419200.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.45,
+    "top10_stake_share_pct": 24.4,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,14 +71,14 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.39,
-    "sol_price_24h_change_pct": 0.16,
-    "sol_market_cap_usd": 43935068080,
-    "sol_volume_24h_usd": 581323876,
+    "sol_price_usd": 75.37,
+    "sol_price_24h_change_pct": 0.24,
+    "sol_market_cap_usd": 43920951211,
+    "sol_volume_24h_usd": 575873077,
     "ath_usd": 293.31,
-    "total_supply_sol": 632261586.0,
-    "circulating_supply_sol": 582784676.0,
-    "staking_ratio_pct": 74.6
+    "total_supply_sol": 632261575.0,
+    "circulating_supply_sol": 582784664.0,
+    "staking_ratio_pct": 74.7
   },
   "ecosystem": {
     "tvl_usd": 4810236858.0,
@@ -86,7 +86,7 @@
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2424243846.0,
+        "tvl_usd": 2424211710.0,
         "change_1d_pct": -0.17
       },
       {
@@ -134,8 +134,8 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 682723738.0,
-        "change_1d_pct": -0.16
+        "tvl_usd": 682532079.0,
+        "change_1d_pct": 0.01
       },
       {
         "name": "Solstice",
