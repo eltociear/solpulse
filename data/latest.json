@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-16T19:44:37.562003+00:00",
+  "generated_at": "2026-08-16T20:20:08.117598+00:00",
   "network": {
     "epoch": 1017,
-    "absolute_slot": 439704321,
-    "block_height": 417754903,
-    "epoch_progress_pct": 83.41,
-    "slots_remaining": 71679,
-    "tps": 3320.3,
-    "avg_slot_time_s": 0.414,
+    "absolute_slot": 439709483,
+    "block_height": 417760065,
+    "epoch_progress_pct": 84.6,
+    "slots_remaining": 66517,
+    "tps": 3566.7,
+    "avg_slot_time_s": 0.421,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.28,
-    "sol_price_24h_change_pct": -0.25,
-    "sol_market_cap_usd": 43872457221,
-    "sol_volume_24h_usd": 611009600,
+    "sol_price_usd": 75.21,
+    "sol_price_24h_change_pct": -0.31,
+    "sol_market_cap_usd": 43834899865,
+    "sol_volume_24h_usd": 612738122,
     "ath_usd": 293.31,
-    "total_supply_sol": 632261214.0,
-    "circulating_supply_sol": 582784304.0,
+    "total_supply_sol": 632261194.0,
+    "circulating_supply_sol": 582784284.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 4798200388.0,
+    "tvl_usd": 4795551645.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -116,8 +116,8 @@
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 764225446.0,
-        "change_1d_pct": -0.45
+        "tvl_usd": 764989241.0,
+        "change_1d_pct": -0.59
       },
       {
         "name": "Jito Liquid Staking",
@@ -134,8 +134,8 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 680986794.0,
-        "change_1d_pct": -0.34
+        "tvl_usd": 678336615.0,
+        "change_1d_pct": -0.73
       },
       {
         "name": "Solstice",
@@ -144,7 +144,7 @@
         "change_1d_pct": -0.03
       }
     ],
-    "stablecoin_mcap_usd": 15329957287.0,
+    "stablecoin_mcap_usd": 15330606825.0,
     "dex_volume_24h_usd": 1169008634.0
   },
   "upcoming": [
