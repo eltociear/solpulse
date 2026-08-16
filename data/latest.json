@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-16T16:50:37.162987+00:00",
+  "generated_at": "2026-08-16T17:18:40.561889+00:00",
   "network": {
     "epoch": 1017,
-    "absolute_slot": 439679226,
-    "block_height": 417729819,
-    "epoch_progress_pct": 77.6,
-    "slots_remaining": 96774,
-    "tps": 3958.4,
-    "avg_slot_time_s": 0.412,
+    "absolute_slot": 439683248,
+    "block_height": 417733834,
+    "epoch_progress_pct": 78.53,
+    "slots_remaining": 92752,
+    "tps": 3613.0,
+    "avg_slot_time_s": 0.413,
     "health": "ok"
   },
   "validators": {
-    "active": 688,
-    "delinquent": 9,
-    "delinquency_pct": 1.29,
-    "total_active_stake_sol": 435419200.0,
+    "active": 687,
+    "delinquent": 10,
+    "delinquency_pct": 1.43,
+    "total_active_stake_sol": 435341966.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.4,
+    "top10_stake_share_pct": 24.41,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.49,
-    "sol_price_24h_change_pct": 0.12,
-    "sol_market_cap_usd": 43993333593,
-    "sol_volume_24h_usd": 573182915,
+    "sol_price_usd": 75.47,
+    "sol_price_24h_change_pct": -0.08,
+    "sol_market_cap_usd": 43985975986,
+    "sol_volume_24h_usd": 571439191,
     "ath_usd": 293.31,
-    "total_supply_sol": 632261314.0,
-    "circulating_supply_sol": 582784404.0,
+    "total_supply_sol": 632261297.0,
+    "circulating_supply_sol": 582784387.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 4803834776.0,
+    "tvl_usd": 4803643385.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -129,7 +129,7 @@
         "name": "BlackRock BUIDL",
         "category": "RWA",
         "tvl_usd": 740956612.0,
-        "change_1d_pct": 0
+        "change_1d_pct": 0.0
       },
       {
         "name": "Jupiter Perpetual Exchange",
@@ -144,7 +144,7 @@
         "change_1d_pct": -0.05
       }
     ],
-    "stablecoin_mcap_usd": 15334759835.0,
+    "stablecoin_mcap_usd": 15333899722.0,
     "dex_volume_24h_usd": 1169008711.0
   },
   "upcoming": [
