@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-16T18:27:18.000673+00:00",
+  "generated_at": "2026-08-16T18:57:20.419903+00:00",
   "network": {
     "epoch": 1017,
-    "absolute_slot": 439693176,
-    "block_height": 417743758,
-    "epoch_progress_pct": 80.83,
-    "slots_remaining": 82824,
-    "tps": 3955.9,
-    "avg_slot_time_s": 0.416,
+    "absolute_slot": 439697524,
+    "block_height": 417748106,
+    "epoch_progress_pct": 81.83,
+    "slots_remaining": 78476,
+    "tps": 3560.8,
+    "avg_slot_time_s": 0.413,
     "health": "ok"
   },
   "validators": {
@@ -71,13 +71,13 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.12,
-    "sol_price_24h_change_pct": -0.47,
-    "sol_market_cap_usd": 43778268659,
-    "sol_volume_24h_usd": 593678402,
+    "sol_price_usd": 75.13,
+    "sol_price_24h_change_pct": -0.48,
+    "sol_market_cap_usd": 43783280736,
+    "sol_volume_24h_usd": 596778824,
     "ath_usd": 293.31,
-    "total_supply_sol": 632261257.0,
-    "circulating_supply_sol": 582784346.0,
+    "total_supply_sol": 632261240.0,
+    "circulating_supply_sol": 582784330.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
@@ -104,8 +104,8 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 927833814.0,
-        "change_1d_pct": 0.02
+        "tvl_usd": 925442697.0,
+        "change_1d_pct": -0.37
       },
       {
         "name": "Raydium AMM",
@@ -116,8 +116,8 @@
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 767889199.0,
-        "change_1d_pct": 0.03
+        "tvl_usd": 764225446.0,
+        "change_1d_pct": -0.45
       },
       {
         "name": "Jito Liquid Staking",
