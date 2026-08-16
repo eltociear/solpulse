@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-16T16:23:14.891111+00:00",
+  "generated_at": "2026-08-16T16:50:37.162987+00:00",
   "network": {
     "epoch": 1017,
-    "absolute_slot": 439675269,
-    "block_height": 417725862,
-    "epoch_progress_pct": 76.68,
-    "slots_remaining": 100731,
-    "tps": 4250.9,
-    "avg_slot_time_s": 0.416,
+    "absolute_slot": 439679226,
+    "block_height": 417729819,
+    "epoch_progress_pct": 77.6,
+    "slots_remaining": 96774,
+    "tps": 3958.4,
+    "avg_slot_time_s": 0.412,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.53,
-    "sol_price_24h_change_pct": 0.21,
-    "sol_market_cap_usd": 44019313766,
-    "sol_volume_24h_usd": 542893523,
+    "sol_price_usd": 75.49,
+    "sol_price_24h_change_pct": 0.12,
+    "sol_market_cap_usd": 43993333593,
+    "sol_volume_24h_usd": 573182915,
     "ath_usd": 293.31,
-    "total_supply_sol": 632261331.0,
-    "circulating_supply_sol": 582784421.0,
+    "total_supply_sol": 632261314.0,
+    "circulating_supply_sol": 582784404.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 4803123607.0,
+    "tvl_usd": 4803834776.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -98,8 +98,8 @@
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1038139323.0,
-        "change_1d_pct": -0.57
+        "tvl_usd": 1038807914.0,
+        "change_1d_pct": -0.63
       },
       {
         "name": "Jupiter Lend",
@@ -140,8 +140,8 @@
       {
         "name": "Solstice",
         "category": "Basis Trading",
-        "tvl_usd": 505876949.0,
-        "change_1d_pct": 0.01
+        "tvl_usd": 505845863.0,
+        "change_1d_pct": -0.05
       }
     ],
     "stablecoin_mcap_usd": 15334759835.0,
