@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-16T22:19:35.983087+00:00",
+  "generated_at": "2026-08-16T22:46:50.075632+00:00",
   "network": {
     "epoch": 1017,
-    "absolute_slot": 439726758,
-    "block_height": 417777332,
-    "epoch_progress_pct": 88.6,
-    "slots_remaining": 49242,
-    "tps": 3698.9,
-    "avg_slot_time_s": 0.412,
+    "absolute_slot": 439730670,
+    "block_height": 417781244,
+    "epoch_progress_pct": 89.51,
+    "slots_remaining": 45330,
+    "tps": 3542.1,
+    "avg_slot_time_s": 0.423,
     "health": "ok"
   },
   "validators": {
@@ -71,23 +71,23 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 74.39,
-    "sol_price_24h_change_pct": -1.55,
-    "sol_market_cap_usd": 43360189115,
-    "sol_volume_24h_usd": 702140790,
+    "sol_price_usd": 74.29,
+    "sol_price_24h_change_pct": -1.66,
+    "sol_market_cap_usd": 43291018308,
+    "sol_volume_24h_usd": 708192415,
     "ath_usd": 293.31,
-    "total_supply_sol": 632261126.0,
-    "circulating_supply_sol": 582784216.0,
+    "total_supply_sol": 632261111.0,
+    "circulating_supply_sol": 582784201.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 4793308524.0,
+    "tvl_usd": 4793133797.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2434074749.0,
-        "change_1d_pct": 0.39
+        "tvl_usd": 2435545604.0,
+        "change_1d_pct": 0.44
       },
       {
         "name": "Sanctum Validator LSTs",
@@ -122,8 +122,8 @@
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 752095794.0,
-        "change_1d_pct": -0.38
+        "tvl_usd": 750438169.0,
+        "change_1d_pct": -0.6
       },
       {
         "name": "BlackRock BUIDL",
@@ -140,8 +140,8 @@
       {
         "name": "Solstice",
         "category": "Basis Trading",
-        "tvl_usd": 505936163.0,
-        "change_1d_pct": -0.03
+        "tvl_usd": 505844486.0,
+        "change_1d_pct": -0.05
       }
     ],
     "stablecoin_mcap_usd": 15328092259.0,
