@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-16T13:30:20.660239+00:00",
+  "generated_at": "2026-08-16T14:21:51.033857+00:00",
   "network": {
     "epoch": 1017,
-    "absolute_slot": 439650341,
-    "block_height": 417700934,
-    "epoch_progress_pct": 70.91,
-    "slots_remaining": 125659,
-    "tps": 3170.1,
-    "avg_slot_time_s": 0.414,
+    "absolute_slot": 439657724,
+    "block_height": 417708317,
+    "epoch_progress_pct": 72.62,
+    "slots_remaining": 118276,
+    "tps": 3325.3,
+    "avg_slot_time_s": 0.419,
     "health": "ok"
   },
   "validators": {
@@ -71,23 +71,23 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.33,
-    "sol_price_24h_change_pct": -0.09,
-    "sol_market_cap_usd": 43902482565,
-    "sol_volume_24h_usd": 572631103,
+    "sol_price_usd": 75.26,
+    "sol_price_24h_change_pct": -0.3,
+    "sol_market_cap_usd": 43850422625,
+    "sol_volume_24h_usd": 554760747,
     "ath_usd": 293.31,
-    "total_supply_sol": 632261428.0,
-    "circulating_supply_sol": 582784518.0,
+    "total_supply_sol": 632261401.0,
+    "circulating_supply_sol": 582784491.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 4805226315.0,
+    "tvl_usd": 4803975343.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2436977340.0,
-        "change_1d_pct": 0.47
+        "tvl_usd": 2436862637.0,
+        "change_1d_pct": 0.48
       },
       {
         "name": "Sanctum Validator LSTs",
@@ -104,8 +104,8 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 926565958.0,
-        "change_1d_pct": 0.15
+        "tvl_usd": 926265334.0,
+        "change_1d_pct": 0.16
       },
       {
         "name": "Raydium AMM",
@@ -129,13 +129,13 @@
         "name": "BlackRock BUIDL",
         "category": "RWA",
         "tvl_usd": 740956612.0,
-        "change_1d_pct": 0.0
+        "change_1d_pct": 0
       },
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 682013615.0,
-        "change_1d_pct": -0.0
+        "tvl_usd": 681080722.0,
+        "change_1d_pct": -0.07
       },
       {
         "name": "Solstice",
@@ -144,7 +144,7 @@
         "change_1d_pct": 0.05
       }
     ],
-    "stablecoin_mcap_usd": 15335503537.0,
+    "stablecoin_mcap_usd": 15336236525.0,
     "dex_volume_24h_usd": 1169008711.0
   },
   "upcoming": [
