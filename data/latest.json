@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-16T09:25:36.112957+00:00",
+  "generated_at": "2026-08-16T09:51:09.882343+00:00",
   "network": {
     "epoch": 1017,
-    "absolute_slot": 439615016,
-    "block_height": 417665609,
-    "epoch_progress_pct": 62.74,
-    "slots_remaining": 160984,
-    "tps": 2624.1,
-    "avg_slot_time_s": 0.427,
+    "absolute_slot": 439618695,
+    "block_height": 417669288,
+    "epoch_progress_pct": 63.59,
+    "slots_remaining": 157305,
+    "tps": 2674.4,
+    "avg_slot_time_s": 0.419,
     "health": "ok"
   },
   "validators": {
@@ -71,13 +71,13 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.36,
-    "sol_price_24h_change_pct": 0.36,
-    "sol_market_cap_usd": 43914959864,
-    "sol_volume_24h_usd": 557537216,
+    "sol_price_usd": 75.27,
+    "sol_price_24h_change_pct": 0.18,
+    "sol_market_cap_usd": 43869949709,
+    "sol_volume_24h_usd": 564975397,
     "ath_usd": 293.31,
-    "total_supply_sol": 632261537.0,
-    "circulating_supply_sol": 582784626.0,
+    "total_supply_sol": 632261526.0,
+    "circulating_supply_sol": 582784616.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
