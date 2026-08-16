@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-16T20:20:08.117598+00:00",
+  "generated_at": "2026-08-16T20:47:46.038897+00:00",
   "network": {
     "epoch": 1017,
-    "absolute_slot": 439709483,
-    "block_height": 417760065,
-    "epoch_progress_pct": 84.6,
-    "slots_remaining": 66517,
-    "tps": 3566.7,
-    "avg_slot_time_s": 0.421,
+    "absolute_slot": 439713464,
+    "block_height": 417764046,
+    "epoch_progress_pct": 85.52,
+    "slots_remaining": 62536,
+    "tps": 3313.4,
+    "avg_slot_time_s": 0.415,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.21,
-    "sol_price_24h_change_pct": -0.31,
-    "sol_market_cap_usd": 43834899865,
-    "sol_volume_24h_usd": 612738122,
+    "sol_price_usd": 75.08,
+    "sol_price_24h_change_pct": -0.48,
+    "sol_market_cap_usd": 43754851910,
+    "sol_volume_24h_usd": 620003465,
     "ath_usd": 293.31,
-    "total_supply_sol": 632261194.0,
-    "circulating_supply_sol": 582784284.0,
+    "total_supply_sol": 632261179.0,
+    "circulating_supply_sol": 582784269.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 4795551645.0,
+    "tvl_usd": 4796205985.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -92,8 +92,8 @@
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1122634445.0,
-        "change_1d_pct": -0.63
+        "tvl_usd": 1124195697.0,
+        "change_1d_pct": -0.37
       },
       {
         "name": "Kamino Lend",
@@ -104,8 +104,8 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 925442697.0,
-        "change_1d_pct": -0.37
+        "tvl_usd": 925841925.0,
+        "change_1d_pct": -0.25
       },
       {
         "name": "Raydium AMM",
@@ -122,8 +122,8 @@
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 751047953.0,
-        "change_1d_pct": -0.64
+        "tvl_usd": 752095794.0,
+        "change_1d_pct": -0.38
       },
       {
         "name": "BlackRock BUIDL",
