@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-16T23:18:48.298194+00:00",
+  "generated_at": "2026-08-16T23:44:32.615751+00:00",
   "network": {
     "epoch": 1017,
-    "absolute_slot": 439735283,
-    "block_height": 417785857,
-    "epoch_progress_pct": 90.57,
-    "slots_remaining": 40717,
-    "tps": 3240.4,
-    "avg_slot_time_s": 0.411,
+    "absolute_slot": 439739019,
+    "block_height": 417789584,
+    "epoch_progress_pct": 91.44,
+    "slots_remaining": 36981,
+    "tps": 2945.7,
+    "avg_slot_time_s": 0.413,
     "health": "ok"
   },
   "validators": {
@@ -71,23 +71,23 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 74.45,
-    "sol_price_24h_change_pct": -1.22,
-    "sol_market_cap_usd": 43386514049,
-    "sol_volume_24h_usd": 710528613,
+    "sol_price_usd": 74.48,
+    "sol_price_24h_change_pct": -1.08,
+    "sol_market_cap_usd": 43400826988,
+    "sol_volume_24h_usd": 712056440,
     "ath_usd": 293.31,
-    "total_supply_sol": 632261094.0,
-    "circulating_supply_sol": 582784184.0,
+    "total_supply_sol": 632261082.0,
+    "circulating_supply_sol": 582784171.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 4793133797.0,
+    "tvl_usd": 4781363807.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2435545604.0,
-        "change_1d_pct": 0.44
+        "tvl_usd": 2435730124.0,
+        "change_1d_pct": 0.45
       },
       {
         "name": "Sanctum Validator LSTs",
@@ -129,7 +129,7 @@
         "name": "BlackRock BUIDL",
         "category": "RWA",
         "tvl_usd": 740956612.0,
-        "change_1d_pct": 0.0
+        "change_1d_pct": 0
       },
       {
         "name": "Jupiter Perpetual Exchange",
@@ -144,7 +144,7 @@
         "change_1d_pct": -0.05
       }
     ],
-    "stablecoin_mcap_usd": 15328092259.0,
+    "stablecoin_mcap_usd": 15327497379.0,
     "dex_volume_24h_usd": 1169008634.0
   },
   "upcoming": [
