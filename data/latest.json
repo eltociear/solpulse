@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-17T10:31:04.600246+00:00",
+  "generated_at": "2026-08-17T11:24:33.101679+00:00",
   "network": {
     "epoch": 1018,
-    "absolute_slot": 439832539,
-    "block_height": 417883068,
-    "epoch_progress_pct": 13.09,
-    "slots_remaining": 375461,
-    "tps": 3054.7,
-    "avg_slot_time_s": 0.424,
+    "absolute_slot": 439840288,
+    "block_height": 417890809,
+    "epoch_progress_pct": 14.88,
+    "slots_remaining": 367712,
+    "tps": 3197.7,
+    "avg_slot_time_s": 0.41,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.28,
-    "sol_price_24h_change_pct": 0.16,
-    "sol_market_cap_usd": 43881501895,
-    "sol_volume_24h_usd": 1038207961,
+    "sol_price_usd": 75.71,
+    "sol_price_24h_change_pct": 0.63,
+    "sol_market_cap_usd": 44123418524,
+    "sol_volume_24h_usd": 1091054954,
     "ath_usd": 293.31,
-    "total_supply_sol": 632388576.0,
-    "circulating_supply_sol": 582899343.0,
+    "total_supply_sol": 632388550.0,
+    "circulating_supply_sol": 582899317.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 4820519802.0,
+    "tvl_usd": 4814569668.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -98,8 +98,8 @@
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1043362979.0,
-        "change_1d_pct": 0.22
+        "tvl_usd": 1042636266.0,
+        "change_1d_pct": 0.14
       },
       {
         "name": "Jupiter Lend",
@@ -110,8 +110,8 @@
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 845128032.0,
-        "change_1d_pct": 0.35
+        "tvl_usd": 842922912.0,
+        "change_1d_pct": -0.01
       },
       {
         "name": "Binance Staked SOL",
@@ -129,13 +129,13 @@
         "name": "BlackRock BUIDL",
         "category": "RWA",
         "tvl_usd": 740956612.0,
-        "change_1d_pct": -0.0
+        "change_1d_pct": 0
       },
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 680231869.0,
-        "change_1d_pct": -0.39
+        "tvl_usd": 677832079.0,
+        "change_1d_pct": -0.69
       },
       {
         "name": "Solstice",
@@ -144,8 +144,8 @@
         "change_1d_pct": -0.02
       }
     ],
-    "stablecoin_mcap_usd": 15337764754.0,
-    "dex_volume_24h_usd": 1053725617.0
+    "stablecoin_mcap_usd": 15338413495.0,
+    "dex_volume_24h_usd": 1055467634.0
   },
   "upcoming": [
     {
