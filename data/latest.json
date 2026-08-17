@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-17T14:54:31.807602+00:00",
+  "generated_at": "2026-08-17T15:24:11.595429+00:00",
   "network": {
     "epoch": 1018,
-    "absolute_slot": 439870744,
-    "block_height": 417921261,
-    "epoch_progress_pct": 21.93,
-    "slots_remaining": 337256,
-    "tps": 4075.4,
-    "avg_slot_time_s": 0.416,
+    "absolute_slot": 439875030,
+    "block_height": 417925547,
+    "epoch_progress_pct": 22.92,
+    "slots_remaining": 332970,
+    "tps": 3794.9,
+    "avg_slot_time_s": 0.417,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.87,
-    "sol_price_24h_change_pct": 0.74,
-    "sol_market_cap_usd": 44172542290,
-    "sol_volume_24h_usd": 1238103948,
+    "sol_price_usd": 75.79,
+    "sol_price_24h_change_pct": 0.52,
+    "sol_market_cap_usd": 44166115320,
+    "sol_volume_24h_usd": 1266810405,
     "ath_usd": 293.31,
-    "total_supply_sol": 632388431.0,
-    "circulating_supply_sol": 582899197.0,
+    "total_supply_sol": 632388412.0,
+    "circulating_supply_sol": 582899179.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 4825597050.0,
+    "tvl_usd": 4827852427.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -104,8 +104,8 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 934173282.0,
-        "change_1d_pct": 0.82
+        "tvl_usd": 935403428.0,
+        "change_1d_pct": 0.92
       },
       {
         "name": "Raydium AMM",
@@ -116,14 +116,14 @@
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 767342764.0,
-        "change_1d_pct": 0.28
+        "tvl_usd": 768487011.0,
+        "change_1d_pct": 0.3
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 755510359.0,
-        "change_1d_pct": 0.46
+        "tvl_usd": 756039836.0,
+        "change_1d_pct": 0.53
       },
       {
         "name": "BlackRock BUIDL",
@@ -144,7 +144,7 @@
         "change_1d_pct": -0.04
       }
     ],
-    "stablecoin_mcap_usd": 15295902418.0,
+    "stablecoin_mcap_usd": 15310200924.0,
     "dex_volume_24h_usd": 1055467634.0
   },
   "upcoming": [
