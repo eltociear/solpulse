@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-17T19:52:42.122102+00:00",
+  "generated_at": "2026-08-17T20:25:53.597262+00:00",
   "network": {
     "epoch": 1018,
-    "absolute_slot": 439913513,
-    "block_height": 417963958,
-    "epoch_progress_pct": 31.83,
-    "slots_remaining": 294487,
-    "tps": 4411.1,
-    "avg_slot_time_s": 0.419,
+    "absolute_slot": 439918306,
+    "block_height": 417968739,
+    "epoch_progress_pct": 32.94,
+    "slots_remaining": 289694,
+    "tps": 4113.6,
+    "avg_slot_time_s": 0.412,
     "health": "ok"
   },
   "validators": {
-    "active": 688,
-    "delinquent": 7,
-    "delinquency_pct": 1.01,
-    "total_active_stake_sol": 435314415.0,
+    "active": 687,
+    "delinquent": 8,
+    "delinquency_pct": 1.15,
+    "total_active_stake_sol": 434516404.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.41,
+    "top10_stake_share_pct": 24.46,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,14 +71,14 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.79,
-    "sol_price_24h_change_pct": 0.81,
-    "sol_market_cap_usd": 44174302050,
-    "sol_volume_24h_usd": 1332202333,
+    "sol_price_usd": 75.66,
+    "sol_price_24h_change_pct": 0.6,
+    "sol_market_cap_usd": 44104192440,
+    "sol_volume_24h_usd": 1340582620,
     "ath_usd": 293.31,
-    "total_supply_sol": 632388229.0,
-    "circulating_supply_sol": 582895969.0,
-    "staking_ratio_pct": 74.7
+    "total_supply_sol": 632388206.0,
+    "circulating_supply_sol": 582895947.0,
+    "staking_ratio_pct": 74.5
   },
   "ecosystem": {
     "tvl_usd": 4851315017.0,
@@ -122,8 +122,8 @@
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 758792597.0,
-        "change_1d_pct": 0.47
+        "tvl_usd": 758859746.0,
+        "change_1d_pct": 1.04
       },
       {
         "name": "BlackRock BUIDL",
@@ -140,11 +140,11 @@
       {
         "name": "Solstice",
         "category": "Basis Trading",
-        "tvl_usd": 506217022.0,
-        "change_1d_pct": 0.06
+        "tvl_usd": 506176757.0,
+        "change_1d_pct": 0.05
       }
     ],
-    "stablecoin_mcap_usd": 15314102543.0,
+    "stablecoin_mcap_usd": 15307627255.0,
     "dex_volume_24h_usd": 1055467634.0
   },
   "upcoming": [
