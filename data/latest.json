@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-17T15:24:11.595429+00:00",
+  "generated_at": "2026-08-17T15:49:52.786006+00:00",
   "network": {
     "epoch": 1018,
-    "absolute_slot": 439875030,
-    "block_height": 417925547,
-    "epoch_progress_pct": 22.92,
-    "slots_remaining": 332970,
-    "tps": 3794.9,
-    "avg_slot_time_s": 0.417,
+    "absolute_slot": 439878724,
+    "block_height": 417929241,
+    "epoch_progress_pct": 23.78,
+    "slots_remaining": 329276,
+    "tps": 4411.1,
+    "avg_slot_time_s": 0.416,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.79,
-    "sol_price_24h_change_pct": 0.52,
-    "sol_market_cap_usd": 44166115320,
-    "sol_volume_24h_usd": 1266810405,
+    "sol_price_usd": 75.99,
+    "sol_price_24h_change_pct": 0.59,
+    "sol_market_cap_usd": 44286295167,
+    "sol_volume_24h_usd": 1292188905,
     "ath_usd": 293.31,
-    "total_supply_sol": 632388412.0,
-    "circulating_supply_sol": 582899179.0,
+    "total_supply_sol": 632388396.0,
+    "circulating_supply_sol": 582899163.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 4827852427.0,
+    "tvl_usd": 4826329990.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -98,8 +98,8 @@
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1045718500.0,
-        "change_1d_pct": 0.73
+        "tvl_usd": 1044690181.0,
+        "change_1d_pct": 0.63
       },
       {
         "name": "Jupiter Lend",
@@ -134,14 +134,14 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 680099295.0,
-        "change_1d_pct": -0.14
+        "tvl_usd": 679550353.0,
+        "change_1d_pct": -0.11
       },
       {
         "name": "Solstice",
         "category": "Basis Trading",
-        "tvl_usd": 505837259.0,
-        "change_1d_pct": -0.04
+        "tvl_usd": 506123274.0,
+        "change_1d_pct": 0.05
       }
     ],
     "stablecoin_mcap_usd": 15310200924.0,
