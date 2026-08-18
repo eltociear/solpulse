@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-18T22:50:52.428695+00:00",
+  "generated_at": "2026-08-18T23:20:56.959712+00:00",
   "network": {
     "epoch": 1018,
-    "absolute_slot": 440147393,
-    "block_height": 418197658,
-    "epoch_progress_pct": 85.97,
-    "slots_remaining": 60607,
-    "tps": 3777.5,
-    "avg_slot_time_s": 0.418,
+    "absolute_slot": 440151729,
+    "block_height": 418201994,
+    "epoch_progress_pct": 86.97,
+    "slots_remaining": 56271,
+    "tps": 3344.9,
+    "avg_slot_time_s": 0.415,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 76.92,
-    "sol_price_24h_change_pct": 1.61,
-    "sol_market_cap_usd": 44837629497,
-    "sol_volume_24h_usd": 1408923701,
+    "sol_price_usd": 77.03,
+    "sol_price_24h_change_pct": 1.62,
+    "sol_market_cap_usd": 44899211254,
+    "sol_volume_24h_usd": 1409246105,
     "ath_usd": 293.31,
-    "total_supply_sol": 632387288.0,
-    "circulating_supply_sol": 582892103.0,
+    "total_supply_sol": 632387270.0,
+    "circulating_supply_sol": 582892085.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 4896398888.0,
+    "tvl_usd": 4897514317.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -104,14 +104,14 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 954226254.0,
-        "change_1d_pct": 2.06
+        "tvl_usd": 954788420.0,
+        "change_1d_pct": 2.11
       },
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 855727313.0,
-        "change_1d_pct": 1.16
+        "tvl_usd": 856441261.0,
+        "change_1d_pct": 1.07
       },
       {
         "name": "Binance Staked SOL",
@@ -144,7 +144,7 @@
         "change_1d_pct": 0.02
       }
     ],
-    "stablecoin_mcap_usd": 15357095597.0,
+    "stablecoin_mcap_usd": 15361147225.0,
     "dex_volume_24h_usd": 1474994437.0
   },
   "upcoming": [
