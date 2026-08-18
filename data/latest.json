@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-18T04:34:45.508863+00:00",
+  "generated_at": "2026-08-18T05:28:30.023741+00:00",
   "network": {
     "epoch": 1018,
-    "absolute_slot": 439989054,
-    "block_height": 418039441,
-    "epoch_progress_pct": 49.32,
-    "slots_remaining": 218946,
-    "tps": 2908.3,
-    "avg_slot_time_s": 0.41,
+    "absolute_slot": 439996826,
+    "block_height": 418047213,
+    "epoch_progress_pct": 51.12,
+    "slots_remaining": 211174,
+    "tps": 2805.9,
+    "avg_slot_time_s": 0.412,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.71,
-    "sol_price_24h_change_pct": 0.32,
-    "sol_market_cap_usd": 44125600807,
-    "sol_volume_24h_usd": 1273990443,
+    "sol_price_usd": 75.79,
+    "sol_price_24h_change_pct": 0.41,
+    "sol_market_cap_usd": 44181132619,
+    "sol_volume_24h_usd": 1308572660,
     "ath_usd": 293.31,
-    "total_supply_sol": 632387934.0,
-    "circulating_supply_sol": 582895675.0,
+    "total_supply_sol": 632387910.0,
+    "circulating_supply_sol": 582895651.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 4844576568.0,
+    "tvl_usd": 4839839952.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -110,14 +110,14 @@
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 846548690.0,
-        "change_1d_pct": 0.51
+        "tvl_usd": 843368665.0,
+        "change_1d_pct": 0.98
       },
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 768030786.0,
-        "change_1d_pct": 0.29
+        "tvl_usd": 765847061.0,
+        "change_1d_pct": -0.33
       },
       {
         "name": "Jito Liquid Staking",
@@ -134,17 +134,17 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 680489953.0,
-        "change_1d_pct": 0.44
+        "tvl_usd": 678657731.0,
+        "change_1d_pct": -0.08
       },
       {
         "name": "Solstice",
         "category": "Basis Trading",
-        "tvl_usd": 506166961.0,
+        "tvl_usd": 506154482.0,
         "change_1d_pct": 0.03
       }
     ],
-    "stablecoin_mcap_usd": 15344645177.0,
+    "stablecoin_mcap_usd": 15342754588.0,
     "dex_volume_24h_usd": 1425243228.0
   },
   "upcoming": [
