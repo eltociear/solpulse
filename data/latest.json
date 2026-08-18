@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-18T10:57:09.339981+00:00",
+  "generated_at": "2026-08-18T11:29:08.062530+00:00",
   "network": {
     "epoch": 1018,
-    "absolute_slot": 440044388,
-    "block_height": 418094741,
-    "epoch_progress_pct": 62.13,
-    "slots_remaining": 163612,
-    "tps": 2840.8,
-    "avg_slot_time_s": 0.415,
+    "absolute_slot": 440049025,
+    "block_height": 418099378,
+    "epoch_progress_pct": 63.2,
+    "slots_remaining": 158975,
+    "tps": 3316.9,
+    "avg_slot_time_s": 0.412,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 75.77,
-    "sol_price_24h_change_pct": 0.14,
-    "sol_market_cap_usd": 44171964421,
-    "sol_volume_24h_usd": 1276206594,
+    "sol_price_usd": 76.22,
+    "sol_price_24h_change_pct": 0.67,
+    "sol_market_cap_usd": 44445188434,
+    "sol_volume_24h_usd": 1282556933,
     "ath_usd": 293.31,
-    "total_supply_sol": 632387759.0,
-    "circulating_supply_sol": 582895500.0,
+    "total_supply_sol": 632387743.0,
+    "circulating_supply_sol": 582895484.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 4853486823.0,
+    "tvl_usd": 4856027769.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -116,8 +116,8 @@
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 771106388.0,
-        "change_1d_pct": 0.76
+        "tvl_usd": 771023753.0,
+        "change_1d_pct": 0.75
       },
       {
         "name": "Jito Liquid Staking",
@@ -144,8 +144,8 @@
         "change_1d_pct": 0.03
       }
     ],
-    "stablecoin_mcap_usd": 15332400395.0,
-    "dex_volume_24h_usd": 1425243228.0
+    "stablecoin_mcap_usd": 15335771974.0,
+    "dex_volume_24h_usd": 1474970358.0
   },
   "upcoming": [
     {
