@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-18T21:23:19.191112+00:00",
+  "generated_at": "2026-08-18T22:22:07.250936+00:00",
   "network": {
     "epoch": 1018,
-    "absolute_slot": 440134741,
-    "block_height": 418185010,
-    "epoch_progress_pct": 83.04,
-    "slots_remaining": 73259,
-    "tps": 4243.2,
-    "avg_slot_time_s": 0.414,
+    "absolute_slot": 440143231,
+    "block_height": 418193496,
+    "epoch_progress_pct": 85.01,
+    "slots_remaining": 64769,
+    "tps": 3497.0,
+    "avg_slot_time_s": 0.423,
     "health": "ok"
   },
   "validators": {
-    "active": 687,
-    "delinquent": 8,
-    "delinquency_pct": 1.15,
-    "total_active_stake_sol": 435298384.0,
+    "active": 689,
+    "delinquent": 6,
+    "delinquency_pct": 0.86,
+    "total_active_stake_sol": 435642720.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.41,
+    "top10_stake_share_pct": 24.39,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 76.94,
-    "sol_price_24h_change_pct": 1.36,
-    "sol_market_cap_usd": 44849364231,
-    "sol_volume_24h_usd": 1395111405,
+    "sol_price_usd": 77.05,
+    "sol_price_24h_change_pct": 1.7,
+    "sol_market_cap_usd": 44914787068,
+    "sol_volume_24h_usd": 1386901141,
     "ath_usd": 293.31,
-    "total_supply_sol": 632387340.0,
-    "circulating_supply_sol": 582892155.0,
+    "total_supply_sol": 632387304.0,
+    "circulating_supply_sol": 582892120.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 4897105828.0,
+    "tvl_usd": 4895961651.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -104,8 +104,8 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 955256967.0,
-        "change_1d_pct": 1.87
+        "tvl_usd": 954226254.0,
+        "change_1d_pct": 2.06
       },
       {
         "name": "Raydium AMM",
@@ -144,7 +144,7 @@
         "change_1d_pct": -0.01
       }
     ],
-    "stablecoin_mcap_usd": 15364613481.0,
+    "stablecoin_mcap_usd": 15357095597.0,
     "dex_volume_24h_usd": 1474994437.0
   },
   "upcoming": [
