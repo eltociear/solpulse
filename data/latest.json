@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-19T12:43:50.824742+00:00",
+  "generated_at": "2026-08-19T13:42:47.792272+00:00",
   "network": {
     "epoch": 1019,
-    "absolute_slot": 440267602,
-    "block_height": 418317707,
-    "epoch_progress_pct": 13.8,
-    "slots_remaining": 372398,
-    "tps": 4319.7,
-    "avg_slot_time_s": 0.415,
+    "absolute_slot": 440276075,
+    "block_height": 418326146,
+    "epoch_progress_pct": 15.76,
+    "slots_remaining": 363925,
+    "tps": 4983.2,
+    "avg_slot_time_s": 0.417,
     "health": "ok"
   },
   "validators": {
-    "active": 686,
-    "delinquent": 9,
-    "delinquency_pct": 1.29,
-    "total_active_stake_sol": 434812195.0,
+    "active": 685,
+    "delinquent": 10,
+    "delinquency_pct": 1.44,
+    "total_active_stake_sol": 434496828.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.4,
+    "top10_stake_share_pct": 24.42,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 77.8,
-    "sol_price_24h_change_pct": 2.08,
-    "sol_market_cap_usd": 45319481343,
-    "sol_volume_24h_usd": 1402419467,
+    "sol_price_usd": 78.32,
+    "sol_price_24h_change_pct": 2.86,
+    "sol_market_cap_usd": 45666468818,
+    "sol_volume_24h_usd": 1661338849,
     "ath_usd": 293.31,
-    "total_supply_sol": 632514570.0,
-    "circulating_supply_sol": 583007318.0,
-    "staking_ratio_pct": 74.6
+    "total_supply_sol": 632514527.0,
+    "circulating_supply_sol": 583007275.0,
+    "staking_ratio_pct": 74.5
   },
   "ecosystem": {
-    "tvl_usd": 4914919992.0,
+    "tvl_usd": 4916080041.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -134,8 +134,8 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 688693359.0,
-        "change_1d_pct": 1.03
+        "tvl_usd": 689104187.0,
+        "change_1d_pct": 1.11
       },
       {
         "name": "Solstice",
@@ -144,7 +144,7 @@
         "change_1d_pct": 0.04
       }
     ],
-    "stablecoin_mcap_usd": 15350271678.0,
+    "stablecoin_mcap_usd": 15366305705.0,
     "dex_volume_24h_usd": 1838194723.0
   },
   "upcoming": [
@@ -164,11 +164,5 @@
       "status": "mainnet rollout ongoing"
     }
   ],
-  "anomalies": [
-    {
-      "metric": "TPS",
-      "severity": "medium",
-      "message": "TPS spiked +37% (3148 -> 4320)"
-    }
-  ]
+  "anomalies": []
 }
