@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-19T23:21:19.417175+00:00",
+  "generated_at": "2026-08-19T23:46:53.766317+00:00",
   "network": {
     "epoch": 1019,
-    "absolute_slot": 440359251,
-    "block_height": 418409186,
-    "epoch_progress_pct": 35.01,
-    "slots_remaining": 280749,
-    "tps": 4487.0,
-    "avg_slot_time_s": 0.421,
+    "absolute_slot": 440362917,
+    "block_height": 418412852,
+    "epoch_progress_pct": 35.86,
+    "slots_remaining": 277083,
+    "tps": 4262.2,
+    "avg_slot_time_s": 0.416,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 85.43,
-    "sol_price_24h_change_pct": 10.89,
-    "sol_market_cap_usd": 49794946080,
-    "sol_volume_24h_usd": 4298138266,
+    "sol_price_usd": 85.61,
+    "sol_price_24h_change_pct": 11.01,
+    "sol_market_cap_usd": 49921051981,
+    "sol_volume_24h_usd": 4358841767,
     "ath_usd": 293.31,
-    "total_supply_sol": 632514067.0,
-    "circulating_supply_sol": 583006523.0,
+    "total_supply_sol": 632514049.0,
+    "circulating_supply_sol": 583006506.0,
     "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 5204306064.0,
+    "tvl_usd": 5207933698.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -122,8 +122,8 @@
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 847061352.0,
-        "change_1d_pct": 8.08
+        "tvl_usd": 863482511.0,
+        "change_1d_pct": 10.44
       },
       {
         "name": "BlackRock BUIDL",
@@ -168,7 +168,7 @@
     {
       "metric": "SOL_price",
       "severity": "medium",
-      "message": "SOL moved +10.9% in 24h to $85.43"
+      "message": "SOL moved +11.0% in 24h to $85.61"
     }
   ]
 }
