@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-19T20:54:51.627878+00:00",
+  "generated_at": "2026-08-19T21:24:20.184575+00:00",
   "network": {
     "epoch": 1019,
-    "absolute_slot": 440338206,
-    "block_height": 418388149,
-    "epoch_progress_pct": 30.14,
-    "slots_remaining": 301794,
-    "tps": 6216.4,
-    "avg_slot_time_s": 0.426,
+    "absolute_slot": 440342453,
+    "block_height": 418392392,
+    "epoch_progress_pct": 31.12,
+    "slots_remaining": 297547,
+    "tps": 5547.7,
+    "avg_slot_time_s": 0.416,
     "health": "ok"
   },
   "validators": {
-    "active": 687,
-    "delinquent": 9,
-    "delinquency_pct": 1.29,
-    "total_active_stake_sol": 435032659.0,
+    "active": 688,
+    "delinquent": 8,
+    "delinquency_pct": 1.15,
+    "total_active_stake_sol": 435141193.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.39,
+    "top10_stake_share_pct": 24.38,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,41 +71,41 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 83.69,
-    "sol_price_24h_change_pct": 8.91,
-    "sol_market_cap_usd": 48758383060,
-    "sol_volume_24h_usd": 3373722840,
+    "sol_price_usd": 86.41,
+    "sol_price_24h_change_pct": 12.27,
+    "sol_market_cap_usd": 50359857328,
+    "sol_volume_24h_usd": 3916492866,
     "ath_usd": 293.31,
-    "total_supply_sol": 632514180.0,
-    "circulating_supply_sol": 583006668.0,
+    "total_supply_sol": 632514152.0,
+    "circulating_supply_sol": 583006619.0,
     "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 5085999627.0,
+    "tvl_usd": 5096379191.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2468633561.0,
-        "change_1d_pct": 0.32
+        "tvl_usd": 2468835259.0,
+        "change_1d_pct": 0.34
       },
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1225759837.0,
-        "change_1d_pct": 6.25
+        "tvl_usd": 1230901212.0,
+        "change_1d_pct": 6.7
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1108028796.0,
-        "change_1d_pct": 3.53
+        "tvl_usd": 1110753685.0,
+        "change_1d_pct": 3.79
       },
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 983069905.0,
-        "change_1d_pct": 2.86
+        "tvl_usd": 987526649.0,
+        "change_1d_pct": 3.38
       },
       {
         "name": "Raydium AMM",
@@ -116,35 +116,35 @@
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 828846850.0,
-        "change_1d_pct": 5.97
+        "tvl_usd": 832442177.0,
+        "change_1d_pct": 6.09
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 820488318.0,
-        "change_1d_pct": 6.27
+        "tvl_usd": 823951175.0,
+        "change_1d_pct": 6.85
       },
       {
         "name": "BlackRock BUIDL",
         "category": "RWA",
-        "tvl_usd": 741490372.0,
-        "change_1d_pct": 0.01
+        "tvl_usd": 740490372.0,
+        "change_1d_pct": -0.16
       },
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 713799804.0,
-        "change_1d_pct": 3.66
+        "tvl_usd": 715523096.0,
+        "change_1d_pct": 3.91
       },
       {
         "name": "Solstice",
         "category": "Basis Trading",
-        "tvl_usd": 506272810.0,
-        "change_1d_pct": 0.01
+        "tvl_usd": 506233770.0,
+        "change_1d_pct": 0.02
       }
     ],
-    "stablecoin_mcap_usd": 15599192182.0,
+    "stablecoin_mcap_usd": 15596384799.0,
     "dex_volume_24h_usd": 1838194723.0
   },
   "upcoming": [
@@ -166,14 +166,9 @@
   ],
   "anomalies": [
     {
-      "metric": "TPS",
-      "severity": "medium",
-      "message": "TPS spiked +38% (4506 -> 6216)"
-    },
-    {
       "metric": "SOL_price",
       "severity": "medium",
-      "message": "SOL moved +8.9% in 24h to $83.69"
+      "message": "SOL moved +12.3% in 24h to $86.41"
     }
   ]
 }
