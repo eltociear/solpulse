@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-19T09:32:46.062866+00:00",
+  "generated_at": "2026-08-19T10:27:52.766968+00:00",
   "network": {
     "epoch": 1019,
-    "absolute_slot": 440240004,
-    "block_height": 418290173,
-    "epoch_progress_pct": 7.41,
-    "slots_remaining": 399996,
-    "tps": 3225.4,
-    "avg_slot_time_s": 0.412,
+    "absolute_slot": 440247942,
+    "block_height": 418298107,
+    "epoch_progress_pct": 9.25,
+    "slots_remaining": 392058,
+    "tps": 3086.4,
+    "avg_slot_time_s": 0.413,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 77.27,
-    "sol_price_24h_change_pct": 1.85,
-    "sol_market_cap_usd": 45047714730,
-    "sol_volume_24h_usd": 1410594857,
+    "sol_price_usd": 77.21,
+    "sol_price_24h_change_pct": 1.92,
+    "sol_market_cap_usd": 45013240292,
+    "sol_volume_24h_usd": 1409444273,
     "ath_usd": 293.31,
-    "total_supply_sol": 632514674.0,
-    "circulating_supply_sol": 583007421.0,
+    "total_supply_sol": 632514646.0,
+    "circulating_supply_sol": 583007393.0,
     "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 4897408665.0,
+    "tvl_usd": 4897176668.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -144,7 +144,7 @@
         "change_1d_pct": 0.01
       }
     ],
-    "stablecoin_mcap_usd": 15363981880.0,
+    "stablecoin_mcap_usd": 15357818045.0,
     "dex_volume_24h_usd": 1820756097.0
   },
   "upcoming": [
