@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-20T18:51:38.504441+00:00",
+  "generated_at": "2026-08-20T19:30:11.207730+00:00",
   "network": {
     "epoch": 1019,
-    "absolute_slot": 440528120,
-    "block_height": 418577877,
-    "epoch_progress_pct": 74.1,
-    "slots_remaining": 111880,
-    "tps": 4232.3,
-    "avg_slot_time_s": 0.421,
+    "absolute_slot": 440533707,
+    "block_height": 418583460,
+    "epoch_progress_pct": 75.4,
+    "slots_remaining": 106293,
+    "tps": 3968.7,
+    "avg_slot_time_s": 0.414,
     "health": "ok"
   },
   "validators": {
-    "active": 690,
-    "delinquent": 6,
-    "delinquency_pct": 0.86,
-    "total_active_stake_sol": 435235713.0,
+    "active": 689,
+    "delinquent": 7,
+    "delinquency_pct": 1.01,
+    "total_active_stake_sol": 435177391.0,
     "nakamoto_coefficient": 18,
     "top10_stake_share_pct": 24.38,
     "top_validators": [
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 86.91,
-    "sol_price_24h_change_pct": 5.76,
-    "sol_market_cap_usd": 50676594539,
-    "sol_volume_24h_usd": 4881189798,
+    "sol_price_usd": 87.26,
+    "sol_price_24h_change_pct": 6.12,
+    "sol_market_cap_usd": 50875166705,
+    "sol_volume_24h_usd": 4894477021,
     "ath_usd": 293.31,
-    "total_supply_sol": 632513351.0,
-    "circulating_supply_sol": 583005806.0,
-    "staking_ratio_pct": 74.7
+    "total_supply_sol": 632513325.0,
+    "circulating_supply_sol": 583005780.0,
+    "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 5300056423.0,
+    "tvl_usd": 5309721229.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -92,14 +92,14 @@
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1304324058.0,
-        "change_1d_pct": 7.2
+        "tvl_usd": 1302491268.0,
+        "change_1d_pct": 7.05
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1138062801.0,
-        "change_1d_pct": 3.65
+        "tvl_usd": 1141485503.0,
+        "change_1d_pct": 3.32
       },
       {
         "name": "Jupiter Lend",
@@ -144,7 +144,7 @@
         "change_1d_pct": 0.35
       }
     ],
-    "stablecoin_mcap_usd": 15731745726.0,
+    "stablecoin_mcap_usd": 15745241573.0,
     "dex_volume_24h_usd": 3009837695.0
   },
   "upcoming": [
