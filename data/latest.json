@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-20T19:30:11.207730+00:00",
+  "generated_at": "2026-08-20T19:58:21.823024+00:00",
   "network": {
     "epoch": 1019,
-    "absolute_slot": 440533707,
-    "block_height": 418583460,
-    "epoch_progress_pct": 75.4,
-    "slots_remaining": 106293,
-    "tps": 3968.7,
+    "absolute_slot": 440537774,
+    "block_height": 418587523,
+    "epoch_progress_pct": 76.34,
+    "slots_remaining": 102226,
+    "tps": 4109.7,
     "avg_slot_time_s": 0.414,
     "health": "ok"
   },
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 87.26,
-    "sol_price_24h_change_pct": 6.12,
-    "sol_market_cap_usd": 50875166705,
-    "sol_volume_24h_usd": 4894477021,
+    "sol_price_usd": 87.17,
+    "sol_price_24h_change_pct": 5.92,
+    "sol_market_cap_usd": 50819199564,
+    "sol_volume_24h_usd": 4893476692,
     "ath_usd": 293.31,
-    "total_supply_sol": 632513325.0,
-    "circulating_supply_sol": 583005780.0,
+    "total_supply_sol": 632513306.0,
+    "circulating_supply_sol": 583005761.0,
     "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 5309721229.0,
+    "tvl_usd": 5300297103.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -104,8 +104,8 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1020357635.0,
-        "change_1d_pct": 3.75
+        "tvl_usd": 1016830665.0,
+        "change_1d_pct": 3.39
       },
       {
         "name": "Raydium AMM",
@@ -116,8 +116,8 @@
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 882806474.0,
-        "change_1d_pct": 7.19
+        "tvl_usd": 878768274.0,
+        "change_1d_pct": 6.7
       },
       {
         "name": "Jito Liquid Staking",
@@ -128,8 +128,8 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 755404648.0,
-        "change_1d_pct": 6.16
+        "tvl_usd": 749860977.0,
+        "change_1d_pct": 5.38
       },
       {
         "name": "BlackRock BUIDL",
