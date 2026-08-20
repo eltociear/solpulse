@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-20T03:46:00.022794+00:00",
+  "generated_at": "2026-08-20T04:35:50.164922+00:00",
   "network": {
     "epoch": 1019,
-    "absolute_slot": 440397491,
-    "block_height": 418447411,
-    "epoch_progress_pct": 43.86,
-    "slots_remaining": 242509,
-    "tps": 3381.9,
-    "avg_slot_time_s": 0.41,
+    "absolute_slot": 440404643,
+    "block_height": 418454553,
+    "epoch_progress_pct": 45.52,
+    "slots_remaining": 235357,
+    "tps": 3307.0,
+    "avg_slot_time_s": 0.414,
     "health": "ok"
   },
   "validators": {
@@ -72,16 +72,16 @@
   },
   "economics": {
     "sol_price_usd": 84.39,
-    "sol_price_24h_change_pct": 9.61,
-    "sol_market_cap_usd": 49195416528,
-    "sol_volume_24h_usd": 4676745350,
+    "sol_price_24h_change_pct": 9.64,
+    "sol_market_cap_usd": 49201601303,
+    "sol_volume_24h_usd": 4709756198,
     "ath_usd": 293.31,
-    "total_supply_sol": 632513906.0,
-    "circulating_supply_sol": 583006362.0,
+    "total_supply_sol": 632513879.0,
+    "circulating_supply_sol": 583006335.0,
     "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 5212442010.0,
+    "tvl_usd": 5207340854.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -104,8 +104,8 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1009619880.0,
-        "change_1d_pct": 5.78
+        "tvl_usd": 1005021748.0,
+        "change_1d_pct": 5.47
       },
       {
         "name": "Raydium AMM",
@@ -144,7 +144,7 @@
         "change_1d_pct": -0.01
       }
     ],
-    "stablecoin_mcap_usd": 15696313826.0,
+    "stablecoin_mcap_usd": 15720865244.0,
     "dex_volume_24h_usd": 2789524388.0
   },
   "upcoming": [
