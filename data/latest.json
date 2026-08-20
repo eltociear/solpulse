@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-20T08:37:04.098601+00:00",
+  "generated_at": "2026-08-20T09:33:32.674370+00:00",
   "network": {
     "epoch": 1019,
-    "absolute_slot": 440439468,
-    "block_height": 418489346,
-    "epoch_progress_pct": 53.58,
-    "slots_remaining": 200532,
-    "tps": 3614.5,
-    "avg_slot_time_s": 0.416,
+    "absolute_slot": 440447651,
+    "block_height": 418497497,
+    "epoch_progress_pct": 55.47,
+    "slots_remaining": 192349,
+    "tps": 3556.1,
+    "avg_slot_time_s": 0.415,
     "health": "ok"
   },
   "validators": {
-    "active": 688,
-    "delinquent": 8,
-    "delinquency_pct": 1.15,
-    "total_active_stake_sol": 435141193.0,
+    "active": 690,
+    "delinquent": 6,
+    "delinquency_pct": 0.86,
+    "total_active_stake_sol": 435235713.0,
     "nakamoto_coefficient": 18,
     "top10_stake_share_pct": 24.38,
     "top_validators": [
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 87.41,
-    "sol_price_24h_change_pct": 13.31,
-    "sol_market_cap_usd": 50961221590,
-    "sol_volume_24h_usd": 5305046977,
+    "sol_price_usd": 87.37,
+    "sol_price_24h_change_pct": 13.06,
+    "sol_market_cap_usd": 50986235962,
+    "sol_volume_24h_usd": 5538811512,
     "ath_usd": 293.31,
-    "total_supply_sol": 632513758.0,
-    "circulating_supply_sol": 583006214.0,
-    "staking_ratio_pct": 74.6
+    "total_supply_sol": 632513727.0,
+    "circulating_supply_sol": 583006183.0,
+    "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 5219207374.0,
+    "tvl_usd": 5230381190.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -104,8 +104,8 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1009234376.0,
-        "change_1d_pct": 5.93
+        "tvl_usd": 1016753289.0,
+        "change_1d_pct": 6.53
       },
       {
         "name": "Raydium AMM",
@@ -114,16 +114,16 @@
         "change_1d_pct": 9.05
       },
       {
+        "name": "Jito Liquid Staking",
+        "category": "Liquid Staking",
+        "tvl_usd": 872978075.0,
+        "change_1d_pct": 13.3
+      },
+      {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
         "tvl_usd": 866713137.0,
         "change_1d_pct": 11.68
-      },
-      {
-        "name": "Jito Liquid Staking",
-        "category": "Liquid Staking",
-        "tvl_usd": 857789892.0,
-        "change_1d_pct": 11.62
       },
       {
         "name": "BlackRock BUIDL",
@@ -144,7 +144,7 @@
         "change_1d_pct": 0.01
       }
     ],
-    "stablecoin_mcap_usd": 15721773246.0,
+    "stablecoin_mcap_usd": 15703263290.0,
     "dex_volume_24h_usd": 2789524388.0
   },
   "upcoming": [
@@ -168,7 +168,7 @@
     {
       "metric": "SOL_price",
       "severity": "medium",
-      "message": "SOL moved +13.3% in 24h to $87.41"
+      "message": "SOL moved +13.1% in 24h to $87.37"
     }
   ]
 }
