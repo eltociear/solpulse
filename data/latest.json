@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-20T23:26:47.619368+00:00",
+  "generated_at": "2026-08-20T23:51:09.338678+00:00",
   "network": {
     "epoch": 1019,
-    "absolute_slot": 440567876,
-    "block_height": 418617613,
-    "epoch_progress_pct": 83.3,
-    "slots_remaining": 72124,
-    "tps": 4602.0,
-    "avg_slot_time_s": 0.416,
+    "absolute_slot": 440571419,
+    "block_height": 418621148,
+    "epoch_progress_pct": 84.12,
+    "slots_remaining": 68581,
+    "tps": 4249.2,
+    "avg_slot_time_s": 0.413,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 87.53,
-    "sol_price_24h_change_pct": 2.65,
-    "sol_market_cap_usd": 51033920405,
-    "sol_volume_24h_usd": 4055141463,
+    "sol_price_usd": 87.64,
+    "sol_price_24h_change_pct": 2.9,
+    "sol_market_cap_usd": 51089256392,
+    "sol_volume_24h_usd": 4072857747,
     "ath_usd": 293.31,
-    "total_supply_sol": 632513169.0,
-    "circulating_supply_sol": 583005623.0,
+    "total_supply_sol": 632513153.0,
+    "circulating_supply_sol": 583005606.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 5283802330.0,
+    "tvl_usd": 5284148140.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -134,8 +134,8 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 720982115.0,
-        "change_1d_pct": -2.43
+        "tvl_usd": 720109514.0,
+        "change_1d_pct": -1.75
       },
       {
         "name": "Solstice",
