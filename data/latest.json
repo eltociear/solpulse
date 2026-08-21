@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-21T22:23:41.742741+00:00",
+  "generated_at": "2026-08-21T22:51:13.139564+00:00",
   "network": {
     "epoch": 1020,
-    "absolute_slot": 440783684,
-    "block_height": 418833248,
-    "epoch_progress_pct": 33.26,
-    "slots_remaining": 288316,
-    "tps": 4298.6,
-    "avg_slot_time_s": 0.367,
+    "absolute_slot": 440788187,
+    "block_height": 418837733,
+    "epoch_progress_pct": 34.3,
+    "slots_remaining": 283813,
+    "tps": 4373.7,
+    "avg_slot_time_s": 0.371,
     "health": "ok"
   },
   "validators": {
-    "active": 676,
-    "delinquent": 18,
-    "delinquency_pct": 2.59,
-    "total_active_stake_sol": 431444815.0,
+    "active": 678,
+    "delinquent": 16,
+    "delinquency_pct": 2.31,
+    "total_active_stake_sol": 431714140.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.44,
+    "top10_stake_share_pct": 24.43,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 93.8,
-    "sol_price_24h_change_pct": 7.3,
-    "sol_market_cap_usd": 54710034327,
-    "sol_volume_24h_usd": 6427886513,
+    "sol_price_usd": 94.05,
+    "sol_price_24h_change_pct": 7.74,
+    "sol_market_cap_usd": 54849741670,
+    "sol_volume_24h_usd": 6545208367,
     "ath_usd": 293.31,
-    "total_supply_sol": 632639881.0,
-    "circulating_supply_sol": 583177552.0,
+    "total_supply_sol": 632639862.0,
+    "circulating_supply_sol": 583177530.0,
     "staking_ratio_pct": 74.0
   },
   "ecosystem": {
-    "tvl_usd": 5449177799.0,
+    "tvl_usd": 5459995769.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -134,8 +134,8 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 741458373.0,
-        "change_1d_pct": 3.0
+        "tvl_usd": 752266455.0,
+        "change_1d_pct": 4.34
       },
       {
         "name": "Jupiter Staked SOL",
