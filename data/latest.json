@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-21T08:39:29.933683+00:00",
+  "generated_at": "2026-08-21T09:35:33.117258+00:00",
   "network": {
     "epoch": 1020,
-    "absolute_slot": 440648726,
-    "block_height": 418698417,
-    "epoch_progress_pct": 2.02,
-    "slots_remaining": 423274,
-    "tps": 4787.6,
-    "avg_slot_time_s": 0.372,
+    "absolute_slot": 440657912,
+    "block_height": 418707587,
+    "epoch_progress_pct": 4.15,
+    "slots_remaining": 414088,
+    "tps": 4261.8,
+    "avg_slot_time_s": 0.364,
     "health": "ok"
   },
   "validators": {
-    "active": 680,
-    "delinquent": 14,
-    "delinquency_pct": 2.02,
-    "total_active_stake_sol": 432965121.0,
+    "active": 681,
+    "delinquent": 13,
+    "delinquency_pct": 1.87,
+    "total_active_stake_sol": 432977916.0,
     "nakamoto_coefficient": 18,
     "top10_stake_share_pct": 24.35,
     "top_validators": [
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 91.86,
-    "sol_price_24h_change_pct": 4.8,
-    "sol_market_cap_usd": 53508246096,
-    "sol_volume_24h_usd": 5231584976,
+    "sol_price_usd": 91.36,
+    "sol_price_24h_change_pct": 4.41,
+    "sol_market_cap_usd": 53245421407,
+    "sol_volume_24h_usd": 5649108042,
     "ath_usd": 293.31,
-    "total_supply_sol": 632640473.0,
-    "circulating_supply_sol": 583178500.0,
+    "total_supply_sol": 632640431.0,
+    "circulating_supply_sol": 583178458.0,
     "staking_ratio_pct": 74.2
   },
   "ecosystem": {
-    "tvl_usd": 5383678366.0,
+    "tvl_usd": 5387330921.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -92,8 +92,8 @@
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1351711321.0,
-        "change_1d_pct": 5.56
+        "tvl_usd": 1364022811.0,
+        "change_1d_pct": 6.52
       },
       {
         "name": "Kamino Lend",
@@ -140,11 +140,11 @@
       {
         "name": "Solstice",
         "category": "Basis Trading",
-        "tvl_usd": 506145136.0,
-        "change_1d_pct": -0.01
+        "tvl_usd": 506178782.0,
+        "change_1d_pct": -0.0
       }
     ],
-    "stablecoin_mcap_usd": 15793678983.0,
+    "stablecoin_mcap_usd": 15692045028.0,
     "dex_volume_24h_usd": 2781215932.0
   },
   "upcoming": [
@@ -164,11 +164,5 @@
       "status": "mainnet rollout ongoing"
     }
   ],
-  "anomalies": [
-    {
-      "metric": "TPS",
-      "severity": "medium",
-      "message": "TPS spiked +37% (3503 -> 4788)"
-    }
-  ]
+  "anomalies": []
 }
