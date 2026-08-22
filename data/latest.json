@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-22T02:34:39.913253+00:00",
+  "generated_at": "2026-08-22T03:40:18.105142+00:00",
   "network": {
     "epoch": 1020,
-    "absolute_slot": 440824795,
-    "block_height": 418874281,
-    "epoch_progress_pct": 42.78,
-    "slots_remaining": 247205,
-    "tps": 4098.3,
-    "avg_slot_time_s": 0.365,
+    "absolute_slot": 440835540,
+    "block_height": 418885014,
+    "epoch_progress_pct": 45.26,
+    "slots_remaining": 236460,
+    "tps": 3907.5,
+    "avg_slot_time_s": 0.362,
     "health": "ok"
   },
   "validators": {
@@ -71,23 +71,23 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 94.89,
-    "sol_price_24h_change_pct": 6.3,
-    "sol_market_cap_usd": 55315111978,
-    "sol_volume_24h_usd": 6643374791,
+    "sol_price_usd": 97.06,
+    "sol_price_24h_change_pct": 8.8,
+    "sol_market_cap_usd": 56600921934,
+    "sol_volume_24h_usd": 6919873664,
     "ath_usd": 293.31,
-    "total_supply_sol": 632639723.0,
-    "circulating_supply_sol": 583177391.0,
+    "total_supply_sol": 632639683.0,
+    "circulating_supply_sol": 583177351.0,
     "staking_ratio_pct": 74.2
   },
   "ecosystem": {
-    "tvl_usd": 5534464393.0,
+    "tvl_usd": 5539156972.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2746711576.0,
-        "change_1d_pct": 4.33
+        "tvl_usd": 2746702482.0,
+        "change_1d_pct": 4.29
       },
       {
         "name": "Sanctum Validator LSTs",
@@ -104,8 +104,8 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1045786172.0,
-        "change_1d_pct": 7.25
+        "tvl_usd": 1049184037.0,
+        "change_1d_pct": 2.4
       },
       {
         "name": "Raydium AMM",
@@ -144,8 +144,8 @@
         "change_1d_pct": 6.7
       }
     ],
-    "stablecoin_mcap_usd": 15878921869.0,
-    "dex_volume_24h_usd": 3465635648.0
+    "stablecoin_mcap_usd": 15809107287.0,
+    "dex_volume_24h_usd": 3465651694.0
   },
   "upcoming": [
     {
@@ -164,5 +164,11 @@
       "status": "mainnet rollout ongoing"
     }
   ],
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "SOL_price",
+      "severity": "medium",
+      "message": "SOL moved +8.8% in 24h to $97.06"
+    }
+  ]
 }
