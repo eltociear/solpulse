@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-22T17:19:13.364054+00:00",
+  "generated_at": "2026-08-22T17:46:19.411043+00:00",
   "network": {
     "epoch": 1020,
-    "absolute_slot": 440969456,
-    "block_height": 419018810,
-    "epoch_progress_pct": 76.26,
-    "slots_remaining": 102544,
-    "tps": 4060.0,
-    "avg_slot_time_s": 0.366,
+    "absolute_slot": 440973887,
+    "block_height": 419023241,
+    "epoch_progress_pct": 77.29,
+    "slots_remaining": 98113,
+    "tps": 3652.2,
+    "avg_slot_time_s": 0.367,
     "health": "ok"
   },
   "validators": {
-    "active": 686,
-    "delinquent": 9,
-    "delinquency_pct": 1.29,
-    "total_active_stake_sol": 433397701.0,
+    "active": 687,
+    "delinquent": 8,
+    "delinquency_pct": 1.15,
+    "total_active_stake_sol": 433424499.0,
     "nakamoto_coefficient": 18,
     "top10_stake_share_pct": 24.33,
     "top_validators": [
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 94.2,
-    "sol_price_24h_change_pct": 2.91,
-    "sol_market_cap_usd": 54937434007,
-    "sol_volume_24h_usd": 8335494199,
+    "sol_price_usd": 94.21,
+    "sol_price_24h_change_pct": 2.85,
+    "sol_market_cap_usd": 54937123951,
+    "sol_volume_24h_usd": 8305939650,
     "ath_usd": 293.31,
-    "total_supply_sol": 632639194.0,
-    "circulating_supply_sol": 583176865.0,
+    "total_supply_sol": 632639177.0,
+    "circulating_supply_sol": 583176848.0,
     "staking_ratio_pct": 74.3
   },
   "ecosystem": {
-    "tvl_usd": 5510104835.0,
+    "tvl_usd": 5514000781.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -110,8 +110,8 @@
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 1029044699.0,
-        "change_1d_pct": 1.69
+        "tvl_usd": 1032877093.0,
+        "change_1d_pct": 3.15
       },
       {
         "name": "Binance Staked SOL",
