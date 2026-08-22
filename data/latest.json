@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-22T11:19:51.973664+00:00",
+  "generated_at": "2026-08-22T11:45:29.241842+00:00",
   "network": {
     "epoch": 1020,
-    "absolute_slot": 440910702,
-    "block_height": 418960077,
-    "epoch_progress_pct": 62.66,
-    "slots_remaining": 161298,
-    "tps": 3323.8,
-    "avg_slot_time_s": 0.362,
+    "absolute_slot": 440914909,
+    "block_height": 418964280,
+    "epoch_progress_pct": 63.64,
+    "slots_remaining": 157091,
+    "tps": 3067.6,
+    "avg_slot_time_s": 0.368,
     "health": "ok"
   },
   "validators": {
-    "active": 685,
-    "delinquent": 9,
-    "delinquency_pct": 1.3,
-    "total_active_stake_sol": 433397701.0,
+    "active": 686,
+    "delinquent": 8,
+    "delinquency_pct": 1.15,
+    "total_active_stake_sol": 433424499.0,
     "nakamoto_coefficient": 18,
     "top10_stake_share_pct": 24.33,
     "top_validators": [
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 92.84,
-    "sol_price_24h_change_pct": 2.1,
-    "sol_market_cap_usd": 54128579509,
-    "sol_volume_24h_usd": 8607765864,
+    "sol_price_usd": 93.3,
+    "sol_price_24h_change_pct": 3.23,
+    "sol_market_cap_usd": 54412364387,
+    "sol_volume_24h_usd": 8574781588,
     "ath_usd": 293.31,
-    "total_supply_sol": 632639401.0,
-    "circulating_supply_sol": 583177072.0,
+    "total_supply_sol": 632639388.0,
+    "circulating_supply_sol": 583177059.0,
     "staking_ratio_pct": 74.3
   },
   "ecosystem": {
-    "tvl_usd": 5541844106.0,
+    "tvl_usd": 5539353430.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -98,8 +98,8 @@
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1184424883.0,
-        "change_1d_pct": 1.92
+        "tvl_usd": 1183024964.0,
+        "change_1d_pct": 1.14
       },
       {
         "name": "Jupiter Lend",
@@ -134,8 +134,8 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 736001919.0,
-        "change_1d_pct": -1.02
+        "tvl_usd": 735705316.0,
+        "change_1d_pct": -1.58
       },
       {
         "name": "Jupiter Staked SOL",
