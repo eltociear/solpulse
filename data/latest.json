@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-22T18:59:51.410245+00:00",
+  "generated_at": "2026-08-22T19:29:27.098311+00:00",
   "network": {
     "epoch": 1020,
-    "absolute_slot": 440985864,
-    "block_height": 419035210,
-    "epoch_progress_pct": 80.06,
-    "slots_remaining": 86136,
-    "tps": 3954.0,
-    "avg_slot_time_s": 0.368,
+    "absolute_slot": 440990678,
+    "block_height": 419040020,
+    "epoch_progress_pct": 81.18,
+    "slots_remaining": 81322,
+    "tps": 4333.5,
+    "avg_slot_time_s": 0.372,
     "health": "ok"
   },
   "validators": {
     "active": 686,
     "delinquent": 9,
     "delinquency_pct": 1.29,
-    "total_active_stake_sol": 432184546.0,
+    "total_active_stake_sol": 433327340.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.4,
+    "top10_stake_share_pct": 24.33,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 94.25,
-    "sol_price_24h_change_pct": 3.12,
-    "sol_market_cap_usd": 54935850186,
-    "sol_volume_24h_usd": 8213227650,
+    "sol_price_usd": 94.38,
+    "sol_price_24h_change_pct": 3.37,
+    "sol_market_cap_usd": 55006218083,
+    "sol_volume_24h_usd": 8179696590,
     "ath_usd": 293.31,
-    "total_supply_sol": 632639132.0,
-    "circulating_supply_sol": 583176803.0,
-    "staking_ratio_pct": 74.1
+    "total_supply_sol": 632639113.0,
+    "circulating_supply_sol": 583176783.0,
+    "staking_ratio_pct": 74.3
   },
   "ecosystem": {
-    "tvl_usd": 5528469121.0,
+    "tvl_usd": 5534681232.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -92,8 +92,8 @@
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1409560104.0,
-        "change_1d_pct": 3.27
+        "tvl_usd": 1413817677.0,
+        "change_1d_pct": 3.45
       },
       {
         "name": "Kamino Lend",
@@ -134,8 +134,8 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 737136823.0,
-        "change_1d_pct": -0.33
+        "tvl_usd": 740380097.0,
+        "change_1d_pct": -0.03
       },
       {
         "name": "Jupiter Staked SOL",
@@ -144,7 +144,7 @@
         "change_1d_pct": 2.06
       }
     ],
-    "stablecoin_mcap_usd": 15808847341.0,
+    "stablecoin_mcap_usd": 15792397508.0,
     "dex_volume_24h_usd": 3600948276.0
   },
   "upcoming": [
