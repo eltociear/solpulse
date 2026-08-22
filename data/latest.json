@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-22T19:29:27.098311+00:00",
+  "generated_at": "2026-08-22T19:49:13.424676+00:00",
   "network": {
     "epoch": 1020,
-    "absolute_slot": 440990678,
-    "block_height": 419040020,
-    "epoch_progress_pct": 81.18,
-    "slots_remaining": 81322,
-    "tps": 4333.5,
-    "avg_slot_time_s": 0.372,
+    "absolute_slot": 440993934,
+    "block_height": 419043276,
+    "epoch_progress_pct": 81.93,
+    "slots_remaining": 78066,
+    "tps": 4176.8,
+    "avg_slot_time_s": 0.365,
     "health": "ok"
   },
   "validators": {
     "active": 686,
     "delinquent": 9,
     "delinquency_pct": 1.29,
-    "total_active_stake_sol": 433327340.0,
+    "total_active_stake_sol": 433397701.0,
     "nakamoto_coefficient": 18,
     "top10_stake_share_pct": 24.33,
     "top_validators": [
@@ -71,13 +71,13 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 94.38,
-    "sol_price_24h_change_pct": 3.37,
-    "sol_market_cap_usd": 55006218083,
-    "sol_volume_24h_usd": 8179696590,
+    "sol_price_usd": 94.7,
+    "sol_price_24h_change_pct": 4.2,
+    "sol_market_cap_usd": 55216273585,
+    "sol_volume_24h_usd": 8196468709,
     "ath_usd": 293.31,
-    "total_supply_sol": 632639113.0,
-    "circulating_supply_sol": 583176783.0,
+    "total_supply_sol": 632639100.0,
+    "circulating_supply_sol": 583176770.0,
     "staking_ratio_pct": 74.3
   },
   "ecosystem": {
