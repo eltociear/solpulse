@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T23:19:33.390725+00:00",
+  "generated_at": "2026-08-23T23:45:40.156610+00:00",
   "network": {
     "epoch": 1021,
-    "absolute_slot": 441264485,
-    "block_height": 419313529,
-    "epoch_progress_pct": 44.56,
-    "slots_remaining": 239515,
-    "tps": 3830.0,
-    "avg_slot_time_s": 0.365,
+    "absolute_slot": 441268768,
+    "block_height": 419317812,
+    "epoch_progress_pct": 45.55,
+    "slots_remaining": 235232,
+    "tps": 3994.0,
+    "avg_slot_time_s": 0.366,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 95.25,
-    "sol_price_24h_change_pct": 1.8,
-    "sol_market_cap_usd": 55560483412,
-    "sol_volume_24h_usd": 4405656017,
+    "sol_price_usd": 95.13,
+    "sol_price_24h_change_pct": 1.57,
+    "sol_market_cap_usd": 55472403422,
+    "sol_volume_24h_usd": 4287700605,
     "ath_usd": 293.31,
-    "total_supply_sol": 632749724.0,
-    "circulating_supply_sol": 583276614.0,
+    "total_supply_sol": 632749707.0,
+    "circulating_supply_sol": 583276598.0,
     "staking_ratio_pct": 74.3
   },
   "ecosystem": {
-    "tvl_usd": 5586000495.0,
+    "tvl_usd": 5590651720.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -98,8 +98,8 @@
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1191705391.0,
-        "change_1d_pct": 0.32
+        "tvl_usd": 1192828353.0,
+        "change_1d_pct": 1.03
       },
       {
         "name": "Jupiter Lend",
@@ -129,7 +129,7 @@
         "name": "BlackRock BUIDL",
         "category": "RWA",
         "tvl_usd": 777140542.0,
-        "change_1d_pct": 0
+        "change_1d_pct": -0.0
       },
       {
         "name": "Jupiter Perpetual Exchange",
