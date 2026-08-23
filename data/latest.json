@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T20:20:55.655345+00:00",
+  "generated_at": "2026-08-23T20:49:12.217384+00:00",
   "network": {
     "epoch": 1021,
-    "absolute_slot": 441235169,
-    "block_height": 419284229,
-    "epoch_progress_pct": 37.77,
-    "slots_remaining": 268831,
-    "tps": 4494.2,
-    "avg_slot_time_s": 0.37,
+    "absolute_slot": 441239806,
+    "block_height": 419288866,
+    "epoch_progress_pct": 38.84,
+    "slots_remaining": 264194,
+    "tps": 3937.4,
+    "avg_slot_time_s": 0.365,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 95.09,
-    "sol_price_24h_change_pct": 0.59,
-    "sol_market_cap_usd": 55462223396,
-    "sol_volume_24h_usd": 4395155694,
+    "sol_price_usd": 95.1,
+    "sol_price_24h_change_pct": 0.65,
+    "sol_market_cap_usd": 55468045355,
+    "sol_volume_24h_usd": 4400683786,
     "ath_usd": 293.31,
-    "total_supply_sol": 632749835.0,
-    "circulating_supply_sol": 583276726.0,
+    "total_supply_sol": 632749817.0,
+    "circulating_supply_sol": 583276708.0,
     "staking_ratio_pct": 74.3
   },
   "ecosystem": {
-    "tvl_usd": 5581784012.0,
+    "tvl_usd": 5583760635.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -98,8 +98,8 @@
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1193342917.0,
-        "change_1d_pct": 0.73
+        "tvl_usd": 1191264790.0,
+        "change_1d_pct": 0.56
       },
       {
         "name": "Jupiter Lend",
@@ -110,14 +110,14 @@
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 1045635464.0,
-        "change_1d_pct": 1.61
+        "tvl_usd": 1049098008.0,
+        "change_1d_pct": 1.57
       },
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 963470083.0,
-        "change_1d_pct": 1.41
+        "tvl_usd": 961560419.0,
+        "change_1d_pct": 0.99
       },
       {
         "name": "Jito Liquid Staking",
@@ -140,8 +140,8 @@
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 492336335.0,
-        "change_1d_pct": 1.08
+        "tvl_usd": 491360492.0,
+        "change_1d_pct": 0.66
       }
     ],
     "stablecoin_mcap_usd": 15856809005.0,
