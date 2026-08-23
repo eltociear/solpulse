@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-23T05:28:46.061835+00:00",
+  "generated_at": "2026-08-23T05:57:26.111688+00:00",
   "network": {
     "epoch": 1021,
-    "absolute_slot": 441088663,
-    "block_height": 419137839,
-    "epoch_progress_pct": 3.86,
-    "slots_remaining": 415337,
-    "tps": 3919.2,
-    "avg_slot_time_s": 0.365,
+    "absolute_slot": 441093373,
+    "block_height": 419142549,
+    "epoch_progress_pct": 4.95,
+    "slots_remaining": 410627,
+    "tps": 3333.6,
+    "avg_slot_time_s": 0.367,
     "health": "ok"
   },
   "validators": {
-    "active": 687,
-    "delinquent": 8,
-    "delinquency_pct": 1.15,
-    "total_active_stake_sol": 433379030.0,
+    "active": 686,
+    "delinquent": 9,
+    "delinquency_pct": 1.29,
+    "total_active_stake_sol": 432138770.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.31,
+    "top10_stake_share_pct": 24.38,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 93.15,
-    "sol_price_24h_change_pct": -0.96,
-    "sol_market_cap_usd": 54346533986,
-    "sol_volume_24h_usd": 5947269933,
+    "sol_price_usd": 92.53,
+    "sol_price_24h_change_pct": -1.9,
+    "sol_market_cap_usd": 53960689889,
+    "sol_volume_24h_usd": 5520105070,
     "ath_usd": 293.31,
-    "total_supply_sol": 632750359.0,
-    "circulating_supply_sol": 583277638.0,
-    "staking_ratio_pct": 74.3
+    "total_supply_sol": 632750343.0,
+    "circulating_supply_sol": 583277622.0,
+    "staking_ratio_pct": 74.1
   },
   "ecosystem": {
-    "tvl_usd": 5560339307.0,
+    "tvl_usd": 5539212933.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -110,14 +110,14 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1050621152.0,
-        "change_1d_pct": 0.14
+        "tvl_usd": 1047321112.0,
+        "change_1d_pct": -2.26
       },
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 955902534.0,
-        "change_1d_pct": -0.22
+        "tvl_usd": 945193529.0,
+        "change_1d_pct": -3.1
       },
       {
         "name": "Jito Liquid Staking",
