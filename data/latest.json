@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T15:21:00.406372+00:00",
+  "generated_at": "2026-08-23T15:47:14.892766+00:00",
   "network": {
     "epoch": 1021,
-    "absolute_slot": 441185918,
-    "block_height": 419235017,
-    "epoch_progress_pct": 26.37,
-    "slots_remaining": 318082,
-    "tps": 4163.2,
-    "avg_slot_time_s": 0.365,
+    "absolute_slot": 441190222,
+    "block_height": 419239321,
+    "epoch_progress_pct": 27.37,
+    "slots_remaining": 313778,
+    "tps": 3838.3,
+    "avg_slot_time_s": 0.364,
     "health": "ok"
   },
   "validators": {
@@ -71,35 +71,35 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 95.2,
-    "sol_price_24h_change_pct": 2.35,
-    "sol_market_cap_usd": 55527810554,
-    "sol_volume_24h_usd": 4564872629,
+    "sol_price_usd": 95.7,
+    "sol_price_24h_change_pct": 2.56,
+    "sol_market_cap_usd": 55820940409,
+    "sol_volume_24h_usd": 4634498997,
     "ath_usd": 293.31,
-    "total_supply_sol": 632750027.0,
-    "circulating_supply_sol": 583276918.0,
+    "total_supply_sol": 632750010.0,
+    "circulating_supply_sol": 583276901.0,
     "staking_ratio_pct": 73.9
   },
   "ecosystem": {
-    "tvl_usd": 5561225766.0,
+    "tvl_usd": 5557944299.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2918572754.0,
-        "change_1d_pct": -1.52
+        "tvl_usd": 2918442928.0,
+        "change_1d_pct": -1.51
       },
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1417996132.0,
-        "change_1d_pct": 1.75
+        "tvl_usd": 1415434294.0,
+        "change_1d_pct": 1.06
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1191458985.0,
-        "change_1d_pct": 0.53
+        "tvl_usd": 1190402383.0,
+        "change_1d_pct": 0.44
       },
       {
         "name": "Jupiter Lend",
@@ -134,14 +134,14 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 742922477.0,
-        "change_1d_pct": 0.96
+        "tvl_usd": 740354542.0,
+        "change_1d_pct": 0.29
       },
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 490294875.0,
-        "change_1d_pct": 1.17
+        "tvl_usd": 485782859.0,
+        "change_1d_pct": -0.33
       }
     ],
     "stablecoin_mcap_usd": 15875716631.0,
