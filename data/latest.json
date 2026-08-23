@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T17:19:32.114558+00:00",
+  "generated_at": "2026-08-23T17:45:47.249143+00:00",
   "network": {
     "epoch": 1021,
-    "absolute_slot": 441205388,
-    "block_height": 419254473,
-    "epoch_progress_pct": 30.88,
-    "slots_remaining": 298612,
-    "tps": 3997.7,
-    "avg_slot_time_s": 0.368,
+    "absolute_slot": 441209698,
+    "block_height": 419258779,
+    "epoch_progress_pct": 31.87,
+    "slots_remaining": 294302,
+    "tps": 4073.9,
+    "avg_slot_time_s": 0.363,
     "health": "ok"
   },
   "validators": {
@@ -72,12 +72,12 @@
   },
   "economics": {
     "sol_price_usd": 95.15,
-    "sol_price_24h_change_pct": 0.94,
-    "sol_market_cap_usd": 55502240662,
-    "sol_volume_24h_usd": 4481718032,
+    "sol_price_24h_change_pct": 1.0,
+    "sol_market_cap_usd": 55495760218,
+    "sol_volume_24h_usd": 4453556189,
     "ath_usd": 293.31,
-    "total_supply_sol": 632749952.0,
-    "circulating_supply_sol": 583276843.0,
+    "total_supply_sol": 632749935.0,
+    "circulating_supply_sol": 583276825.0,
     "staking_ratio_pct": 73.8
   },
   "ecosystem": {
@@ -86,8 +86,8 @@
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2918442928.0,
-        "change_1d_pct": -1.51
+        "tvl_usd": 2918136883.0,
+        "change_1d_pct": -1.52
       },
       {
         "name": "Sanctum Validator LSTs",
@@ -116,8 +116,8 @@
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 965295047.0,
-        "change_1d_pct": 1.92
+        "tvl_usd": 965458747.0,
+        "change_1d_pct": 2.45
       },
       {
         "name": "Jito Liquid Staking",
@@ -140,11 +140,11 @@
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 485782859.0,
-        "change_1d_pct": -0.33
+        "tvl_usd": 493268954.0,
+        "change_1d_pct": 2.07
       }
     ],
-    "stablecoin_mcap_usd": 15873153137.0,
+    "stablecoin_mcap_usd": 15821883335.0,
     "dex_volume_24h_usd": 3732294478.0
   },
   "upcoming": [
