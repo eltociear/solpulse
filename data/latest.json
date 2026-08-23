@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-23T14:22:08.618606+00:00",
+  "generated_at": "2026-08-23T14:49:34.993736+00:00",
   "network": {
     "epoch": 1021,
-    "absolute_slot": 441176280,
-    "block_height": 419225388,
-    "epoch_progress_pct": 24.14,
-    "slots_remaining": 327720,
-    "tps": 3853.1,
+    "absolute_slot": 441180776,
+    "block_height": 419229875,
+    "epoch_progress_pct": 25.18,
+    "slots_remaining": 323224,
+    "tps": 4780.6,
     "avg_slot_time_s": 0.366,
     "health": "ok"
   },
   "validators": {
-    "active": 683,
-    "delinquent": 12,
-    "delinquency_pct": 1.73,
-    "total_active_stake_sol": 432013734.0,
+    "active": 682,
+    "delinquent": 13,
+    "delinquency_pct": 1.87,
+    "total_active_stake_sol": 431218816.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.38,
+    "top10_stake_share_pct": 24.43,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,23 +71,23 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 95.49,
-    "sol_price_24h_change_pct": 1.9,
-    "sol_market_cap_usd": 55684268196,
-    "sol_volume_24h_usd": 4497260326,
+    "sol_price_usd": 94.68,
+    "sol_price_24h_change_pct": 1.41,
+    "sol_market_cap_usd": 55249215580,
+    "sol_volume_24h_usd": 4489512270,
     "ath_usd": 293.31,
-    "total_supply_sol": 632750066.0,
-    "circulating_supply_sol": 583276956.0,
-    "staking_ratio_pct": 74.1
+    "total_supply_sol": 632750047.0,
+    "circulating_supply_sol": 583276938.0,
+    "staking_ratio_pct": 73.9
   },
   "ecosystem": {
-    "tvl_usd": 5560773370.0,
+    "tvl_usd": 5561099203.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2918458174.0,
-        "change_1d_pct": -1.39
+        "tvl_usd": 2918572754.0,
+        "change_1d_pct": -1.52
       },
       {
         "name": "Sanctum Validator LSTs",
@@ -116,8 +116,8 @@
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 957374651.0,
-        "change_1d_pct": 1.69
+        "tvl_usd": 959474987.0,
+        "change_1d_pct": 1.47
       },
       {
         "name": "Jito Liquid Staking",
