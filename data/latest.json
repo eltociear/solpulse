@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-24T22:53:41.793411+00:00",
+  "generated_at": "2026-08-24T23:21:35.057009+00:00",
   "network": {
     "epoch": 1021,
-    "absolute_slot": 441496655,
-    "block_height": 419545558,
-    "epoch_progress_pct": 98.3,
-    "slots_remaining": 7345,
-    "tps": 4266.3,
-    "avg_slot_time_s": 0.363,
+    "absolute_slot": 441501247,
+    "block_height": 419550150,
+    "epoch_progress_pct": 99.36,
+    "slots_remaining": 2753,
+    "tps": 3897.6,
+    "avg_slot_time_s": 0.362,
     "health": "ok"
   },
   "validators": {
-    "active": 686,
-    "delinquent": 9,
-    "delinquency_pct": 1.29,
-    "total_active_stake_sol": 433362371.0,
+    "active": 685,
+    "delinquent": 10,
+    "delinquency_pct": 1.44,
+    "total_active_stake_sol": 433135971.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.31,
+    "top10_stake_share_pct": 24.32,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,13 +71,13 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 97.78,
-    "sol_price_24h_change_pct": 2.23,
-    "sol_market_cap_usd": 57077396764,
-    "sol_volume_24h_usd": 5518594466,
+    "sol_price_usd": 97.59,
+    "sol_price_24h_change_pct": 2.21,
+    "sol_market_cap_usd": 56919895826,
+    "sol_volume_24h_usd": 5508829438,
     "ath_usd": 293.31,
-    "total_supply_sol": 632748843.0,
-    "circulating_supply_sol": 583275733.0,
+    "total_supply_sol": 632748825.0,
+    "circulating_supply_sol": 583275716.0,
     "staking_ratio_pct": 74.3
   },
   "ecosystem": {
@@ -104,8 +104,8 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1064655969.0,
-        "change_1d_pct": 0.28
+        "tvl_usd": 1071334246.0,
+        "change_1d_pct": 0.71
       },
       {
         "name": "Raydium AMM",
@@ -134,17 +134,17 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 750905177.0,
-        "change_1d_pct": 0.74
+        "tvl_usd": 755833699.0,
+        "change_1d_pct": 1.4
       },
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 498258603.0,
-        "change_1d_pct": 1.28
+        "tvl_usd": 503656481.0,
+        "change_1d_pct": 2.34
       }
     ],
-    "stablecoin_mcap_usd": 15835432877.0,
+    "stablecoin_mcap_usd": 15835341991.0,
     "dex_volume_24h_usd": 2938613605.0
   },
   "upcoming": [
