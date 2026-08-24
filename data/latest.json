@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-24T21:01:33.280370+00:00",
+  "generated_at": "2026-08-24T21:53:49.046694+00:00",
   "network": {
     "epoch": 1021,
-    "absolute_slot": 441478292,
-    "block_height": 419527219,
-    "epoch_progress_pct": 94.05,
-    "slots_remaining": 25708,
-    "tps": 3740.7,
-    "avg_slot_time_s": 0.366,
+    "absolute_slot": 441486845,
+    "block_height": 419535756,
+    "epoch_progress_pct": 96.03,
+    "slots_remaining": 17155,
+    "tps": 4001.7,
+    "avg_slot_time_s": 0.368,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 96.5,
-    "sol_price_24h_change_pct": 1.52,
-    "sol_market_cap_usd": 56273686677,
-    "sol_volume_24h_usd": 5330104291,
+    "sol_price_usd": 97.19,
+    "sol_price_24h_change_pct": 1.78,
+    "sol_market_cap_usd": 56685643676,
+    "sol_volume_24h_usd": 5375561694,
     "ath_usd": 293.31,
-    "total_supply_sol": 632748914.0,
-    "circulating_supply_sol": 583275805.0,
+    "total_supply_sol": 632748881.0,
+    "circulating_supply_sol": 583275772.0,
     "staking_ratio_pct": 74.3
   },
   "ecosystem": {
-    "tvl_usd": 5589339757.0,
+    "tvl_usd": 5594865814.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -98,8 +98,8 @@
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1194332865.0,
-        "change_1d_pct": 0.08
+        "tvl_usd": 1198869158.0,
+        "change_1d_pct": 0.64
       },
       {
         "name": "Jupiter Lend",
@@ -122,8 +122,8 @@
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 959174527.0,
-        "change_1d_pct": 0.64
+        "tvl_usd": 967419238.0,
+        "change_1d_pct": 1.38
       },
       {
         "name": "BlackRock BUIDL",
@@ -144,7 +144,7 @@
         "change_1d_pct": 0.4
       }
     ],
-    "stablecoin_mcap_usd": 15776440564.0,
+    "stablecoin_mcap_usd": 15819103422.0,
     "dex_volume_24h_usd": 2938613605.0
   },
   "upcoming": [
