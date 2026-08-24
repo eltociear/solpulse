@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-24T13:50:44.276411+00:00",
+  "generated_at": "2026-08-24T14:40:40.564183+00:00",
   "network": {
     "epoch": 1021,
-    "absolute_slot": 441407763,
-    "block_height": 419456751,
-    "epoch_progress_pct": 77.72,
-    "slots_remaining": 96237,
-    "tps": 5211.7,
-    "avg_slot_time_s": 0.366,
+    "absolute_slot": 441415976,
+    "block_height": 419464960,
+    "epoch_progress_pct": 79.62,
+    "slots_remaining": 88024,
+    "tps": 4404.1,
+    "avg_slot_time_s": 0.37,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 94.81,
-    "sol_price_24h_change_pct": -0.6,
-    "sol_market_cap_usd": 55297243560,
-    "sol_volume_24h_usd": 4206570989,
+    "sol_price_usd": 96.37,
+    "sol_price_24h_change_pct": 1.01,
+    "sol_market_cap_usd": 56187904736,
+    "sol_volume_24h_usd": 4387684497,
     "ath_usd": 293.31,
-    "total_supply_sol": 632749217.0,
-    "circulating_supply_sol": 583276107.0,
+    "total_supply_sol": 632749182.0,
+    "circulating_supply_sol": 583276073.0,
     "staking_ratio_pct": 74.3
   },
   "ecosystem": {
-    "tvl_usd": 5566777747.0,
+    "tvl_usd": 5577888789.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -104,8 +104,8 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1062920753.0,
-        "change_1d_pct": 0.9
+        "tvl_usd": 1064642986.0,
+        "change_1d_pct": 1.07
       },
       {
         "name": "Raydium AMM",
@@ -116,8 +116,8 @@
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 968237137.0,
-        "change_1d_pct": 1.13
+        "tvl_usd": 974634179.0,
+        "change_1d_pct": 1.8
       },
       {
         "name": "Jito Liquid Staking",
@@ -144,7 +144,7 @@
         "change_1d_pct": 2.04
       }
     ],
-    "stablecoin_mcap_usd": 15762999413.0,
+    "stablecoin_mcap_usd": 15731145188.0,
     "dex_volume_24h_usd": 2938613605.0
   },
   "upcoming": [
