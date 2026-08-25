@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-25T04:37:43.721419+00:00",
+  "generated_at": "2026-08-25T05:30:53.905815+00:00",
   "network": {
     "epoch": 1022,
-    "absolute_slot": 441553031,
-    "block_height": 419601838,
-    "epoch_progress_pct": 11.35,
-    "slots_remaining": 382969,
-    "tps": 3587.4,
-    "avg_slot_time_s": 0.368,
+    "absolute_slot": 441561759,
+    "block_height": 419610566,
+    "epoch_progress_pct": 13.37,
+    "slots_remaining": 374241,
+    "tps": 3483.6,
+    "avg_slot_time_s": 0.365,
     "health": "ok"
   },
   "validators": {
-    "active": 686,
-    "delinquent": 8,
-    "delinquency_pct": 1.15,
-    "total_active_stake_sol": 435044162.0,
+    "active": 685,
+    "delinquent": 9,
+    "delinquency_pct": 1.3,
+    "total_active_stake_sol": 435018049.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.28,
+    "top10_stake_share_pct": 24.29,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 101.29,
-    "sol_price_24h_change_pct": 7.54,
-    "sol_market_cap_usd": 59077833970,
-    "sol_volume_24h_usd": 7198058219,
+    "sol_price_usd": 102.23,
+    "sol_price_24h_change_pct": 8.71,
+    "sol_market_cap_usd": 59609076597,
+    "sol_volume_24h_usd": 7320408396,
     "ath_usd": 293.31,
-    "total_supply_sol": 632860167.0,
-    "circulating_supply_sol": 583376307.0,
+    "total_supply_sol": 632860137.0,
+    "circulating_supply_sol": 583376277.0,
     "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 5786596647.0,
+    "tvl_usd": 5786708326.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -122,8 +122,8 @@
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 1012594227.0,
-        "change_1d_pct": 7.06
+        "tvl_usd": 1017600510.0,
+        "change_1d_pct": 7.74
       },
       {
         "name": "BlackRock BUIDL",
@@ -140,11 +140,11 @@
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 521688701.0,
-        "change_1d_pct": 7.26
+        "tvl_usd": 524858768.0,
+        "change_1d_pct": 8.21
       }
     ],
-    "stablecoin_mcap_usd": 15867624772.0,
+    "stablecoin_mcap_usd": 15862692537.0,
     "dex_volume_24h_usd": 2987931793.0
   },
   "upcoming": [
@@ -164,5 +164,11 @@
       "status": "mainnet rollout ongoing"
     }
   ],
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "SOL_price",
+      "severity": "medium",
+      "message": "SOL moved +8.7% in 24h to $102.23"
+    }
+  ]
 }
