@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-25T16:36:17.745881+00:00",
+  "generated_at": "2026-08-25T17:30:44.241165+00:00",
   "network": {
     "epoch": 1022,
-    "absolute_slot": 441670959,
-    "block_height": 419719685,
-    "epoch_progress_pct": 38.65,
-    "slots_remaining": 265041,
-    "tps": 4308.6,
-    "avg_slot_time_s": 0.363,
+    "absolute_slot": 441679877,
+    "block_height": 419728575,
+    "epoch_progress_pct": 40.71,
+    "slots_remaining": 256123,
+    "tps": 4615.3,
+    "avg_slot_time_s": 0.365,
     "health": "ok"
   },
   "validators": {
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 98.31,
-    "sol_price_24h_change_pct": 1.23,
-    "sol_market_cap_usd": 57322725050,
-    "sol_volume_24h_usd": 6819171275,
+    "sol_price_usd": 97.62,
+    "sol_price_24h_change_pct": 2.7,
+    "sol_market_cap_usd": 56931666687,
+    "sol_volume_24h_usd": 6574753390,
     "ath_usd": 293.31,
-    "total_supply_sol": 632859739.0,
-    "circulating_supply_sol": 583375878.0,
+    "total_supply_sol": 632859701.0,
+    "circulating_supply_sol": 583375840.0,
     "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 5648013804.0,
+    "tvl_usd": 5648938558.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -92,8 +92,8 @@
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1465373073.0,
-        "change_1d_pct": 2.65
+        "tvl_usd": 1479023932.0,
+        "change_1d_pct": 3.26
       },
       {
         "name": "Kamino Lend",
@@ -140,11 +140,11 @@
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 502350674.0,
-        "change_1d_pct": 1.71
+        "tvl_usd": 507207086.0,
+        "change_1d_pct": 2.2
       }
     ],
-    "stablecoin_mcap_usd": 15698074308.0,
+    "stablecoin_mcap_usd": 15799461727.0,
     "dex_volume_24h_usd": 2996141159.0
   },
   "upcoming": [
