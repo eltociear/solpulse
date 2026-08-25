@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-25T14:43:37.284067+00:00",
+  "generated_at": "2026-08-25T15:40:51.753002+00:00",
   "network": {
     "epoch": 1022,
-    "absolute_slot": 441652527,
-    "block_height": 419701260,
-    "epoch_progress_pct": 34.38,
-    "slots_remaining": 283473,
-    "tps": 4479.4,
-    "avg_slot_time_s": 0.369,
+    "absolute_slot": 441661898,
+    "block_height": 419710624,
+    "epoch_progress_pct": 36.55,
+    "slots_remaining": 274102,
+    "tps": 4521.9,
+    "avg_slot_time_s": 0.362,
     "health": "ok"
   },
   "validators": {
     "active": 686,
     "delinquent": 9,
     "delinquency_pct": 1.29,
-    "total_active_stake_sol": 434951737.0,
+    "total_active_stake_sol": 434926941.0,
     "nakamoto_coefficient": 18,
     "top10_stake_share_pct": 24.29,
     "top_validators": [
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 98.09,
-    "sol_price_24h_change_pct": 1.57,
-    "sol_market_cap_usd": 57179773454,
-    "sol_volume_24h_usd": 7123460171,
+    "sol_price_usd": 98.29,
+    "sol_price_24h_change_pct": 1.63,
+    "sol_market_cap_usd": 57362975394,
+    "sol_volume_24h_usd": 6987142958,
     "ath_usd": 293.31,
-    "total_supply_sol": 632859820.0,
-    "circulating_supply_sol": 583375960.0,
+    "total_supply_sol": 632859780.0,
+    "circulating_supply_sol": 583375919.0,
     "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 5665573546.0,
+    "tvl_usd": 5652344969.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -134,8 +134,8 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 759211511.0,
-        "change_1d_pct": 1.67
+        "tvl_usd": 757487387.0,
+        "change_1d_pct": 0.78
       },
       {
         "name": "Jupiter Staked SOL",
@@ -144,7 +144,7 @@
         "change_1d_pct": 1.71
       }
     ],
-    "stablecoin_mcap_usd": 15914848069.0,
+    "stablecoin_mcap_usd": 15895157134.0,
     "dex_volume_24h_usd": 2996141159.0
   },
   "upcoming": [
