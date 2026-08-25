@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-25T11:55:25.887795+00:00",
+  "generated_at": "2026-08-25T12:45:18.005856+00:00",
   "network": {
     "epoch": 1022,
-    "absolute_slot": 441624988,
-    "block_height": 419673749,
-    "epoch_progress_pct": 28.01,
-    "slots_remaining": 311012,
-    "tps": 3515.9,
+    "absolute_slot": 441633182,
+    "block_height": 419681939,
+    "epoch_progress_pct": 29.9,
+    "slots_remaining": 302818,
+    "tps": 4149.6,
     "avg_slot_time_s": 0.366,
     "health": "ok"
   },
@@ -71,22 +71,22 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 98.65,
-    "sol_price_24h_change_pct": 3.16,
-    "sol_market_cap_usd": 57562080880,
-    "sol_volume_24h_usd": 7328296414,
+    "sol_price_usd": 98.26,
+    "sol_price_24h_change_pct": 2.37,
+    "sol_market_cap_usd": 57315347562,
+    "sol_volume_24h_usd": 7229471568,
     "ath_usd": 293.31,
-    "total_supply_sol": 632859933.0,
-    "circulating_supply_sol": 583376072.0,
+    "total_supply_sol": 632859902.0,
+    "circulating_supply_sol": 583376042.0,
     "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 5744831496.0,
+    "tvl_usd": 5744296205.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 3063549564.0,
+        "tvl_usd": 3063909987.0,
         "change_1d_pct": 3.9
       },
       {
@@ -122,8 +122,8 @@
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 1006668505.0,
-        "change_1d_pct": 5.72
+        "tvl_usd": 997521962.0,
+        "change_1d_pct": 4.83
       },
       {
         "name": "BlackRock BUIDL",
@@ -144,7 +144,7 @@
         "change_1d_pct": 4.97
       }
     ],
-    "stablecoin_mcap_usd": 15818790775.0,
+    "stablecoin_mcap_usd": 15836856396.0,
     "dex_volume_24h_usd": 2996141159.0
   },
   "upcoming": [
