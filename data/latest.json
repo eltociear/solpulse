@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-25T20:27:51.124089+00:00",
+  "generated_at": "2026-08-25T20:57:00.436493+00:00",
   "network": {
     "epoch": 1022,
-    "absolute_slot": 441708951,
-    "block_height": 419757593,
-    "epoch_progress_pct": 47.44,
-    "slots_remaining": 227049,
-    "tps": 4586.7,
-    "avg_slot_time_s": 0.367,
+    "absolute_slot": 441713730,
+    "block_height": 419762360,
+    "epoch_progress_pct": 48.55,
+    "slots_remaining": 222270,
+    "tps": 4578.4,
+    "avg_slot_time_s": 0.365,
     "health": "ok"
   },
   "validators": {
-    "active": 682,
-    "delinquent": 13,
-    "delinquency_pct": 1.87,
-    "total_active_stake_sol": 433679348.0,
+    "active": 686,
+    "delinquent": 9,
+    "delinquency_pct": 1.29,
+    "total_active_stake_sol": 434477171.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.36,
+    "top10_stake_share_pct": 24.32,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 97.9,
-    "sol_price_24h_change_pct": 2.16,
-    "sol_market_cap_usd": 57127324009,
-    "sol_volume_24h_usd": 6242506386,
+    "sol_price_usd": 96.8,
+    "sol_price_24h_change_pct": 0.34,
+    "sol_market_cap_usd": 56468579108,
+    "sol_volume_24h_usd": 6205026998,
     "ath_usd": 293.31,
-    "total_supply_sol": 632859578.0,
-    "circulating_supply_sol": 583375717.0,
-    "staking_ratio_pct": 74.3
+    "total_supply_sol": 632859558.0,
+    "circulating_supply_sol": 583375697.0,
+    "staking_ratio_pct": 74.5
   },
   "ecosystem": {
-    "tvl_usd": 5630306740.0,
+    "tvl_usd": 5630670315.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -110,8 +110,8 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1060385635.0,
-        "change_1d_pct": 0.36
+        "tvl_usd": 1061640510.0,
+        "change_1d_pct": 0.48
       },
       {
         "name": "Binance Staked SOL",
@@ -128,8 +128,8 @@
       {
         "name": "BlackRock BUIDL",
         "category": "RWA",
-        "tvl_usd": 828833291.0,
-        "change_1d_pct": 1.52
+        "tvl_usd": 876383297.0,
+        "change_1d_pct": 5.72
       },
       {
         "name": "Jupiter Perpetual Exchange",
@@ -140,8 +140,8 @@
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 507693648.0,
-        "change_1d_pct": 3.17
+        "tvl_usd": 505333090.0,
+        "change_1d_pct": 2.23
       }
     ],
     "stablecoin_mcap_usd": 15830578995.0,
