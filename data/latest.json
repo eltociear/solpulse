@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-25T08:40:42.650117+00:00",
+  "generated_at": "2026-08-25T09:34:03.600200+00:00",
   "network": {
     "epoch": 1022,
-    "absolute_slot": 441592934,
-    "block_height": 419641727,
-    "epoch_progress_pct": 20.59,
-    "slots_remaining": 343066,
-    "tps": 3291.8,
-    "avg_slot_time_s": 0.363,
+    "absolute_slot": 441601731,
+    "block_height": 419650520,
+    "epoch_progress_pct": 22.62,
+    "slots_remaining": 334269,
+    "tps": 3108.8,
+    "avg_slot_time_s": 0.366,
     "health": "ok"
   },
   "validators": {
-    "active": 684,
-    "delinquent": 11,
-    "delinquency_pct": 1.58,
-    "total_active_stake_sol": 434925253.0,
+    "active": 685,
+    "delinquent": 10,
+    "delinquency_pct": 1.44,
+    "total_active_stake_sol": 434951736.0,
     "nakamoto_coefficient": 18,
     "top10_stake_share_pct": 24.29,
     "top_validators": [
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 100.7,
-    "sol_price_24h_change_pct": 7.41,
-    "sol_market_cap_usd": 58781082354,
-    "sol_volume_24h_usd": 7423320752,
+    "sol_price_usd": 100.16,
+    "sol_price_24h_change_pct": 5.75,
+    "sol_market_cap_usd": 58424247936,
+    "sol_volume_24h_usd": 7403128568,
     "ath_usd": 293.31,
-    "total_supply_sol": 632860037.0,
-    "circulating_supply_sol": 583376177.0,
+    "total_supply_sol": 632860010.0,
+    "circulating_supply_sol": 583376150.0,
     "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 5807924338.0,
+    "tvl_usd": 5798548794.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -110,8 +110,8 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1096417988.0,
-        "change_1d_pct": 4.35
+        "tvl_usd": 1092195604.0,
+        "change_1d_pct": 3.22
       },
       {
         "name": "Binance Staked SOL",
@@ -144,7 +144,7 @@
         "change_1d_pct": 7.13
       }
     ],
-    "stablecoin_mcap_usd": 15869046314.0,
+    "stablecoin_mcap_usd": 15795376498.0,
     "dex_volume_24h_usd": 2987931793.0
   },
   "upcoming": [
