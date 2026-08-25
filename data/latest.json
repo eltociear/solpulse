@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-25T19:31:07.170269+00:00",
+  "generated_at": "2026-08-25T20:27:51.124089+00:00",
   "network": {
     "epoch": 1022,
-    "absolute_slot": 441699645,
-    "block_height": 419748315,
-    "epoch_progress_pct": 45.29,
-    "slots_remaining": 236355,
-    "tps": 4271.1,
-    "avg_slot_time_s": 0.363,
+    "absolute_slot": 441708951,
+    "block_height": 419757593,
+    "epoch_progress_pct": 47.44,
+    "slots_remaining": 227049,
+    "tps": 4586.7,
+    "avg_slot_time_s": 0.367,
     "health": "ok"
   },
   "validators": {
-    "active": 686,
-    "delinquent": 9,
-    "delinquency_pct": 1.29,
-    "total_active_stake_sol": 434926941.0,
+    "active": 682,
+    "delinquent": 13,
+    "delinquency_pct": 1.87,
+    "total_active_stake_sol": 433679348.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.29,
+    "top10_stake_share_pct": 24.36,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 98.1,
-    "sol_price_24h_change_pct": 2.3,
-    "sol_market_cap_usd": 57262362343,
-    "sol_volume_24h_usd": 6378730269,
+    "sol_price_usd": 97.9,
+    "sol_price_24h_change_pct": 2.16,
+    "sol_market_cap_usd": 57127324009,
+    "sol_volume_24h_usd": 6242506386,
     "ath_usd": 293.31,
-    "total_supply_sol": 632859617.0,
-    "circulating_supply_sol": 583375756.0,
-    "staking_ratio_pct": 74.6
+    "total_supply_sol": 632859578.0,
+    "circulating_supply_sol": 583375717.0,
+    "staking_ratio_pct": 74.3
   },
   "ecosystem": {
-    "tvl_usd": 5635171011.0,
+    "tvl_usd": 5630306740.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -134,8 +134,8 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 756262290.0,
-        "change_1d_pct": 1.38
+        "tvl_usd": 753532505.0,
+        "change_1d_pct": 1.01
       },
       {
         "name": "Jupiter Staked SOL",
@@ -144,7 +144,7 @@
         "change_1d_pct": 3.17
       }
     ],
-    "stablecoin_mcap_usd": 15821546021.0,
+    "stablecoin_mcap_usd": 15830578995.0,
     "dex_volume_24h_usd": 2996141159.0
   },
   "upcoming": [
