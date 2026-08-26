@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-26T08:41:46.168424+00:00",
+  "generated_at": "2026-08-26T09:39:52.459615+00:00",
   "network": {
     "epoch": 1022,
-    "absolute_slot": 441829609,
-    "block_height": 419878134,
-    "epoch_progress_pct": 75.37,
-    "slots_remaining": 106391,
-    "tps": 3241.6,
+    "absolute_slot": 441839175,
+    "block_height": 419887696,
+    "epoch_progress_pct": 77.59,
+    "slots_remaining": 96825,
+    "tps": 3392.0,
     "avg_slot_time_s": 0.364,
     "health": "ok"
   },
   "validators": {
-    "active": 685,
-    "delinquent": 10,
-    "delinquency_pct": 1.44,
-    "total_active_stake_sol": 434926940.0,
+    "active": 686,
+    "delinquent": 9,
+    "delinquency_pct": 1.29,
+    "total_active_stake_sol": 435018049.0,
     "nakamoto_coefficient": 18,
     "top10_stake_share_pct": 24.29,
     "top_validators": [
@@ -71,17 +71,17 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 97.09,
-    "sol_price_24h_change_pct": -3.25,
-    "sol_market_cap_usd": 56637750834,
-    "sol_volume_24h_usd": 3515380387,
+    "sol_price_usd": 96.31,
+    "sol_price_24h_change_pct": -4.01,
+    "sol_market_cap_usd": 56206717347,
+    "sol_volume_24h_usd": 3540387544,
     "ath_usd": 293.31,
-    "total_supply_sol": 632859138.0,
-    "circulating_supply_sol": 583375277.0,
+    "total_supply_sol": 632859107.0,
+    "circulating_supply_sol": 583375246.0,
     "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 5600124343.0,
+    "tvl_usd": 5599846655.0,
     "top_protocols": [
       {
         "name": "Maple",
@@ -98,8 +98,8 @@
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1179929936.0,
-        "change_1d_pct": -4.62
+        "tvl_usd": 1181821811.0,
+        "change_1d_pct": -4.22
       },
       {
         "name": "Raydium AMM",
@@ -110,8 +110,8 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1056831296.0,
-        "change_1d_pct": -3.91
+        "tvl_usd": 1056007830.0,
+        "change_1d_pct": -3.69
       },
       {
         "name": "Binance Staked SOL",
@@ -134,8 +134,8 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 750768957.0,
-        "change_1d_pct": -3.54
+        "tvl_usd": 750095345.0,
+        "change_1d_pct": -3.2
       },
       {
         "name": "Jupiter Staked SOL",
@@ -144,7 +144,7 @@
         "change_1d_pct": -4.33
       }
     ],
-    "stablecoin_mcap_usd": 15879735801.0,
+    "stablecoin_mcap_usd": 15879808455.0,
     "dex_volume_24h_usd": 2948781265.0
   },
   "upcoming": [
