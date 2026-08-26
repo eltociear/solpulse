@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-26T02:46:49.936170+00:00",
+  "generated_at": "2026-08-26T03:53:04.758111+00:00",
   "network": {
     "epoch": 1022,
-    "absolute_slot": 441771148,
-    "block_height": 419819681,
-    "epoch_progress_pct": 61.84,
-    "slots_remaining": 164852,
-    "tps": 3680.0,
-    "avg_slot_time_s": 0.367,
+    "absolute_slot": 441782045,
+    "block_height": 419830578,
+    "epoch_progress_pct": 64.36,
+    "slots_remaining": 153955,
+    "tps": 3425.6,
+    "avg_slot_time_s": 0.364,
     "health": "ok"
   },
   "validators": {
-    "active": 686,
-    "delinquent": 9,
-    "delinquency_pct": 1.29,
-    "total_active_stake_sol": 435018049.0,
+    "active": 684,
+    "delinquent": 11,
+    "delinquency_pct": 1.58,
+    "total_active_stake_sol": 434481247.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.29,
+    "top10_stake_share_pct": 24.32,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,23 +71,23 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 97.38,
-    "sol_price_24h_change_pct": -4.07,
-    "sol_market_cap_usd": 56812071489,
-    "sol_volume_24h_usd": 4608527472,
+    "sol_price_usd": 96.92,
+    "sol_price_24h_change_pct": -4.51,
+    "sol_market_cap_usd": 56551525921,
+    "sol_volume_24h_usd": 4417902854,
     "ath_usd": 293.31,
-    "total_supply_sol": 632859327.0,
-    "circulating_supply_sol": 583375467.0,
-    "staking_ratio_pct": 74.6
+    "total_supply_sol": 632859290.0,
+    "circulating_supply_sol": 583375429.0,
+    "staking_ratio_pct": 74.5
   },
   "ecosystem": {
-    "tvl_usd": 5590206083.0,
+    "tvl_usd": 5595035045.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 3066904207.0,
-        "change_1d_pct": 3.35
+        "tvl_usd": 3065563870.0,
+        "change_1d_pct": 3.37
       },
       {
         "name": "Sanctum Validator LSTs",
@@ -104,8 +104,8 @@
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 1058653671.0,
-        "change_1d_pct": 0.59
+        "tvl_usd": 1063225371.0,
+        "change_1d_pct": -0.62
       },
       {
         "name": "Jupiter Lend",
@@ -144,8 +144,8 @@
         "change_1d_pct": -4.44
       }
     ],
-    "stablecoin_mcap_usd": 15860231291.0,
-    "dex_volume_24h_usd": 2948790110.0
+    "stablecoin_mcap_usd": 15896949046.0,
+    "dex_volume_24h_usd": 2948781265.0
   },
   "upcoming": [
     {
