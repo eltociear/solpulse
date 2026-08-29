@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-28T21:06:35.980583+00:00",
+  "generated_at": "2026-08-29T03:15:00.025102+00:00",
   "network": {
     "epoch": 1024,
-    "absolute_slot": 442432015,
-    "block_height": 420480021,
-    "epoch_progress_pct": 14.82,
-    "slots_remaining": 367985,
-    "tps": 4589.7,
-    "avg_slot_time_s": 0.316,
+    "absolute_slot": 442501707,
+    "block_height": 420549653,
+    "epoch_progress_pct": 30.95,
+    "slots_remaining": 298293,
+    "tps": 3767.2,
+    "avg_slot_time_s": 0.315,
     "health": "ok"
   },
   "validators": {
-    "active": 688,
-    "delinquent": 9,
-    "delinquency_pct": 1.29,
-    "total_active_stake_sol": 436115948.0,
+    "active": 687,
+    "delinquent": 10,
+    "delinquency_pct": 1.43,
+    "total_active_stake_sol": 436095615.0,
     "nakamoto_coefficient": 18,
     "top10_stake_share_pct": 24.15,
     "top_validators": [
@@ -71,81 +71,81 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 103.74,
-    "sol_price_24h_change_pct": -4.72,
-    "sol_market_cap_usd": 60623674417,
-    "sol_volume_24h_usd": 6064929559,
+    "sol_price_usd": 103.98,
+    "sol_price_24h_change_pct": -2.1,
+    "sol_market_cap_usd": 60740513408,
+    "sol_volume_24h_usd": 5443628194,
     "ath_usd": 293.31,
-    "total_supply_sol": 633079673.0,
-    "circulating_supply_sol": 584162133.0,
+    "total_supply_sol": 633079432.0,
+    "circulating_supply_sol": 584161892.0,
     "staking_ratio_pct": 74.7
   },
   "ecosystem": {
-    "tvl_usd": 5805132749.0,
+    "tvl_usd": 5872632410.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 3022003080.0,
-        "change_1d_pct": 2.94
+        "tvl_usd": 3022450090.0,
+        "change_1d_pct": 2.85
       },
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1578693105.0,
-        "change_1d_pct": -4.96
+        "tvl_usd": 1590350457.0,
+        "change_1d_pct": -5.05
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1221867958.0,
-        "change_1d_pct": -2.35
+        "tvl_usd": 1251432882.0,
+        "change_1d_pct": -0.25
       },
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 1135211907.0,
-        "change_1d_pct": -0.75
+        "tvl_usd": 1121195148.0,
+        "change_1d_pct": -3.39
       },
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1084693290.0,
-        "change_1d_pct": -0.19
+        "tvl_usd": 1089734665.0,
+        "change_1d_pct": -3.29
       },
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 1064878395.0,
-        "change_1d_pct": -5.18
+        "tvl_usd": 1073918936.0,
+        "change_1d_pct": -4.69
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 1039460293.0,
-        "change_1d_pct": -5.35
+        "tvl_usd": 1045011391.0,
+        "change_1d_pct": -4.7
       },
       {
         "name": "BlackRock BUIDL",
         "category": "RWA",
         "tvl_usd": 886536740.0,
-        "change_1d_pct": -0.01
+        "change_1d_pct": 0.01
       },
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 763642464.0,
-        "change_1d_pct": -2.9
+        "tvl_usd": 768978290.0,
+        "change_1d_pct": -3.39
       },
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 536694086.0,
-        "change_1d_pct": -5.29
+        "tvl_usd": 539270292.0,
+        "change_1d_pct": -5.11
       }
     ],
-    "stablecoin_mcap_usd": 15899431759.0,
-    "dex_volume_24h_usd": 3700129858.0
+    "stablecoin_mcap_usd": 15946825225.0,
+    "dex_volume_24h_usd": 2615026955.0
   },
   "upcoming": [
     {
@@ -164,11 +164,5 @@
       "status": "mainnet rollout ongoing"
     }
   ],
-  "anomalies": [
-    {
-      "metric": "TPS",
-      "severity": "medium",
-      "message": "TPS spiked +33% (3460 -> 4590)"
-    }
-  ]
+  "anomalies": []
 }
