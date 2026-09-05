@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-09-05T11:39:46.910827+00:00",
+  "generated_at": "2026-09-05T14:39:44.257327+00:00",
   "network": {
-    "epoch": 1028,
-    "absolute_slot": 444510027,
-    "block_height": 422554602,
-    "epoch_progress_pct": 95.84,
-    "slots_remaining": 17973,
-    "tps": 3026.6,
-    "avg_slot_time_s": 0.316,
+    "epoch": 1029,
+    "absolute_slot": 444544297,
+    "block_height": 422588748,
+    "epoch_progress_pct": 3.77,
+    "slots_remaining": 415703,
+    "tps": 3167.7,
+    "avg_slot_time_s": 0.318,
     "health": "ok"
   },
   "validators": {
-    "active": 678,
-    "delinquent": 17,
-    "delinquency_pct": 2.45,
-    "total_active_stake_sol": 436778150.0,
+    "active": 675,
+    "delinquent": 18,
+    "delinquency_pct": 2.6,
+    "total_active_stake_sol": 438863205.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.39,
+    "top10_stake_share_pct": 24.28,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-        "stake_sol": 17393318.0,
+        "stake_sol": 17421941.0,
         "commission": 7
       },
       {
         "vote_pubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-        "stake_sol": 16324259.0,
+        "stake_sol": 16321581.0,
         "commission": 0
       },
       {
         "vote_pubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-        "stake_sol": 12459602.0,
+        "stake_sol": 12507097.0,
         "commission": 0
       },
       {
         "vote_pubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-        "stake_sol": 11379843.0,
+        "stake_sol": 11374756.0,
         "commission": 5
       },
       {
         "vote_pubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-        "stake_sol": 9567623.0,
+        "stake_sol": 9561892.0,
         "commission": 0
       },
       {
         "vote_pubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-        "stake_sol": 9278151.0,
+        "stake_sol": 9268042.0,
         "commission": 7
       },
       {
         "vote_pubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-        "stake_sol": 9042760.0,
+        "stake_sol": 9037668.0,
         "commission": 10
       },
       {
         "vote_pubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-        "stake_sol": 7376879.0,
+        "stake_sol": 7352604.0,
         "commission": 7
       },
       {
         "vote_pubkey": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-        "stake_sol": 7127366.0,
+        "stake_sol": 7128761.0,
         "commission": 5
       },
       {
         "vote_pubkey": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-        "stake_sol": 6593517.0,
+        "stake_sol": 6594606.0,
         "commission": 0
       }
     ]
   },
   "economics": {
-    "sol_price_usd": 102.3,
-    "sol_price_24h_change_pct": -2.08,
-    "sol_market_cap_usd": 59877880327,
-    "sol_volume_24h_usd": 2757079549,
+    "sol_price_usd": 102.86,
+    "sol_price_24h_change_pct": 1.83,
+    "sol_market_cap_usd": 60222710238,
+    "sol_volume_24h_usd": 2284417061,
     "ath_usd": 293.31,
-    "total_supply_sol": 633454597.0,
-    "circulating_supply_sol": 585359571.0,
-    "staking_ratio_pct": 74.6
+    "total_supply_sol": 633549759.0,
+    "circulating_supply_sol": 585445979.0,
+    "staking_ratio_pct": 75.0
   },
   "ecosystem": {
-    "tvl_usd": 5871805691.0,
+    "tvl_usd": 5882415798.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 3013476633.0,
-        "change_1d_pct": -2.88
+        "tvl_usd": 3013359790.0,
+        "change_1d_pct": -2.94
       },
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1565300581.0,
-        "change_1d_pct": -1.02
+        "tvl_usd": 1562847062.0,
+        "change_1d_pct": -1.6
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1319310077.0,
-        "change_1d_pct": -0.54
+        "tvl_usd": 1319017057.0,
+        "change_1d_pct": -0.31
       },
       {
         "name": "Raydium AMM",
@@ -110,20 +110,20 @@
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1096282803.0,
-        "change_1d_pct": 0.38
+        "tvl_usd": 1096496933.0,
+        "change_1d_pct": -0.06
       },
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 1065811391.0,
-        "change_1d_pct": -1.63
+        "tvl_usd": 1064210181.0,
+        "change_1d_pct": -1.66
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 1048952147.0,
-        "change_1d_pct": -0.2
+        "tvl_usd": 1047407947.0,
+        "change_1d_pct": -0.92
       },
       {
         "name": "BlackRock BUIDL",
@@ -134,17 +134,17 @@
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 753157590.0,
-        "change_1d_pct": -1.8
+        "tvl_usd": 752491707.0,
+        "change_1d_pct": -1.78
       },
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 531153972.0,
-        "change_1d_pct": -0.72
+        "tvl_usd": 529456668.0,
+        "change_1d_pct": -1.15
       }
     ],
-    "stablecoin_mcap_usd": 16281658918.0,
+    "stablecoin_mcap_usd": 16284338468.0,
     "dex_volume_24h_usd": 1881639252
   },
   "upcoming": [
