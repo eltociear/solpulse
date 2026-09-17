@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-17T17:28:52.804244+00:00",
+  "generated_at": "2026-09-17T20:30:49.758266+00:00",
   "network": {
     "epoch": 1036,
-    "absolute_slot": 447852034,
-    "block_height": 425893174,
-    "epoch_progress_pct": 69.45,
-    "slots_remaining": 131966,
-    "tps": 5334.3,
-    "avg_slot_time_s": 0.315,
+    "absolute_slot": 447886378,
+    "block_height": 425927506,
+    "epoch_progress_pct": 77.4,
+    "slots_remaining": 97622,
+    "tps": 4635.8,
+    "avg_slot_time_s": 0.316,
     "health": "ok"
   },
   "validators": {
-    "active": 679,
-    "delinquent": 11,
-    "delinquency_pct": 1.59,
-    "total_active_stake_sol": 439605496.0,
+    "active": 678,
+    "delinquent": 12,
+    "delinquency_pct": 1.74,
+    "total_active_stake_sol": 439603235.0,
     "nakamoto_coefficient": 18,
     "top10_stake_share_pct": 24.35,
     "top_validators": [
@@ -71,80 +71,80 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 101.7,
-    "sol_price_24h_change_pct": 4.82,
-    "sol_market_cap_usd": 59718201790,
-    "sol_volume_24h_usd": 3868406220,
+    "sol_price_usd": 101.27,
+    "sol_price_24h_change_pct": 3.0,
+    "sol_market_cap_usd": 59463233322,
+    "sol_volume_24h_usd": 3258262238,
     "ath_usd": 293.31,
-    "total_supply_sol": 634204394.0,
-    "circulating_supply_sol": 587211968.0,
+    "total_supply_sol": 634204262.0,
+    "circulating_supply_sol": 587211835.0,
     "staking_ratio_pct": 74.9
   },
   "ecosystem": {
-    "tvl_usd": 5847418325.0,
+    "tvl_usd": 5865883806.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2860908495.0,
-        "change_1d_pct": 1.29
+        "tvl_usd": 2843990102.0,
+        "change_1d_pct": 1.03
       },
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1610303393.0,
-        "change_1d_pct": 4.17
+        "tvl_usd": 1610658689.0,
+        "change_1d_pct": 3.8
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1325324715.0,
-        "change_1d_pct": -0.06
+        "tvl_usd": 1329659434.0,
+        "change_1d_pct": -0.23
       },
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 1141302016.0,
-        "change_1d_pct": 4.29
+        "tvl_usd": 1142256738.0,
+        "change_1d_pct": 4.31
       },
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1086912725.0,
-        "change_1d_pct": 2.84
+        "tvl_usd": 1094260215.0,
+        "change_1d_pct": 3.79
       },
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 1047919648.0,
-        "change_1d_pct": 4.46
+        "tvl_usd": 1046567897.0,
+        "change_1d_pct": 3.55
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 1044866598.0,
-        "change_1d_pct": 4.1
+        "tvl_usd": 1043761159.0,
+        "change_1d_pct": 4.04
       },
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 748821449.0,
-        "change_1d_pct": 2.84
+        "tvl_usd": 748869694.0,
+        "change_1d_pct": 2.27
       },
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 523424960.0,
-        "change_1d_pct": 4.35
+        "tvl_usd": 525508570.0,
+        "change_1d_pct": 3.99
       },
       {
         "name": "Marinade Native",
         "category": "Staking Pool",
-        "tvl_usd": 385774720.0,
-        "change_1d_pct": 4.35
+        "tvl_usd": 385321180.0,
+        "change_1d_pct": 3.45
       }
     ],
-    "stablecoin_mcap_usd": 15279055655.0,
+    "stablecoin_mcap_usd": 15261436405.0,
     "dex_volume_24h_usd": 2800249070.0
   },
   "upcoming": [
@@ -164,11 +164,5 @@
       "status": "mainnet rollout ongoing"
     }
   ],
-  "anomalies": [
-    {
-      "metric": "TPS",
-      "severity": "medium",
-      "message": "TPS spiked +39% (3851 -> 5334)"
-    }
-  ]
+  "anomalies": []
 }
