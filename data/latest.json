@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-18T11:37:46.172593+00:00",
+  "generated_at": "2026-09-18T15:54:09.065702+00:00",
   "network": {
     "epoch": 1037,
-    "absolute_slot": 448072041,
-    "block_height": 426113017,
-    "epoch_progress_pct": 20.38,
-    "slots_remaining": 343959,
-    "tps": 4207.7,
-    "avg_slot_time_s": 0.266,
+    "absolute_slot": 448129717,
+    "block_height": 426170664,
+    "epoch_progress_pct": 33.73,
+    "slots_remaining": 286283,
+    "tps": 4985.6,
+    "avg_slot_time_s": 0.265,
     "health": "ok"
   },
   "validators": {
-    "active": 677,
-    "delinquent": 11,
-    "delinquency_pct": 1.6,
-    "total_active_stake_sol": 439453838.0,
+    "active": 678,
+    "delinquent": 10,
+    "delinquency_pct": 1.45,
+    "total_active_stake_sol": 439454645.0,
     "nakamoto_coefficient": 18,
     "top10_stake_share_pct": 24.28,
     "top_validators": [
@@ -71,81 +71,81 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 105.61,
-    "sol_price_24h_change_pct": 5.91,
-    "sol_market_cap_usd": 62009956876,
-    "sol_volume_24h_usd": 4429060657,
+    "sol_price_usd": 110.77,
+    "sol_price_24h_change_pct": 9.57,
+    "sol_market_cap_usd": 65102274085,
+    "sol_volume_24h_usd": 5599076993,
     "ath_usd": 293.31,
-    "total_supply_sol": 634298521.0,
-    "circulating_supply_sol": 587297267.0,
+    "total_supply_sol": 634298329.0,
+    "circulating_supply_sol": 587297075.0,
     "staking_ratio_pct": 74.8
   },
   "ecosystem": {
-    "tvl_usd": 6048489352.0,
+    "tvl_usd": 6130512602.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2770798154.0,
-        "change_1d_pct": -1.6
+        "tvl_usd": 2754096287.0,
+        "change_1d_pct": -2.25
       },
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1693441398.0,
-        "change_1d_pct": 5.79
+        "tvl_usd": 1745425621.0,
+        "change_1d_pct": 8.62
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1359499101.0,
-        "change_1d_pct": 0.92
+        "tvl_usd": 1379631927.0,
+        "change_1d_pct": 3.29
       },
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 1196371801.0,
-        "change_1d_pct": 6.3
-      },
-      {
-        "name": "Jupiter Lend",
-        "category": "Lending",
-        "tvl_usd": 1118534550.0,
-        "change_1d_pct": 2.74
+        "tvl_usd": 1203118184.0,
+        "change_1d_pct": 6.19
       },
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 1104504648.0,
-        "change_1d_pct": 6.17
+        "tvl_usd": 1137532910.0,
+        "change_1d_pct": 8.91
+      },
+      {
+        "name": "Jupiter Lend",
+        "category": "Lending",
+        "tvl_usd": 1133176955.0,
+        "change_1d_pct": 4.1
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 1097954647.0,
-        "change_1d_pct": 6.41
+        "tvl_usd": 1131674743.0,
+        "change_1d_pct": 8.43
       },
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 771520214.0,
-        "change_1d_pct": 3.74
+        "tvl_usd": 790084172.0,
+        "change_1d_pct": 5.58
       },
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 550701427.0,
-        "change_1d_pct": 6.02
+        "tvl_usd": 568812964.0,
+        "change_1d_pct": 8.76
       },
       {
         "name": "Marinade Native",
         "category": "Staking Pool",
-        "tvl_usd": 405132646.0,
-        "change_1d_pct": 5.8
+        "tvl_usd": 418594301.0,
+        "change_1d_pct": 8.56
       }
     ],
-    "stablecoin_mcap_usd": 15192824980.0,
-    "dex_volume_24h_usd": null
+    "stablecoin_mcap_usd": 16073770579.0,
+    "dex_volume_24h_usd": 2592123183.0
   },
   "upcoming": [
     {
@@ -164,5 +164,11 @@
       "status": "mainnet rollout ongoing"
     }
   ],
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "SOL_price",
+      "severity": "medium",
+      "message": "SOL moved +9.6% in 24h to $110.77"
+    }
+  ]
 }
