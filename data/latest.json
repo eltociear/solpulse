@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-24T03:20:31.568740+00:00",
+  "generated_at": "2026-09-24T08:39:50.531230+00:00",
   "network": {
     "epoch": 1041,
-    "absolute_slot": 449904740,
-    "block_height": 427944872,
-    "epoch_progress_pct": 44.62,
-    "slots_remaining": 239260,
-    "tps": 4251.2,
-    "avg_slot_time_s": 0.264,
+    "absolute_slot": 449977064,
+    "block_height": 428017184,
+    "epoch_progress_pct": 61.36,
+    "slots_remaining": 166936,
+    "tps": 4438.3,
+    "avg_slot_time_s": 0.266,
     "health": "ok"
   },
   "validators": {
-    "active": 674,
-    "delinquent": 13,
-    "delinquency_pct": 1.89,
-    "total_active_stake_sol": 439369983.0,
+    "active": 676,
+    "delinquent": 11,
+    "delinquency_pct": 1.6,
+    "total_active_stake_sol": 439764444.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.42,
+    "top10_stake_share_pct": 24.39,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,81 +71,81 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 115.19,
-    "sol_price_24h_change_pct": -3.01,
-    "sol_market_cap_usd": 67689591982,
-    "sol_volume_24h_usd": 5229313206,
+    "sol_price_usd": 114.27,
+    "sol_price_24h_change_pct": -3.21,
+    "sol_market_cap_usd": 67129068669,
+    "sol_volume_24h_usd": 4797072215,
     "ath_usd": 293.31,
-    "total_supply_sol": 634608665.0,
-    "circulating_supply_sol": 587577553.0,
+    "total_supply_sol": 634608457.0,
+    "circulating_supply_sol": 587577346.0,
     "staking_ratio_pct": 74.8
   },
   "ecosystem": {
-    "tvl_usd": 6395549396.0,
+    "tvl_usd": 6400890841.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 3076891219.0,
-        "change_1d_pct": -1.85
+        "tvl_usd": 3080975082.0,
+        "change_1d_pct": -1.6
       },
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1857383437.0,
-        "change_1d_pct": -1.53
+        "tvl_usd": 1853913339.0,
+        "change_1d_pct": -1.76
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1409881370.0,
-        "change_1d_pct": -1.31
+        "tvl_usd": 1412129346.0,
+        "change_1d_pct": -1.28
       },
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 1308717214.0,
-        "change_1d_pct": -2.1
+        "tvl_usd": 1307231891.0,
+        "change_1d_pct": -2.67
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 1193523956.0,
-        "change_1d_pct": -2.82
+        "tvl_usd": 1194918746.0,
+        "change_1d_pct": -2.75
       },
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 1179801973.0,
-        "change_1d_pct": -2.68
+        "tvl_usd": 1179713501.0,
+        "change_1d_pct": -3.26
       },
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1172308655.0,
-        "change_1d_pct": -0.82
+        "tvl_usd": 1167638442.0,
+        "change_1d_pct": -2.44
       },
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 804313349.0,
-        "change_1d_pct": -1.98
+        "tvl_usd": 804085562.0,
+        "change_1d_pct": -2.19
       },
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 596644861.0,
-        "change_1d_pct": -2.98
+        "tvl_usd": 596595328.0,
+        "change_1d_pct": -2.63
       },
       {
         "name": "Marinade Native",
         "category": "Staking Pool",
-        "tvl_usd": 442506188.0,
-        "change_1d_pct": -2.58
+        "tvl_usd": 442455349.0,
+        "change_1d_pct": -2.76
       }
     ],
-    "stablecoin_mcap_usd": 17204911897.0,
-    "dex_volume_24h_usd": 2682826711.0
+    "stablecoin_mcap_usd": 16126697008.0,
+    "dex_volume_24h_usd": 2682822618.0
   },
   "upcoming": [
     {
