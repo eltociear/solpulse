@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-27T06:16:25.533233+00:00",
+  "generated_at": "2026-09-27T12:18:17.209607+00:00",
   "network": {
     "epoch": 1043,
-    "absolute_slot": 450913515,
-    "block_height": 428953222,
-    "epoch_progress_pct": 78.13,
-    "slots_remaining": 94485,
-    "tps": 4185.3,
-    "avg_slot_time_s": 0.268,
+    "absolute_slot": 450994685,
+    "block_height": 429034388,
+    "epoch_progress_pct": 96.92,
+    "slots_remaining": 13315,
+    "tps": 4483.1,
+    "avg_slot_time_s": 0.265,
     "health": "ok"
   },
   "validators": {
-    "active": 675,
-    "delinquent": 12,
-    "delinquency_pct": 1.75,
-    "total_active_stake_sol": 437461978.0,
+    "active": 676,
+    "delinquent": 11,
+    "delinquency_pct": 1.6,
+    "total_active_stake_sol": 437506365.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.62,
+    "top10_stake_share_pct": 24.61,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,81 +71,81 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 121.44,
-    "sol_price_24h_change_pct": 0.95,
-    "sol_market_cap_usd": 71373687057,
-    "sol_volume_24h_usd": 2845186988,
+    "sol_price_usd": 124.21,
+    "sol_price_24h_change_pct": 2.28,
+    "sol_market_cap_usd": 72998375664,
+    "sol_volume_24h_usd": 3430470006,
     "ath_usd": 293.31,
-    "total_supply_sol": 634763207.0,
-    "circulating_supply_sol": 587712003.0,
+    "total_supply_sol": 634762977.0,
+    "circulating_supply_sol": 587711773.0,
     "staking_ratio_pct": 74.4
   },
   "ecosystem": {
-    "tvl_usd": 6612359732.0,
+    "tvl_usd": 6733242668.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 3004307837.0,
-        "change_1d_pct": 0.02
+        "tvl_usd": 3002157592.0,
+        "change_1d_pct": -0.12
       },
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1957202788.0,
-        "change_1d_pct": -0.22
+        "tvl_usd": 2015235496.0,
+        "change_1d_pct": 2.75
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1463156630.0,
-        "change_1d_pct": 0.04
+        "tvl_usd": 1486510920.0,
+        "change_1d_pct": 1.57
       },
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 1361408090.0,
-        "change_1d_pct": -0.22
+        "tvl_usd": 1392103059.0,
+        "change_1d_pct": 3.06
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 1249583720.0,
-        "change_1d_pct": -0.19
+        "tvl_usd": 1286656237.0,
+        "change_1d_pct": 2.78
       },
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 1233067204.0,
-        "change_1d_pct": -0.48
+        "tvl_usd": 1269783224.0,
+        "change_1d_pct": 2.71
       },
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1178864771.0,
-        "change_1d_pct": 0.16
+        "tvl_usd": 1203146624.0,
+        "change_1d_pct": 2.09
       },
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 822766217.0,
-        "change_1d_pct": -0.31
+        "tvl_usd": 838512449.0,
+        "change_1d_pct": 1.84
       },
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 623227606.0,
-        "change_1d_pct": -0.44
+        "tvl_usd": 641763938.0,
+        "change_1d_pct": 3.17
       },
       {
         "name": "Marinade Native",
         "category": "Staking Pool",
-        "tvl_usd": 465778738.0,
-        "change_1d_pct": -0.6
+        "tvl_usd": 478004417.0,
+        "change_1d_pct": 3.08
       }
     ],
-    "stablecoin_mcap_usd": 16421454267.0,
-    "dex_volume_24h_usd": 2350360460.0
+    "stablecoin_mcap_usd": 16421615301.0,
+    "dex_volume_24h_usd": 2155234120.0
   },
   "upcoming": [
     {
