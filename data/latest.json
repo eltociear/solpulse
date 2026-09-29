@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-29T08:52:15.275968+00:00",
+  "generated_at": "2026-09-29T15:23:02.222892+00:00",
   "network": {
     "epoch": 1045,
-    "absolute_slot": 451593216,
-    "block_height": 429632776,
-    "epoch_progress_pct": 35.47,
-    "slots_remaining": 278784,
-    "tps": 3983.1,
+    "absolute_slot": 451680914,
+    "block_height": 429720426,
+    "epoch_progress_pct": 55.77,
+    "slots_remaining": 191086,
+    "tps": 4808.4,
     "avg_slot_time_s": 0.267,
     "health": "ok"
   },
   "validators": {
-    "active": 675,
-    "delinquent": 7,
-    "delinquency_pct": 1.03,
-    "total_active_stake_sol": 441226281.0,
+    "active": 671,
+    "delinquent": 11,
+    "delinquency_pct": 1.61,
+    "total_active_stake_sol": 440843339.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.45,
+    "top10_stake_share_pct": 24.47,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,81 +71,81 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 119.14,
-    "sol_price_24h_change_pct": 0.77,
-    "sol_market_cap_usd": 70036794261,
-    "sol_volume_24h_usd": 3804927547,
+    "sol_price_usd": 118.96,
+    "sol_price_24h_change_pct": 1.02,
+    "sol_market_cap_usd": 69959639404,
+    "sol_volume_24h_usd": 3751620428,
     "ath_usd": 293.31,
-    "total_supply_sol": 634918644.0,
-    "circulating_supply_sol": 587852558.0,
-    "staking_ratio_pct": 75.1
+    "total_supply_sol": 634918388.0,
+    "circulating_supply_sol": 587852302.0,
+    "staking_ratio_pct": 75.0
   },
   "ecosystem": {
-    "tvl_usd": 6486292115.0,
+    "tvl_usd": 6548675378.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 3015380523.0,
-        "change_1d_pct": 0.3
+        "tvl_usd": 2993271690.0,
+        "change_1d_pct": -0.53
       },
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1939961947.0,
-        "change_1d_pct": 0.0
+        "tvl_usd": 1963478348.0,
+        "change_1d_pct": 0.85
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1396641615.0,
-        "change_1d_pct": -3.58
+        "tvl_usd": 1411182021.0,
+        "change_1d_pct": -2.12
       },
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 1340409783.0,
-        "change_1d_pct": -0.82
+        "tvl_usd": 1346492022.0,
+        "change_1d_pct": 1.12
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 1239001017.0,
-        "change_1d_pct": 0.33
+        "tvl_usd": 1254212881.0,
+        "change_1d_pct": 0.88
       },
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 1219116608.0,
-        "change_1d_pct": -0.09
+        "tvl_usd": 1235879769.0,
+        "change_1d_pct": 0.79
       },
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1165836863.0,
-        "change_1d_pct": -0.69
+        "tvl_usd": 1216190205.0,
+        "change_1d_pct": 3.17
       },
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 811093209.0,
-        "change_1d_pct": -0.83
+        "tvl_usd": 818642389.0,
+        "change_1d_pct": -0.04
       },
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 614380529.0,
-        "change_1d_pct": -0.34
+        "tvl_usd": 622731471.0,
+        "change_1d_pct": 0.99
       },
       {
         "name": "Marinade Native",
         "category": "Staking Pool",
-        "tvl_usd": 459201453.0,
-        "change_1d_pct": 0.16
+        "tvl_usd": 465505227.0,
+        "change_1d_pct": 1.82
       }
     ],
-    "stablecoin_mcap_usd": 16174886435.0,
-    "dex_volume_24h_usd": 2223108504.0
+    "stablecoin_mcap_usd": 16090088391.0,
+    "dex_volume_24h_usd": 2662015200.0
   },
   "upcoming": [
     {
