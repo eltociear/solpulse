@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-29T23:52:36.511305+00:00",
+  "generated_at": "2026-09-30T04:10:29.238196+00:00",
   "network": {
     "epoch": 1045,
-    "absolute_slot": 451794789,
-    "block_height": 429834245,
-    "epoch_progress_pct": 82.13,
-    "slots_remaining": 77211,
-    "tps": 4092.8,
-    "avg_slot_time_s": 0.268,
+    "absolute_slot": 451852748,
+    "block_height": 429892196,
+    "epoch_progress_pct": 95.54,
+    "slots_remaining": 19252,
+    "tps": 4129.3,
+    "avg_slot_time_s": 0.264,
     "health": "ok"
   },
   "validators": {
-    "active": 673,
-    "delinquent": 10,
-    "delinquency_pct": 1.46,
-    "total_active_stake_sol": 440900817.0,
+    "active": 674,
+    "delinquent": 9,
+    "delinquency_pct": 1.32,
+    "total_active_stake_sol": 441023501.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.47,
+    "top10_stake_share_pct": 24.46,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,81 +71,81 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 119.1,
-    "sol_price_24h_change_pct": 0.32,
-    "sol_market_cap_usd": 70012048307,
-    "sol_volume_24h_usd": 3654764878,
+    "sol_price_usd": 119.43,
+    "sol_price_24h_change_pct": 1.7,
+    "sol_market_cap_usd": 70261425268,
+    "sol_volume_24h_usd": 3554405242,
     "ath_usd": 293.31,
-    "total_supply_sol": 634918000.0,
-    "circulating_supply_sol": 587851298.0,
+    "total_supply_sol": 634917827.0,
+    "circulating_supply_sol": 587934842.0,
     "staking_ratio_pct": 75.0
   },
   "ecosystem": {
-    "tvl_usd": 6522234571.0,
+    "tvl_usd": 6537425508.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2996524793.0,
-        "change_1d_pct": -0.58
+        "tvl_usd": 2996085037.0,
+        "change_1d_pct": -0.65
       },
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1933501173.0,
-        "change_1d_pct": 0.87
+        "tvl_usd": 1942759446.0,
+        "change_1d_pct": 2.01
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1364743711.0,
-        "change_1d_pct": -5.57
+        "tvl_usd": 1387108313.0,
+        "change_1d_pct": -0.84
       },
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 1343606198.0,
-        "change_1d_pct": -0.49
+        "tvl_usd": 1342362646.0,
+        "change_1d_pct": 0.88
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 1235019303.0,
-        "change_1d_pct": 0.71
-      },
-      {
-        "name": "Jupiter Lend",
-        "category": "Lending",
-        "tvl_usd": 1221307931.0,
-        "change_1d_pct": 4.89
+        "tvl_usd": 1240974041.0,
+        "change_1d_pct": 2.03
       },
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 1218001997.0,
-        "change_1d_pct": 0.13
+        "tvl_usd": 1222890571.0,
+        "change_1d_pct": 0.8
+      },
+      {
+        "name": "Jupiter Lend",
+        "category": "Lending",
+        "tvl_usd": 1222483936.0,
+        "change_1d_pct": 5.96
       },
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 809226385.0,
-        "change_1d_pct": 0.24
+        "tvl_usd": 802843916.0,
+        "change_1d_pct": 0.23
       },
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 613571062.0,
-        "change_1d_pct": 0.78
+        "tvl_usd": 616008591.0,
+        "change_1d_pct": 1.9
       },
       {
         "name": "Marinade Native",
         "category": "Staking Pool",
-        "tvl_usd": 447623315.0,
-        "change_1d_pct": -1.6
+        "tvl_usd": 449446635.0,
+        "change_1d_pct": -0.52
       }
     ],
-    "stablecoin_mcap_usd": 16081992870.0,
-    "dex_volume_24h_usd": 2662061803.0
+    "stablecoin_mcap_usd": 16076966847.0,
+    "dex_volume_24h_usd": 2660710414.0
   },
   "upcoming": [
     {
