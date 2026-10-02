@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-02T10:39:25.279460+00:00",
+  "generated_at": "2026-10-02T16:29:59.089299+00:00",
   "network": {
     "epoch": 1047,
-    "absolute_slot": 452585585,
-    "block_height": 430624304,
-    "epoch_progress_pct": 65.18,
-    "slots_remaining": 150415,
-    "tps": 3961.7,
-    "avg_slot_time_s": 0.265,
+    "absolute_slot": 452664435,
+    "block_height": 430703114,
+    "epoch_progress_pct": 83.43,
+    "slots_remaining": 71565,
+    "tps": 4898.7,
+    "avg_slot_time_s": 0.27,
     "health": "ok"
   },
   "validators": {
-    "active": 672,
-    "delinquent": 12,
-    "delinquency_pct": 1.75,
-    "total_active_stake_sol": 440720833.0,
+    "active": 671,
+    "delinquent": 13,
+    "delinquency_pct": 1.9,
+    "total_active_stake_sol": 440608101.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.62,
+    "top10_stake_share_pct": 24.63,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,81 +71,81 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 121.89,
-    "sol_price_24h_change_pct": 3.59,
-    "sol_market_cap_usd": 71694530423,
-    "sol_volume_24h_usd": 4347368355,
+    "sol_price_usd": 120.07,
+    "sol_price_24h_change_pct": 2.31,
+    "sol_market_cap_usd": 70609689926,
+    "sol_volume_24h_usd": 4547724318,
     "ath_usd": 293.31,
-    "total_supply_sol": 635072977.0,
-    "circulating_supply_sol": 588075314.0,
+    "total_supply_sol": 635072719.0,
+    "circulating_supply_sol": 588075057.0,
     "staking_ratio_pct": 74.9
   },
   "ecosystem": {
-    "tvl_usd": 6695321348.0,
+    "tvl_usd": 6699121903.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 3001962811.0,
-        "change_1d_pct": 1.25
+        "tvl_usd": 2991997595.0,
+        "change_1d_pct": 0.89
       },
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1989285298.0,
-        "change_1d_pct": 3.95
+        "tvl_usd": 1985832077.0,
+        "change_1d_pct": 3.49
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1390156522.0,
-        "change_1d_pct": -0.09
+        "tvl_usd": 1402402436.0,
+        "change_1d_pct": 1.75
       },
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 1365906452.0,
-        "change_1d_pct": 1.95
+        "tvl_usd": 1372752439.0,
+        "change_1d_pct": 3.18
       },
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1279748514.0,
-        "change_1d_pct": 4.04
+        "tvl_usd": 1271034232.0,
+        "change_1d_pct": 2.62
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 1272477089.0,
-        "change_1d_pct": 4.0
+        "tvl_usd": 1264265778.0,
+        "change_1d_pct": 3.94
       },
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 1251305031.0,
-        "change_1d_pct": 3.94
+        "tvl_usd": 1245786670.0,
+        "change_1d_pct": 3.96
       },
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 827943729.0,
-        "change_1d_pct": 2.85
+        "tvl_usd": 824077538.0,
+        "change_1d_pct": 2.03
       },
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 630483480.0,
-        "change_1d_pct": 2.48
+        "tvl_usd": 627714986.0,
+        "change_1d_pct": 3.07
       },
       {
         "name": "Marinade Native",
         "category": "Staking Pool",
-        "tvl_usd": 454240434.0,
-        "change_1d_pct": 1.09
+        "tvl_usd": 452203029.0,
+        "change_1d_pct": 3.02
       }
     ],
-    "stablecoin_mcap_usd": 16393814202.0,
-    "dex_volume_24h_usd": 2511436837.0
+    "stablecoin_mcap_usd": 16473562233.0,
+    "dex_volume_24h_usd": 2488460103.0
   },
   "upcoming": [
     {
