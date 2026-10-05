@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-05T02:19:09.858945+00:00",
+  "generated_at": "2026-10-05T09:28:15.846405+00:00",
   "network": {
     "epoch": 1049,
-    "absolute_slot": 453442314,
-    "block_height": 431480636,
-    "epoch_progress_pct": 63.5,
-    "slots_remaining": 157686,
-    "tps": 4486.1,
-    "avg_slot_time_s": 0.265,
+    "absolute_slot": 453538759,
+    "block_height": 431576909,
+    "epoch_progress_pct": 85.82,
+    "slots_remaining": 61241,
+    "tps": 3750.4,
+    "avg_slot_time_s": 0.264,
     "health": "ok"
   },
   "validators": {
@@ -71,81 +71,81 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 121.56,
-    "sol_price_24h_change_pct": 1.22,
-    "sol_market_cap_usd": 71496417210,
-    "sol_volume_24h_usd": 2162248707,
+    "sol_price_usd": 120.79,
+    "sol_price_24h_change_pct": -0.32,
+    "sol_market_cap_usd": 71067732009,
+    "sol_volume_24h_usd": 2477695648,
     "ath_usd": 293.31,
-    "total_supply_sol": 635227623.0,
-    "circulating_supply_sol": 588314159.0,
+    "total_supply_sol": 635227349.0,
+    "circulating_supply_sol": 588313882.0,
     "staking_ratio_pct": 75.1
   },
   "ecosystem": {
-    "tvl_usd": 6743974014.0,
+    "tvl_usd": 6719298728.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 3003732341.0,
-        "change_1d_pct": 0.41
+        "tvl_usd": 3062618404.0,
+        "change_1d_pct": 1.94
       },
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1988971053.0,
-        "change_1d_pct": 1.49
+        "tvl_usd": 1993337002.0,
+        "change_1d_pct": 0.56
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1399580240.0,
-        "change_1d_pct": 1.0
+        "tvl_usd": 1394828492.0,
+        "change_1d_pct": 0.2
       },
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 1364096093.0,
-        "change_1d_pct": 0.85
+        "tvl_usd": 1351463732.0,
+        "change_1d_pct": -0.18
       },
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1328311147.0,
-        "change_1d_pct": 5.87
+        "tvl_usd": 1330513916.0,
+        "change_1d_pct": 1.33
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 1265270239.0,
-        "change_1d_pct": 1.35
+        "tvl_usd": 1266936554.0,
+        "change_1d_pct": 0.62
       },
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 1246973437.0,
-        "change_1d_pct": 1.62
+        "tvl_usd": 1262383417.0,
+        "change_1d_pct": 1.64
       },
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 822240145.0,
-        "change_1d_pct": 1.3
+        "tvl_usd": 822954349.0,
+        "change_1d_pct": 0.65
       },
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 628170969.0,
-        "change_1d_pct": 1.42
+        "tvl_usd": 629001916.0,
+        "change_1d_pct": 0.53
       },
       {
         "name": "Marinade Native",
         "category": "Staking Pool",
-        "tvl_usd": 451611877.0,
-        "change_1d_pct": 1.56
+        "tvl_usd": 452521823.0,
+        "change_1d_pct": 0.5
       }
     ],
-    "stablecoin_mcap_usd": 16519956401.0,
-    "dex_volume_24h_usd": 1649282012.0
+    "stablecoin_mcap_usd": 16471409921.0,
+    "dex_volume_24h_usd": 1649284606.0
   },
   "upcoming": [
     {
