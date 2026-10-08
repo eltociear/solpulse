@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-08T17:30:07.451437+00:00",
+  "generated_at": "2026-10-08T22:22:40.176022+00:00",
   "network": {
     "epoch": 1052,
-    "absolute_slot": 454611933,
-    "block_height": 432649352,
-    "epoch_progress_pct": 34.24,
-    "slots_remaining": 284067,
-    "tps": 5391.8,
-    "avg_slot_time_s": 0.269,
+    "absolute_slot": 454676982,
+    "block_height": 432714347,
+    "epoch_progress_pct": 49.3,
+    "slots_remaining": 219018,
+    "tps": 4915.7,
+    "avg_slot_time_s": 0.268,
     "health": "ok"
   },
   "validators": {
-    "active": 669,
-    "delinquent": 10,
-    "delinquency_pct": 1.47,
-    "total_active_stake_sol": 438176938.0,
+    "active": 673,
+    "delinquent": 8,
+    "delinquency_pct": 1.17,
+    "total_active_stake_sol": 438973557.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.63,
+    "top10_stake_share_pct": 24.59,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,47 +71,47 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 105.9,
-    "sol_price_24h_change_pct": -8.99,
-    "sol_market_cap_usd": 62360639326,
-    "sol_volume_24h_usd": 4024144945,
+    "sol_price_usd": 110.51,
+    "sol_price_24h_change_pct": -4.5,
+    "sol_market_cap_usd": 65053270921,
+    "sol_volume_24h_usd": 4839528480,
     "ath_usd": 293.31,
-    "total_supply_sol": 635459671.0,
-    "circulating_supply_sol": 589152179.0,
-    "staking_ratio_pct": 74.4
+    "total_supply_sol": 635459441.0,
+    "circulating_supply_sol": 588697962.0,
+    "staking_ratio_pct": 74.6
   },
   "ecosystem": {
-    "tvl_usd": 6333976524.0,
+    "tvl_usd": 6252957625.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2869359552.0,
-        "change_1d_pct": -4.96
+        "tvl_usd": 2815050506.0,
+        "change_1d_pct": -7.6
       },
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1849351201.0,
-        "change_1d_pct": -3.38
+        "tvl_usd": 1809396154.0,
+        "change_1d_pct": -5.1
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1344037417.0,
-        "change_1d_pct": -1.26
+        "tvl_usd": 1321006172.0,
+        "change_1d_pct": -2.58
       },
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 1264770884.0,
-        "change_1d_pct": -4.16
+        "tvl_usd": 1235847585.0,
+        "change_1d_pct": -4.88
       },
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1190831615.0,
-        "change_1d_pct": -1.95
+        "tvl_usd": 1175020020.0,
+        "change_1d_pct": -3.07
       },
       {
         "name": "Jito Liquid Staking",
@@ -122,14 +122,14 @@
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 1120567385.0,
-        "change_1d_pct": -6.28
+        "tvl_usd": 1124970151.0,
+        "change_1d_pct": -5.4
       },
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 777682947.0,
-        "change_1d_pct": -1.97
+        "tvl_usd": 766594228.0,
+        "change_1d_pct": -3.09
       },
       {
         "name": "Jupiter Staked SOL",
@@ -140,11 +140,11 @@
       {
         "name": "Sentora Curator",
         "category": "Risk Curators",
-        "tvl_usd": 501193999.0,
-        "change_1d_pct": 0.42
+        "tvl_usd": 502077577.0,
+        "change_1d_pct": 0.29
       }
     ],
-    "stablecoin_mcap_usd": 16166809535.0,
+    "stablecoin_mcap_usd": 16027209077.0,
     "dex_volume_24h_usd": 2205685058.0
   },
   "upcoming": [
@@ -164,16 +164,5 @@
       "status": "mainnet rollout ongoing"
     }
   ],
-  "anomalies": [
-    {
-      "metric": "TPS",
-      "severity": "medium",
-      "message": "TPS spiked +35% (3990 -> 5392)"
-    },
-    {
-      "metric": "SOL_price",
-      "severity": "medium",
-      "message": "SOL moved -9.0% in 24h to $105.9"
-    }
-  ]
+  "anomalies": []
 }
