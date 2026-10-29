@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-29T02:38:50.914241+00:00",
+  "generated_at": "2026-10-29T09:24:38.173009+00:00",
   "network": {
     "epoch": 1071,
-    "absolute_slot": 462715389,
-    "block_height": 440738999,
-    "epoch_progress_pct": 10.04,
-    "slots_remaining": 388611,
-    "tps": 2000.2,
-    "avg_slot_time_s": 0.215,
+    "absolute_slot": 462829466,
+    "block_height": 440852955,
+    "epoch_progress_pct": 36.45,
+    "slots_remaining": 274534,
+    "tps": 1201.0,
+    "avg_slot_time_s": 0.213,
     "health": "ok"
   },
   "validators": {
     "active": 665,
     "delinquent": 24,
     "delinquency_pct": 3.48,
-    "total_active_stake_sol": 432739037.0,
+    "total_active_stake_sol": 433367380.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.76,
+    "top10_stake_share_pct": 24.72,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,81 +71,81 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 99.33,
-    "sol_price_24h_change_pct": -2.15,
-    "sol_market_cap_usd": 58626072438,
-    "sol_volume_24h_usd": 2806894273,
+    "sol_price_usd": 100.24,
+    "sol_price_24h_change_pct": -2.28,
+    "sol_market_cap_usd": 59140279163,
+    "sol_volume_24h_usd": 2639683356,
     "ath_usd": 293.31,
-    "total_supply_sol": 636639486.0,
-    "circulating_supply_sol": 589983933.0,
-    "staking_ratio_pct": 73.3
+    "total_supply_sol": 636639403.0,
+    "circulating_supply_sol": 589983849.0,
+    "staking_ratio_pct": 73.5
   },
   "ecosystem": {
-    "tvl_usd": 5734963028.0,
+    "tvl_usd": 5646713506.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2560952379.0,
-        "change_1d_pct": -3.82
+        "tvl_usd": 2514069567.0,
+        "change_1d_pct": -5.4
       },
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1801353384.0,
-        "change_1d_pct": 0.63
+        "tvl_usd": 1766676042.0,
+        "change_1d_pct": -1.94
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1267350870.0,
-        "change_1d_pct": 0.06
+        "tvl_usd": 1256526654.0,
+        "change_1d_pct": -1.03
       },
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 1147916034.0,
-        "change_1d_pct": 0.53
+        "tvl_usd": 1126395472.0,
+        "change_1d_pct": -1.71
       },
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 1104424052.0,
-        "change_1d_pct": 1.98
+        "tvl_usd": 1082325131.0,
+        "change_1d_pct": -1.07
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 1061122975.0,
-        "change_1d_pct": 0.77
+        "tvl_usd": 1038936695.0,
+        "change_1d_pct": -2.07
       },
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 1006744984.0,
-        "change_1d_pct": 1.13
+        "tvl_usd": 993548711.0,
+        "change_1d_pct": -2.59
       },
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 719181812.0,
-        "change_1d_pct": 0.23
+        "tvl_usd": 708509958.0,
+        "change_1d_pct": -1.51
       },
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 532525923.0,
-        "change_1d_pct": 0.48
+        "tvl_usd": 521595644.0,
+        "change_1d_pct": -2.16
       },
       {
         "name": "Sentora Curator",
         "category": "Risk Curators",
-        "tvl_usd": 383742260.0,
-        "change_1d_pct": -0.13
+        "tvl_usd": 383749043.0,
+        "change_1d_pct": -0.35
       }
     ],
-    "stablecoin_mcap_usd": 15297119000.0,
-    "dex_volume_24h_usd": 1624511734.0
+    "stablecoin_mcap_usd": 15330310003.0,
+    "dex_volume_24h_usd": 1624512203.0
   },
   "upcoming": [
     {
@@ -164,5 +164,11 @@
       "status": "mainnet rollout ongoing"
     }
   ],
-  "anomalies": []
+  "anomalies": [
+    {
+      "metric": "TPS",
+      "severity": "medium",
+      "message": "TPS dropped -40% (2000 -> 1201)"
+    }
+  ]
 }
