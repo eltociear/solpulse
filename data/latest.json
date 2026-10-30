@@ -1,151 +1,151 @@
 {
-  "generated_at": "2026-10-30T01:15:09.807932+00:00",
+  "generated_at": "2026-10-30T07:33:08.569869+00:00",
   "network": {
-    "epoch": 1071,
-    "absolute_slot": 463095903,
-    "block_height": 441119026,
-    "epoch_progress_pct": 98.13,
-    "slots_remaining": 8097,
-    "tps": 1805.7,
-    "avg_slot_time_s": 0.213,
+    "epoch": 1072,
+    "absolute_slot": 463202151,
+    "block_height": 441224597,
+    "epoch_progress_pct": 22.72,
+    "slots_remaining": 333849,
+    "tps": 1031.3,
+    "avg_slot_time_s": 0.211,
     "health": "ok"
   },
   "validators": {
     "active": 666,
-    "delinquent": 23,
-    "delinquency_pct": 3.34,
-    "total_active_stake_sol": 433555191.0,
+    "delinquent": 25,
+    "delinquency_pct": 3.62,
+    "total_active_stake_sol": 432411234.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.71,
+    "top10_stake_share_pct": 24.8,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
-        "stake_sol": 17028574.0,
+        "stake_sol": 16965456.0,
         "commission": 7
       },
       {
         "vote_pubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
-        "stake_sol": 16665444.0,
+        "stake_sol": 16678000.0,
         "commission": 0
       },
       {
         "vote_pubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
-        "stake_sol": 12878826.0,
+        "stake_sol": 12919680.0,
         "commission": 0
       },
       {
         "vote_pubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
-        "stake_sol": 10762073.0,
+        "stake_sol": 10502229.0,
         "commission": 0
       },
       {
         "vote_pubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
-        "stake_sol": 9705356.0,
+        "stake_sol": 9659910.0,
         "commission": 5
       },
       {
         "vote_pubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
-        "stake_sol": 9466646.0,
+        "stake_sol": 9473552.0,
         "commission": 10
       },
       {
         "vote_pubkey": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
-        "stake_sol": 9218110.0,
+        "stake_sol": 9222406.0,
         "commission": 7
       },
       {
         "vote_pubkey": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
-        "stake_sol": 7761555.0,
+        "stake_sol": 7780140.0,
         "commission": 7
       },
       {
-        "vote_pubkey": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
-        "stake_sol": 6998037.0,
-        "commission": 0
+        "vote_pubkey": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
+        "stake_sol": 7045150.0,
+        "commission": 5
       },
       {
-        "vote_pubkey": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
-        "stake_sol": 6646428.0,
-        "commission": 5
+        "vote_pubkey": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
+        "stake_sol": 7001506.0,
+        "commission": 0
       }
     ]
   },
   "economics": {
-    "sol_price_usd": 94.42,
-    "sol_price_24h_change_pct": -6.97,
-    "sol_market_cap_usd": 55670747941,
-    "sol_volume_24h_usd": 5123436467,
+    "sol_price_usd": 97.93,
+    "sol_price_24h_change_pct": -1.83,
+    "sol_market_cap_usd": 57784859919,
+    "sol_volume_24h_usd": 5761967701,
     "ath_usd": 293.31,
-    "total_supply_sol": 636639065.0,
-    "circulating_supply_sol": 589984449.0,
-    "staking_ratio_pct": 73.5
+    "total_supply_sol": 636700351.0,
+    "circulating_supply_sol": 590039956.0,
+    "staking_ratio_pct": 73.3
   },
   "ecosystem": {
-    "tvl_usd": 5429699225.0,
+    "tvl_usd": 5430224831.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2466553243.0,
-        "change_1d_pct": -3.92
+        "tvl_usd": 2463055373.0,
+        "change_1d_pct": -2.05
       },
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1691262988.0,
-        "change_1d_pct": -6.61
+        "tvl_usd": 1725544045.0,
+        "change_1d_pct": -2.92
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1195444945.0,
-        "change_1d_pct": -5.91
+        "tvl_usd": 1198889024.0,
+        "change_1d_pct": -4.84
       },
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 1085197050.0,
-        "change_1d_pct": -5.57
+        "tvl_usd": 1090706523.0,
+        "change_1d_pct": -4.98
       },
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 1041270071.0,
-        "change_1d_pct": -6.04
+        "tvl_usd": 1055269265.0,
+        "change_1d_pct": -1.99
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 996248525.0,
-        "change_1d_pct": -6.6
+        "tvl_usd": 1014260024.0,
+        "change_1d_pct": -3.12
       },
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 907852588.0,
-        "change_1d_pct": -10.21
+        "tvl_usd": 924121461.0,
+        "change_1d_pct": -7.39
       },
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 697727091.0,
-        "change_1d_pct": -3.21
+        "tvl_usd": 700930859.0,
+        "change_1d_pct": -0.67
       },
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 502218595.0,
-        "change_1d_pct": -6.62
+        "tvl_usd": 501962531.0,
+        "change_1d_pct": -3.23
       },
       {
         "name": "Sentora Curator",
         "category": "Risk Curators",
-        "tvl_usd": 380740499.0,
-        "change_1d_pct": -2.32
+        "tvl_usd": 377857433.0,
+        "change_1d_pct": -3.19
       }
     ],
-    "stablecoin_mcap_usd": 15046073305.0,
-    "dex_volume_24h_usd": 1924585489.0
+    "stablecoin_mcap_usd": 15134081705.0,
+    "dex_volume_24h_usd": 1924354204.0
   },
   "upcoming": [
     {
@@ -168,7 +168,7 @@
     {
       "metric": "TPS",
       "severity": "high",
-      "message": "TPS dropped -46% (3338 -> 1806)"
+      "message": "TPS dropped -43% (1806 -> 1031)"
     }
   ]
 }
