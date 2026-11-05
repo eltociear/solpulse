@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-05T17:18:22.648831+00:00",
+  "generated_at": "2026-11-05T22:46:11.004105+00:00",
   "network": {
     "epoch": 1078,
-    "absolute_slot": 465786826,
-    "block_height": 443806730,
-    "epoch_progress_pct": 21.02,
-    "slots_remaining": 341174,
-    "tps": 3147.9,
-    "avg_slot_time_s": 0.213,
+    "absolute_slot": 465878710,
+    "block_height": 443898539,
+    "epoch_progress_pct": 42.29,
+    "slots_remaining": 249290,
+    "tps": 1509.8,
+    "avg_slot_time_s": 0.212,
     "health": "ok"
   },
   "validators": {
     "active": 662,
     "delinquent": 32,
     "delinquency_pct": 4.61,
-    "total_active_stake_sol": 429896438.0,
+    "total_active_stake_sol": 430196291.0,
     "nakamoto_coefficient": 18,
-    "top10_stake_share_pct": 24.8,
+    "top10_stake_share_pct": 24.78,
     "top_validators": [
       {
         "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
@@ -71,80 +71,80 @@
     ]
   },
   "economics": {
-    "sol_price_usd": 89.89,
-    "sol_price_24h_change_pct": -6.28,
-    "sol_market_cap_usd": 53062579292,
-    "sol_volume_24h_usd": 4422843925,
+    "sol_price_usd": 89.7,
+    "sol_price_24h_change_pct": -6.53,
+    "sol_market_cap_usd": 52947394537,
+    "sol_volume_24h_usd": 4481251152,
     "ath_usd": 293.31,
-    "total_supply_sol": 637066813.0,
-    "circulating_supply_sol": 590317585.0,
-    "staking_ratio_pct": 72.8
+    "total_supply_sol": 637066684.0,
+    "circulating_supply_sol": 590287429.0,
+    "staking_ratio_pct": 72.9
   },
   "ecosystem": {
-    "tvl_usd": 5411418777.0,
+    "tvl_usd": 5293435850.0,
     "top_protocols": [
       {
         "name": "Maple",
         "category": "Lending",
-        "tvl_usd": 2513355491.0,
-        "change_1d_pct": -6.81
+        "tvl_usd": 2516171548.0,
+        "change_1d_pct": -5.82
       },
       {
         "name": "Sanctum Validator LSTs",
         "category": "Liquid Staking",
-        "tvl_usd": 1588623186.0,
-        "change_1d_pct": -5.11
+        "tvl_usd": 1584196619.0,
+        "change_1d_pct": -5.22
       },
       {
         "name": "Kamino Lend",
         "category": "Lending",
-        "tvl_usd": 1214202858.0,
-        "change_1d_pct": -2.03
+        "tvl_usd": 1196495994.0,
+        "change_1d_pct": -3.55
       },
       {
         "name": "Raydium AMM",
         "category": "Dexs",
-        "tvl_usd": 1065084073.0,
-        "change_1d_pct": 1.28
+        "tvl_usd": 1002067288.0,
+        "change_1d_pct": -6.61
       },
       {
         "name": "Jupiter Lend",
         "category": "Lending",
-        "tvl_usd": 986504444.0,
-        "change_1d_pct": -5.07
+        "tvl_usd": 987370752.0,
+        "change_1d_pct": -3.72
       },
       {
         "name": "Binance Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 978206785.0,
-        "change_1d_pct": -3.89
+        "tvl_usd": 980002933.0,
+        "change_1d_pct": -4.81
       },
       {
         "name": "Jito Liquid Staking",
         "category": "Liquid Staking",
-        "tvl_usd": 942323424.0,
-        "change_1d_pct": -5.95
+        "tvl_usd": 927935209.0,
+        "change_1d_pct": -5.32
       },
       {
         "name": "Jupiter Perpetual Exchange",
         "category": "Derivatives",
-        "tvl_usd": 661301586.0,
-        "change_1d_pct": -5.47
+        "tvl_usd": 662819561.0,
+        "change_1d_pct": -3.59
       },
       {
         "name": "Jupiter Staked SOL",
         "category": "Liquid Staking",
-        "tvl_usd": 466615894.0,
-        "change_1d_pct": -1.52
+        "tvl_usd": 453769952.0,
+        "change_1d_pct": -5.39
       },
       {
         "name": "Sentora Curator",
         "category": "Risk Curators",
-        "tvl_usd": 373211124.0,
-        "change_1d_pct": -0.08
+        "tvl_usd": 373008792.0,
+        "change_1d_pct": -0.32
       }
     ],
-    "stablecoin_mcap_usd": 14899539521.0,
+    "stablecoin_mcap_usd": 14695332073.0,
     "dex_volume_24h_usd": 2385538830.0
   },
   "upcoming": [
@@ -168,7 +168,7 @@
     {
       "metric": "TPS",
       "severity": "high",
-      "message": "TPS spiked +178% (1132 -> 3148)"
+      "message": "TPS dropped -52% (3148 -> 1510)"
     }
   ]
 }
